@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<!-- Server Response Message -->
+	<!--AccessDeniedReason -->
+	<msg code="0" type="0" priority="1" name="UNDEFINED">Su conexión de red es inestable, no se consigue conectar al servidor.</msg>
+	<msg code="1" type="0" priority="2" name="ACCESSDENIED_USER_NAME_NOT_FOUND">La cuenta o la contraseña proporcionadas son incorrectas, ingresa de nuevo.</msg>
+	<msg code="2" type="0" priority="1" name="USER_NAME_NOT_FOUND">Cuenta inválida o contraseña incorrecta. (Es posible que el bloqueo de mayúsculas esté activado). Vuelva a intentarlo.</msg>
+	<msg code="3" type="0" priority="1" name="DUPLICATE_LOGIN">Esta cuenta ya ha sido utilizada.</msg>
+	<msg code="4" type="0" priority="2" name="USER_NAME_IS_EMPTY">La cuenta o la contraseña proporcionadas son incorrectas.</msg>
+	<msg code="5" type="0" priority="1" name="PASSWORD_INCORRECT">La cuenta o la contraseña proporcionadas son incorrectas.</msg>
+	<msg code="6" type="0" priority="2" name="NO_BASE">Ocurrió una condición inesperada. Vuelva a la sala.</msg>
+	<msg code="7" type="0" priority="2" name="REGISTER_BASE_FAIL">Su conexión de red es inestable.</msg>
+	<msg code="8" type="0" priority="2" name="L1_REJECT">Su conexión de red es inestable.</msg>
+	<msg code="9" type="0" priority="1" name="INVALID_PROTOCOL_VERSION">¡Hay una nueva actualización disponible! Descárguela ahora. Puede ponerse en contacto con la Atención al Cliente. Lamentamos las molestias ocasionadas.</msg>
+	<msg code="10" type="0" priority="2" name="NO_NICKNAME">La cuenta o la contraseña proporcionadas son incorrectas.</msg>
+	<msg code="11" type="0" priority="2" name="UNKNOWN">Esta cuenta ha sido bloqueada temporalmente por razones de seguridad.</msg>
+	<msg code="20" type="0" priority="1" name="USER_NAME_IS_EMPTY">Cuenta inválida o contraseña incorrecta. (Es posible que el bloqueo de mayúsculas esté activado). Vuelva a intentarlo.</msg>
+	<msg code="22" type="0" priority="1" name="CHECK_KEY_IS_ZERO">Su conexión de red es inestable.</msg>
+	<msg code="24" type="0" priority="1" name="L1_REJECT">Su conexión de red es inestable.</msg>
+	<msg code="25" type="0" priority="1" name="NOT_SOBER">Su conexión de red es inestable.</msg>
+	<msg code="27" type="0" priority="1" name="NO_BASE">Su conexión de red es inestable.</msg>
+	<msg code="28" type="0" priority="1" name="REGISTER_BASE_FAIL">Su conexión de red es inestable.</msg>
+	<msg code="29" type="0" priority="1" name="VERIFY_NUMBER_ERROR">Código de verificación invalido.</msg>
+	<msg code="30" type="0" priority="1" name="NO_NICKNAME">La cuenta o la contraseña proporcionadas son incorrectas.</msg>
+	<msg code="31" type="0" priority="1" name="PERMISSION_TYPE_CENTRAL_NOT_FOUND">Su conexión de red es inestable.</msg>
+	<msg code="32" type="0" priority="1" name="PERMISSION_TYPE_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="33" type="0" priority="1" name="PERMISSION_TYPE_RELOGIN_TOO_FAST">Su conexión de red es inestable.</msg>
+	<msg code="34" type="0" priority="1" name="PERMISSION_TYPE_HS_CODE_REQUIRED">Su conexión de red es inestable.</msg>
+	<msg code="254" type="0" priority="1" name="MAINTENANCE">Mantenimiento del sistema, inicia sesión más tarde.</msg>
+	<msg code="255" type="0" priority="1" name="UNKNOWN">Su conexión de red es inestable.</msg>
+	<!-- login failed -->
+	<msg code="100" type="0" priority="1" name="LOGINFAILED_VERIFY_FAILED">Código de verificación invalido.</msg>
+	<msg code="101" type="0" priority="1" name="LOGINFAILED_LOGIN_FAILED">Mantenimiento del sistema, inicia sesión más tarde.</msg>
+	<msg code="190" type="0" priority="1" name="LOGINFAILED_UNKNOWN">Su conexión de red es inestable.</msg>
+	<msg code="192" type="0" priority="1" name="LOGINFAILED_INVALID_GROUPNAME">Su conexión de red es inestable.</msg>
+	<!-- disconnected with base server reason code -->
+	<msg code="200" type="0" priority="1" name="DISCONNECTED_NETWORK_FAILED">Su conexión de red es inestable.</msg>
+	<msg code="201" type="0" priority="1" name="DISCONNECTED_ACCESS_DENIED">Cuenta inválida o contraseña incorrecta. (Es posible que el bloqueo de mayúsculas esté activado). Vuelva a intentarlo.</msg>
+	<msg code="202" type="0" priority="1" name="DISCONNECTED_WRONG_PROTOCOL">Versión inválida. Ingrese al juego como de costumbre y se actualizará automáticamente.</msg>
+	<msg code="203" type="0" priority="1" name="DISCONNECTED_USER_REQUEST">Su conexión de red se ha desconectado.</msg>
+	<msg code="204" type="0" priority="1" name="DISCONNECTED_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="205" type="0" priority="1" name="DISCONNECTED_NETWORK_SHUTDOWN">Su conexión de red es inestable.</msg>
+	<msg code="206" type="0" priority="1" name="DISCONNECTED_RESET_BY_PEER">Su conexión de red es inestable.</msg>
+	<msg code="220" type="0" priority="1" name="DISCONNECTED_STILL_ONLINE">Desconectandose del dispositivo.</msg>
+	<msg code="222" type="0" priority="1" name="DISCONNECTED_MASTER_KICKED">Su conexión de red es inestable.</msg>
+	<msg code="224" type="0" priority="1" name="DISCONNECTED_USER_SHUTDOWN">Su conexión de red es inestable.</msg>
+	<msg code="225" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_SHUTDOWN">El servidor se está cerrando ahora. Inicie sesión más tarde.</msg>
+	<msg code="226" type="0" priority="1" name="DISCONNECTED_PACKAGE_OVERLOAD">Su conexión de red es inestable.</msg>
+	<msg code="240" type="0" priority="1" name="DISCONNECTED_USING_SPEEDER">Su conexión de red es inestable.</msg>
+	<msg code="241" type="0" priority="1" name="DISCONNECTED_TABLE_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="242" type="0" priority="1" name="DISCONNECTED_ACCOUNT_DATABASE_ERROR">Su conexión de red es inestable.</msg>
+	<msg code="243" type="0" priority="1" name="DISCONNECTED_BILL_DATABASE_ERROR">Su conexión de red es inestable.</msg>
+	<msg code="244" type="0" priority="1" name="DISCONNECTED_GAME_DATABASE_ERROR">Su conexión de red es inestable.</msg>
+	<msg code="245" type="0" priority="1" name="DISCONNECTED_TRY_PASSWORD_TOO_MANY_TIMES">Su conexión de red es inestable.</msg>
+	<msg code="246" type="0" priority="1" name="DISCONNECTED_COMMAND_ERROR">Su conexión de red es inestable.</msg>
+	<msg code="248" type="0" priority="1" name="DISCONNECTED_TABLE_FULL">Lo sentimos, esta sala de juegos está llena. Por favor, inténtelo más tarde.</msg>
+	<msg code="260" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_SHUTDOWN">La sala del juego se está cerrando ahora. Inicie sesión más tarde.</msg>
+	<msg code="261" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_DISCONNECT">Su conexión de red es inestable.</msg>
+	<msg code="262" type="0" priority="1" name="DISCONNECTED_USER_LEAVE_GAME">Ha dejado el juego.</msg>
+	<msg code="263" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_DISCONNECT">Su conexión de red es inestable.</msg>
+	<msg code="264" type="0" priority="1" name="DISCONNECTED_BASE_CLEANUP">Su conexión de red es inestable.</msg>
+	<msg code="265" type="0" priority="1" name="DISCONNECTED_BASE_CANCEL_JOIN_GAME">Su conexión de red es inestable.</msg>
+	<msg code="266" type="0" priority="1" name="DISCONNECTED_JOIN_GAME_SERVER_EXCEPTION">Su conexión de red es inestable.</msg>
+	<msg code="267" type="0" priority="1" name="DISCONNECTED_USER_TABLE_IS_FULL">Su conexión de red es inestable.</msg>
+	<msg code="268" type="0" priority="1" name="DISCONNECTED_USER_IS_DUPLICATED">Número de cuenta o contraseña erronea (la contraseña distingue entre mayúsculas y minúsculas), vuelve a ingresar.</msg>
+	<msg code="270" type="0" priority="1" name="DISCONNECTED_UNDISCONNECTED">Su conexión de red es inestable.</msg>
+	<msg code="271" type="0" priority="1" name="DISCONNECTED_UNDEFINED">¡Hay una nueva actualización disponible! Descárguela ahora.</msg>
+	<!-- user join game failed reason code -->
+	<msg code="310" type="0" priority="1" name="JOINGAME_INVALID_THEME_NAME">Su conexión de red es inestable.</msg>
+	<msg code="311" type="0" priority="1" name="JOINGAME_THEME_NOT_ACTIVE">Su conexión de red es inestable.</msg>
+	<msg code="312" type="0" priority="1" name="JOINGAME_GAME_SERVER_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="313" type="0" priority="1" name="JOINGAME_USER_IP_NOT_ALLOWED">¡Límite de la IP, no puede ingresar a los juegos!</msg>
+	<msg code="314" type="0" priority="1" name="JOINGAME_VERSION_NOT_MATCHED">Versión inválida. Ingrese al juego como de costumbre y se actualizará automáticamente.</msg>
+	<msg code="315" type="0" priority="1" name="JOINGAME_USER_ALREADY_JOINED">Su conexión de red es inestable.</msg>
+	<msg code="316" type="0" priority="1" name="JOINGAME_CANNOT_JOIN_MORE_GAMES">Juego en progreso.</msg>
+	<msg code="317" type="0" priority="1" name="JOINGAME_TEMPORARY_NOT_ALLOW">La sala del juego se está cerrando ahora. Inicie sesión más tarde.</msg>
+	<msg code="318" type="0" priority="1" name="JOINGAME_PERPARING_SHUTDOWN">La sala del juego se está cerrando ahora. Inicie sesión más tarde.</msg>
+	<msg code="321" type="0" priority="1" name="JOINGAME_PLS_RE_ENTER_GAME">Lo sentimos, el número de jugadores ha alcanzado el límite superior.</msg>
+	<msg code="330" type="0" priority="1" name="JOINGAME_THEME_IS_FULL">Lo sentimos, esta sala de juegos está llena. Lamentamos las molestias ocasionadas.</msg>
+	<msg code="331" type="0" priority="1" name="JOINGAME_USER_IS_DUPLICATE">Su conexión de red es inestable.</msg>
+	<msg code="332" type="0" priority="1" name="JOINGAME_GAME_SERVER_IS_SHUTTINGDOWN">La sala del juego se está cerrando ahora. Inicie sesión más tarde.</msg>
+	<msg code="333" type="0" priority="1" name="JOINGAME_GAME_SERVER_HAS_EXCEPTION">No se pudo ingresar a la sala de juego. Por favor, inténtelo de nuevo más tarde.</msg>
+	<msg code="334" type="0" priority="1" name="JOINGAME_GAME_SERVER_BAD_REJECTION">No puede ingresar a esta sala. Seleccione otra.</msg>
+	<msg code="380" type="0" priority="1" name="JOINGAME_REJECTED">No puedes ingresar. Seleccione otro juego.</msg>
+	<msg code="381" type="0" priority="1" name="JOINGAME_MONEY_IS_BELOW_MINIMUM">Saldo insuficiente para entrar en esta sala. Seleccione otro.</msg>
+	<msg code="382" type="0" priority="1" name="JOINGAME_MONEY_IS_ABOVE_MAXIMUM">Su saldo es demasiado para entrar en este sala. Seleccione otro.</msg>
+	<msg code="383" type="0" priority="1" name="JOINGAME_LEVEL_IS_BELOW_MINIMUM">Nivel incorrecto para entrar a esta sala. Seleccione otro.</msg>
+	<msg code="384" type="0" priority="1" name="JOINGAME_LEVEL_IS_ABOVE_MAXIMUM">Nivel incorrecto para entrar a esta sala. Seleccione otro.</msg>
+	<msg code="385" type="0" priority="1" name="JOINGAME_REPEATED_DISCONNECT">Ya ha comenzado este juego. Espere, por favor.</msg>
+	<msg code="386" type="0" priority="1" name="JOINGAME_CONTEST_FINISHED">El torneo ha terminado.</msg>
+	<msg code="387" type="0" priority="1" name="JOINGAME_CONTEST_ADMISSION_NOT_PAID">Hay condición de admissión al torneo. Por favor, mire las informaciones del evento.</msg>
+	<msg code="395" type="0" priority="1" name="JOINGAME_UNJOINED">Su conexión de red es inestable.</msg>
+	<msg code="396" type="0" priority="1" name="JOINGAME_UNDEFINED">¡Hay una nueva actualización disponible! Descárguela ahora.</msg>
+	<!-- leave game reason code -->
+	<msg code="400" type="0" priority="1" name="LEAVEGAME_USER_REQUEST">Salga del juego.</msg>
+	<msg code="402" type="0" priority="1" name="LEAVEGAME_GAME_DISCONNECT">Su conexión de red es inestable.</msg>
+	<msg code="403" type="0" priority="1" name="LEAVEGAME_BASE_DISCONNECT">Su conexión de red es inestable.</msg>
+	<msg code="404" type="0" priority="1" name="LEAVEGAME_MASTER_KICK">Su conexión de red es inestable.</msg>
+	<msg code="407" type="0" priority="1" name="LEAVEGAME_USER_DISCONNECT">Ha dejado el juego.</msg>
+	<msg code="425" type="0" priority="1" name="LEAVEGAME_GAME_SERVER_SHUTDOWN">La sala del juego se está cerrando ahora. Inicie sesión más tarde.</msg>
+	<msg code="440" type="0" priority="1" name="LEAVEGAME_USING_SPEEDER">Su conexión de red es inestable.</msg>
+	<msg code="441" type="0" priority="1" name="LEAVEGAME_TABLE_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="444" type="0" priority="1" name="LEAVEGAME_GAME_DATABASE_ERROR">Error del sistema. Por favor, cierre y inténtelo de nuevo más tarde.</msg>
+	<msg code="445" type="0" priority="1" name="LEAVEGAME_TRY_PASSWORD_TOO_MANY_TIMES">Límite de intentos de contraseña superado.</msg>
+	<msg code="446" type="0" priority="1" name="LEAVEGAME_COMMAND_ERROR">Error de comando de protocolo.</msg>
+	<msg code="448" type="0" priority="1" name="LEAVEGAME_GAME_ROOM_FULL">Lo sentimos, esta sala de juegos está llena. Lamentamos las molestias ocasionadas.</msg>
+	<msg code="466" type="0" priority="1" name="LEAVEGAME_JOIN_GAME_EXCEPTION">No se pudo ingresar al juego, inténtelo más tarde.</msg>
+	<msg code="481" type="0" priority="1" name="LEAVEGAME_MONEY_IS_BELOW_MINIMUM">Saldo insuficiente para entrar en esta sala. Seleccione otro.</msg>
+	<msg code="482" type="0" priority="1" name="LEAVEGAME_MONEY_IS_ABOVE_MAXIMUM">Su saldo es demasiado para entrar en esta sala. Seleccione otro.</msg>
+	<msg code="483" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_BELOW_MINIMUM">Nivel incorrecto para entrar a esta sala. Seleccione otro.</msg>
+	<msg code="484" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_ABOVE_MAXIMUM">Nivel incorrecto para entrar a esta sala. Seleccione otro.</msg>
+	<msg code="485" type="0" priority="1" name="LEAVEGAME_REPEATED_DISCONNECT">Ha dejado el juego.</msg>
+	<msg code="486" type="0" priority="1" name="LEAVEGAME_CONTEST_FINISHED">El torneo ha terminado.</msg>
+	<msg code="487" type="0" priority="1" name="LEAVEGAME_CONTEST_ADMISSION_NOT_PAID">Hay condición de admissión al torneo. Por favor, mire las informaciones del evento.</msg>
+	<msg code="495" type="0" priority="1" name="LEAVEGAME_UNLEFT">Su conexión de red es inestable.</msg>
+	<msg code="496" type="0" priority="1" name="LEAVEGAME_UNDEFINED">¡Hay una nueva actualización disponible! Descárguela ahora.</msg>
+	<!-- local connection error code -->	
+	<msg code="1000" type="0" priority="1" name="LOCALCONNECT_FAIL_SUFFIX">Error al obtener información: ¡Error de conexión! Vuelva a intentarlo.</msg>
+	<msg code="1001" type="0" priority="1" name="LOCALCONNECT_INVALID_GAMENAME">Error al obtener información: ¡Error de conexión! Vuelva a intentarlo.</msg>
+	<msg code="1002" type="0" priority="1" name="LOCALCONNECT_GAMENAME_DUPLICATE">Error al obtener información: ¡Nombre duplicado! Vuelva a intentarlo.</msg>
+	<msg code="1003" type="0" priority="1" name="LOCALCONNECT_DISCONNECT_PLATFORM">No se pudo obtener la información: Obtener información de la sala de espera. ¡Tiempo de espera agotado! Vuelva a intentarlo.</msg>
+	<msg code="1004" type="0" priority="1" name="LOCALCONNECT_GAME_ALIVE_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="1005" type="0" priority="1" name="LOCALCONNECT_LOBBY_ALIVE_TIMEOUT">No se pudo conectar a la sala. Por favor, inténtelo más tarde.</msg>
+	<msg code="1006" type="0" priority="1" name="LOCALCONNECT_GAME_REQ_RESET_LOBBY">Su conexión de red es inestable.</msg>
+	<msg code="1100" type="0" priority="1" name="ERRORID_THIS_ROOM_IS_FULL">Error al ingresar: ¡la sala está llena! Vuelva a intentarlo más tarde.</msg>
+	<msg code="1101" type="0" priority="1" name="ERRORID_ALL_ROOMS_ARE_FULL">Error al ingresar: ¡Todas las salas están llenas! Vuelva a intentarlo más tarde.</msg>
+	<msg code="1102" type="0" priority="1" name="ERRORID_THIS_ROOM_ID_IS_INVALID">Error al ingresar: ¡Error al conectar a la sala! Vuelva a intentarlo más tarde.</msg>
+	<msg code="1103" type="0" priority="1" name="ERRORID_PLAYER_ALREADY_IN_ROOM">Error al ingresar: ¡El usuario ya está en la sala! Intente cerrar el juego y vuelva a intentarlo más tarde.</msg>
+	<msg code="1104" type="0" priority="1" name="ERRORID_CLIENT_MONEY_ERROR">Apuesta fallida. Su apuesta será devuelta.</msg>
+<!-- Client Message -->
+	<!-- custom error -->
+	<msg code="2001" type="0" priority="1" name="INSUFFICIENT_AMOUNT">¡El saldo de su cuenta es insuficiente!</msg>
+	<msg code="2002" type="0" priority="1" name="SERVER_RESPONSE_ERROR">Su conexión de red es inestable.</msg>
+	<msg code="2003" type="0" priority="1" name="WANT_QUIT">¿Realmente quiere salir?</msg>
+	<msg code="2004" type="0" priority="1" name="IDLE_TIMEOUT">Su conexión de red es inestable.</msg>
+	<msg code="2005" type="0" priority="1" name="CANNOT_BACKTO_THEME">Por favor, complete esta ronda antes de abandonar.</msg>
+	<msg code="2006" type="0" priority="1" name="EXPIRE_MAX_CREDIT">El saldo ya ha alcanzado el límite máximo.</msg>
+	<msg code="2007" type="0" priority="1" name="BET_ERROR">El saldo de su cuenta es insuficiente. Su apuesta será devuelta.</msg>
+	<msg code="2008" type="0" priority="1" name="SERVER_DATA_ERROR">Su conexión de red es inestable.</msg>
+	<msg code="2009" type="0" priority="1" name="JOIN_LOBBY_FAIL">Su conexión de red es inestable.</msg>
+	<msg code="2025" type="0" priority="1" name="BET_ERROR_MAX_BET">La apuesta total máxima permitida es %s. Su apuesta será devuelta.</msg>
+	<msg code="2026" type="0" priority="1" name="BET_ERROR_MIN_BET">La apuesta total mínima permitida es %s. Su apuesta será devuelta.</msg>
+	<msg code="2027" type="0" priority="1" name="BET_ERROR_DATA">El límite de apuesta no está permitido. Su apuesta será devuelta.</msg>
+	<msg code="2028" type="0" priority="1" name="DOUBLE_UP_LIMIT_REACHED">Se ha alcanzado el límite de duplicación.</msg>
+	<msg code="2029" type="0" priority="1" name="ADD_CLIENT_MONEY_TIMEOUT">Su conexión de red es inestable.</msg>
+  <msg code="2030" type="0" priority="1" name="INSUFFICIENT_AMOUNT_STORE">Insuffcient Balance! Please get more coin at the shop.</msg>
+	<msg code="2031" type="0" priority="1" name="TOO_MUCH_BALANCE">Your balance is too much.</msg>
+	<msg code="2032" type="0" priority="1" name="INSUFFICIENT_AMOUNT_PURCHASE">Balance insuficiente. Por favor compra más o convierte las ganancias en entradas.</msg>
+	<msg code="2033" type="0" priority="1" name="INSUFFICIENT_AMOUNT_DONATE">Balance insuficiente. Por favor compra más o convierte las ganancias en entradas.</msg>
+	<!-- slot -->
+	<msg code="2010" type="0" priority="1" name="SERVER_RESPONSE_ERROR_MAINGAME_SPIN_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2011" type="0" priority="1" name="SERVER_DATA_ERROR_MAINGAME_SPIN_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2012" type="0" priority="1" name="SERVER_RESPONSE_ERROR_FREEGAME_SPIN_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2013" type="0" priority="1" name="SERVER_DATA_ERROR_FREEGAME_SPIN_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2014" type="0" priority="1" name="SERVER_RESPONSE_ERROR_DOUBLEGAME_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2015" type="0" priority="1" name="SERVER_DATA_ERROR_DOUBLEGAME_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2016" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS1_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2017" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS1_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2018" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS2_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2019" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS2_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2020" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS3_ACK">Su conexión de red es inestable.</msg>
+	<msg code="2021" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS3_ACK">Su conexión de red es inestable.</msg>
+	<!-- arcade -->
+	<msg code="2022" type="0" priority="1" name="SERVER_KICKOUT">Su conexión de red es inestable.</msg>
+	<msg code="2023" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_CLIENT">Su conexión de red es inestable.</msg>
+	<msg code="2024" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_SERVER">Su conexión de red es inestable.</msg>
+	<!-- mobile lobby -->
+	<msg code="3000" type="0" priority="1" name="NOT_ENOUGH_CAPACITY">Descarga fallida. No hay suficiente espacio en este dispositivo.</msg>
+	<msg code="3001" type="0" priority="1" name="LOBBY_PROGRESS_PANEL_NULL">¡Vaya! Error de parche. Repare y reconstruya lo antes posible.</msg>
+	<msg code="3002" type="0" priority="1" name="LOBBY_NEW_VERSION_DETECTED">Se detectó la última versión. Por favor, Obtenga la última versión.</msg>
+	<msg code="3003" type="0" priority="1" name="LOBBY_GAME_LOCKED">Juego bloqueado. Pongase en contacto con el Servicio de atención al cliente para obtener asistencia.</msg>
+	<msg code="3004" type="0" priority="1" name="LOBBY_GAME_DOWNLOADING">El juego se está descargando...</msg>
+	<msg code="3005" type="0" priority="1" name="LOBBY_GAME_MEM_REQ_1GB">¡Vaya! Este juego requiere un mínimo de memoria de dispositivo de 1 GB.</msg>
+	<msg code="3006" type="0" priority="1" name="LOBBY_GAME_PROGRESSING">Juego en progreso. Puede regresar a la sala después del juego.</msg>
+	<msg code="3007" type="0" priority="1" name="LOBBY_DEPOSIT">Depositar: %s</msg>
+	<msg code="3008" type="0" priority="1" name="LOBBY_CASH_OUT">Redimir: %s</msg>
+	<!-- Client Msg -->
+	<msg code="9101" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG">Inactivo durante demasiado tiempo. Apueste para restablecer el temporizador o se cerrará la sesión y el juego.</msg>
+	<msg code="9102" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG_NEW">Debido a la inactividad, este juego se cerrará automáticamente en %s segundos. Haga clic en Aceptar para continuar jugando.</msg>
+	<msg code="9103" type="0" priority="1" name="CLIENT_IDLE_TOO_LONG_CLOSED">Debido a la inactividad, este juego se ha cerrado automáticamente. Haga clic en Aceptar para volver a la sala.</msg>
+	<msg code="9201" type="0" priority="1" name="CLIENT_MSG_IDLE_TOO_LONG">Inactivo durante demasiado tiempo. Por favor, apueste o se cerrará la sesión.</msg>
+	<!-- H5 Client Msg -->
+	<msg code="50000" type="0" priority="1" name="HTML5_BROWSER_ERROR">Navegadores recomendados para obtener mejor rendimiento: Chrome o Safari o FireFox.</msg>
+	<msg code="50001" type="0" priority="1" name="HTML5_WEBGL_NOT_SUPPORT">Actualice el navegador de Internet o use Safari, FireFox, Chrome.</msg>
+	<!-- system -->
+	<msg code="100101" type="0" priority="1" name="ERRORID_MAX_GAMES_WERE_OPENED">Ha alcanzado el número máximo de ventanas de juego abiertas. Cierre uno de sus juegos actualmente activos y vuelva a intentarlo.</msg>
+	<msg code="100102" type="0" priority="1" name="CONFIRM_BACKTO_THEMELIST">¿Realmente desea volver a la página de selección?</msg>
+	<msg code="100103" type="0" priority="1" name="CONFIRM_COMPLETE_GAME_BEFORE_QUIT">Complete esta ronda antes de abandonar.</msg>
+	<msg code="100104" type="0" priority="1" name="LOADER_FAILED">Error al cargar el archivo, vuelva a abrir el juego.</msg>
+	<!-- Server -->
+	<msg code="200001" type="0" priority="1" name="STATUS_CODE_ERR_CMD_NOT_FOUND">¡Error inesperado!</msg>
+	<msg code="200002" type="0" priority="1" name="STATUS_CODE_ERR_DATA_FIELD">¡Error inesperado!</msg>
+	<msg code="200003" type="0" priority="1" name="STATUS_CODE_ERR_CMD_IMP">¡Error inesperado!</msg>
+	<msg code="200004" type="0" priority="1" name="STATUS_CODE_ERR_USER_NOT_EXIST">¡Error inesperado!</msg>
+	<msg code="200005" type="0" priority="1" name="STATUS_CODE_ERR_TOKEN_EXPIRED">¡Error inesperado!</msg>
+	<msg code="200006" type="0" priority="1" name="STATUS_CODE_ERR_SIGNATURE">¡Error inesperado!</msg>
+	<msg code="200007" type="0" priority="1" name="STATUS_CODE_ERR_JSON_FORMAT">¡Error inesperado!</msg>
+	<msg code="200008" type="0" priority="1" name="STATUS_CODE_ERR_SET_SESSION">¡Error inesperado!</msg>
+	<msg code="200009" type="0" priority="1" name="STATUS_CODE_ERR_SET_SHARD_INFO">¡Error inesperado!</msg>
+	<msg code="200010" type="0" priority="1" name="STATUS_CODE_ERR_USER_HAD_BEEN_SUSPENDED">¡Error inesperado!</msg>
+	<msg code="209999" type="0" priority="1" name="STATUS_CODE_ERR_EXCEPTION">¡Error inesperado!</msg>
+	<!-- Main Game -->
+	<msg code="200020" type="0" priority="1" name="STATUS_CODE_ERR_ANOTHER_DEVICE_IS_PLAYING">Esta cuenta ya ha sido utilizada.</msg>
+	<msg code="200021" type="0" priority="1" name="STATUS_CODE_ERR_COIN_NOT_ENOUGH">¡El saldo de su cuenta es insuficiente!</msg>
+	<msg code="200024" type="0" priority="1" name="STATUS_CODE_ERR_SPIN_AUTH">¡Error inesperado!</msg>
+	<msg code="200025" type="0" priority="1" name="STATUS_CODE_ERR_GAME_SESSION_MISSING">¡Error inesperado!</msg>
+	<msg code="200026" type="0" priority="1" name="STATUS_CODE_ERR_BET_ALREADY_CONSUMED">¡Error inesperado!</msg>
+	<msg code="200027" type="0" priority="1" name="STATUS_CODE_ERR_BET_DATA_NOT_EXISTS">¡Error inesperado!</msg>
+	<msg code="200028" type="0" priority="1" name="STATUS_CODE_ERR_USER_IS_PLAYING_SOCKET_GAME">Esta cuenta ahora está jugando a otros juegos.</msg>
+	<msg code="200029" type="0" priority="1" name="STATUS_CODE_ERR_MAINGAME_STATE_EXCEPTION">¡Error inesperado!</msg>
+	<msg code="200030" type="0" priority="1" name="STATUS_CODE_ERR_BONUSGAME_STATE_EXCEPTION">¡Error inesperado!</msg>
+	<msg code="200031" type="0" priority="1" name="STATUS_CODE_ERR_FEVERGAME_STATE_EXCEPTION">¡Error inesperado!</msg>
+	<msg code="200032" type="0" priority="1" name="STATUS_CODE_ERR_GAME_IS_UNDER_CONSTRUCTION">¡Error inesperado!</msg>
+	<msg code="200033" type="0" priority="1" name="STATUS_CODE_ERR_GET_GAME_STATE_ERROR">¡Error inesperado!</msg>
+	<msg code="200034" type="0" priority="1" name="STATUS_CODE_ERR_UPDATE_GAME_STATE_ERROR">¡Error inesperado!</msg>
+	<msg code="200035" type="0" priority="1" name="STATUS_CODE_ERR_USER_BALANCE_ERROR">¡Error inesperado!</msg>
+	<msg code="200036" type="0" priority="1" name="STATUS_CODE_ERR_USER_START_GAME_INFO_SN_ERROR">¡Error inesperado!</msg>
+	<msg code="200037" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_STATE_EXCEPTION">¡Error inesperado!</msg>
+	<msg code="200038" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_IS_UNDER_CONSTRUCTION">¡Error inesperado!</msg>
+	<!-- API Server Connect -->
+	<msg code="201001" type="0" priority="1" name="STATUS_CODE_ERR_API_SIGN_ERROR">¡Error inesperado!</msg>
+	<msg code="201002" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DATA_ILLEAGL">¡Error inesperado!</msg>
+	<msg code="201003" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_NOT_EXIST">¡Error inesperado!</msg>
+	<msg code="201005" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DUPLICATE">¡Error inesperado!</msg>
+	<msg code="201009" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_BALANCE_NOT_EXIST">¡Error inesperado!</msg>
+	<msg code="201011" type="0" priority="1" name="STATUS_CODE_ERR_API_COIN_NOT_ENOUGH">¡El saldo de su cuenta es insuficiente!</msg>
+	<msg code="201013" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_DATA_NOT_EXIST">¡Error inesperado!</msg>
+	<msg code="201099" type="0" priority="1" name="STATUS_CODE_ERR_API_DATABASE_ERROR">¡Error inesperado!</msg>
+	<msg code="201999" type="0" priority="1" name="ESTATUS_CODE_ERR_API_SERVER_ERROR">¡Error inesperado!</msg>
+	
+</data>

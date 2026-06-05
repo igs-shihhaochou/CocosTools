@@ -1,0 +1,12 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "5ba7aeb7-c0c8-4388-bedb-8aeddfa3999f",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "bundleName": "Game",
+    "isBundle": true
+  }
+}

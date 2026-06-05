@@ -1,0 +1,328 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+// Label 漸變色循環動畫效果 (Cocos Creator 3.8.6)
+// 功能：
+// 1. 可設定漸變方向（0-360度）
+// 2. 漸變色帶會隨時間持續單向循環移動
+// 3. 可調整漸變重複次數，同時顯示多個漸變循環
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        
+        # 漸變顏色數量（2-5個顏色）
+        colorCount: {
+          value: 3.0,
+          editor: {
+            tooltip: "漸變顏色數量（2-5）",
+            range: [2.0, 5.0]
+          }
+        }
+
+        # 漸變顏色 1
+        color1: {
+          value: [1.0, 0.0, 0.0, 1.0], 
+          editor: { 
+            type: color,
+            tooltip: "漸變顏色 1（紅色）"
+          } 
+        }
+
+        # 漸變顏色 2
+        color2: {
+          value: [1.0, 1.0, 0.0, 1.0], 
+          editor: { 
+            type: color,
+            tooltip: "漸變顏色 2（黃色）"
+          } 
+        }
+
+        # 漸變顏色 3
+        color3: {
+          value: [0.0, 1.0, 0.0, 1.0], 
+          editor: { 
+            type: color,
+            tooltip: "漸變顏色 3（綠色）"
+          } 
+        }
+
+        # 漸變顏色 4
+        color4: {
+          value: [0.0, 0.0, 1.0, 1.0], 
+          editor: { 
+            type: color,
+            tooltip: "漸變顏色 4（藍色）"
+          } 
+        }
+
+        # 漸變顏色 5
+        color5: {
+          value: [1.0, 0.0, 1.0, 1.0], 
+          editor: { 
+            type: color,
+            tooltip: "漸變顏色 5（紫色）"
+          } 
+        }
+
+        # 漸變方向（角度：0-360）
+        # 0度 = 從左到右，90度 = 從下到上，180度 = 從右到左，270度 = 從上到下
+        gradientAngle: {
+          value: 0.0,
+          editor: {
+            tooltip: "漸變方向角度（0-360度）",
+            range: [0.0, 360.0]
+          } 
+        }
+
+        # 是否啟用顏色動畫
+        enableAnimation: {
+          value: 1.0,
+          editor: {
+            tooltip: "是否啟用顏色動畫。0：不啟用，非0：啟用"
+          }
+        }
+
+        # 動畫速度（單位：像素/秒）
+        animationSpeedPxPerSec: {
+          value: 100.0,
+          editor: {
+            tooltip: "動畫速度（單位：像素/秒）。例如 100 表示漸變每秒移動 100 像素",
+            range: [0.0, 500.0]
+          }
+        }
+
+        # 漸變重複次數（控制同時顯示幾個完整的漸變循環）
+        gradientRepeat: {
+          value: 1.0,
+          editor: {
+            tooltip: "漸變重複次數（1.0 = 一個完整漸變，2.0 = 兩個完整漸變）",
+            range: [1.0, 5.0]
+          }
+        }
+
+        # 漸變循環長度（單位：像素）
+        gradientLengthPx: {
+          value: 300.0,
+          editor: {
+            tooltip: "完整漸變循環的長度（單位：像素）。例如 300 表示每 300 像素完成一次完整的顏色循環",
+            range: [50.0, 2000.0]
+          }
+        }
+
+        # 亮度增強係數
+        brightness: {
+          value: 1.5,
+          editor: {
+            tooltip: "亮度增強係數（1.0 = 正常，2.0 = 加亮一倍，數值越大越亮）",
+            range: [0.5, 3.0]
+          }
+        }
+
+        # 是否保留原始紋理細節
+        keepTextureDetail: {
+          value: 1.0,
+          editor: {
+            tooltip: "0：直接替換為漸變色（純色字體），1：保留紋理細節並混合漸變色（BM 字體、有描邊的字體）"
+          }
+        }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #if USE_LOCAL
+    #include <builtin/uniforms/cc-local>
+  #endif
+  #if SAMPLE_FROM_RT
+    #include <common/common-define>
+  #endif
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 v_color;
+  out vec2 v_uv0;
+  out vec3 v_worldPos;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+    vec4 worldPos = pos;
+
+    #if USE_LOCAL
+      worldPos = cc_matWorld * pos;
+      pos = worldPos;
+    #endif
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    v_uv0 = a_texCoord;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(v_uv0);
+    #endif
+    v_color = a_color;
+    v_worldPos = worldPos.xyz;
+
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #include <builtin/internal/embedded-alpha>
+  #include <builtin/internal/alpha-test>
+
+  in vec4 v_color;
+  in vec2 v_uv0;
+  in vec3 v_worldPos;
+
+  #if USE_TEXTURE
+    #pragma builtin(local)
+    layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  uniform Constant {
+    vec4 color1;
+    vec4 color2;
+    vec4 color3;
+    vec4 color4;
+    vec4 color5;
+    float colorCount;
+    float gradientAngle;
+    float enableAnimation;
+    float animationSpeedPxPerSec;
+    float gradientRepeat;
+    float gradientLengthPx;
+    float brightness;
+    float keepTextureDetail;
+  };
+
+  /**
+   * 計算漸變位置（基於世界空間位置）
+   * @param lengthPx 完整漸變循環的長度（單位：像素）
+   * @param speedPxPerSec 動畫速度（單位：像素/秒）
+   */
+  float getGradientPosition(vec3 worldPos, float angle, float time, float speedPxPerSec, float repeat, float lengthPx) {
+    // 將角度轉換為弧度
+    float angleInRadians = radians(angle);
+    
+    // 計算漸變方向向量（在 XY 平面）
+    vec2 direction = vec2(cos(angleInRadians), sin(angleInRadians));
+    
+    // 計算當前點在漸變方向上的投影（世界空間座標，單位：像素）
+    float projection = dot(worldPos.xy, direction);
+    
+    // 除以漸變長度，得到漸變位置 [0, 1]
+    // 例如：lengthPx = 300，每 300 像素完成一次完整循環
+    float gradientPos = projection / lengthPx;
+    
+    // 應用重複次數
+    gradientPos *= repeat;
+    
+    // 如果啟用動畫，添加時間偏移實現循環效果
+    if (enableAnimation > 0.5) {
+      // 計算動畫偏移：時間(秒) × 速度(像素/秒) / 漸變長度(像素)
+      // 例如：1秒 × 100像素/秒 / 300像素 = 0.333（移動了 1/3 個循環）
+      float animationOffset = time * speedPxPerSec / lengthPx;
+      gradientPos += animationOffset;
+    }
+    
+    // 使用 fract 確保值在 [0, 1] 範圍內循環
+    return fract(gradientPos);
+  }
+
+  /**
+   * 根據多個顏色計算漸變顏色（循環漸變，最後一個顏色會漸變回第一個）
+   * @param pos 漸變位置 [0, 1]
+   * @param count 顏色數量
+   */
+  vec4 getMultiColorGradient(float pos, int count) {
+    // 計算在哪兩個顏色之間（循環漸變，包含回到起點的過渡）
+    float segmentSize = 1.0 / float(count);
+    float scaledPos = pos / segmentSize;
+    int segmentIndex = int(floor(scaledPos));
+    
+    // 計算在當前區段內的位置 [0, 1]
+    float segmentPos = fract(scaledPos);
+    
+    // 使用條件判斷選擇顏色（避免動態陣列索引）
+    vec4 currentColor;
+    vec4 nextColor;
+    
+    if (segmentIndex == 0) {
+      currentColor = color1;
+      nextColor = (count >= 2) ? color2 : color1;
+    } else if (segmentIndex == 1) {
+      currentColor = color2;
+      nextColor = (count >= 3) ? color3 : color1;
+    } else if (segmentIndex == 2) {
+      currentColor = color3;
+      nextColor = (count >= 4) ? color4 : color1;
+    } else if (segmentIndex == 3) {
+      currentColor = color4;
+      nextColor = (count >= 5) ? color5 : color1;
+    } else {
+      // 最後一個區段：從最後一個顏色漸變回第一個顏色
+      currentColor = color5;
+      nextColor = color1;
+    }
+    
+    // 在兩個顏色之間插值
+    return mix(currentColor, nextColor, segmentPos);
+  }
+
+  vec4 frag () {
+    vec4 o = vec4(1, 1, 1, 1);
+
+    #if USE_TEXTURE
+      o *= CCSampleWithAlphaSeparated(cc_spriteTexture, v_uv0);
+    #endif
+
+    o *= v_color;
+
+    ALPHA_TEST(o);
+
+    // 使用世界空間位置計算漸變（讓不同字符顯示不同顏色）
+    float gradientPos = getGradientPosition(v_worldPos, gradientAngle, cc_time.x, animationSpeedPxPerSec, gradientRepeat, gradientLengthPx);
+    
+    // 使用多顏色漸變
+    int numColors = int(colorCount);
+    vec4 gradientColor = getMultiColorGradient(gradientPos, numColors);
+    
+    // 根據是否保留紋理細節選擇混合方式
+    if (keepTextureDetail > 0.5) {
+      // 保留紋理細節模式：與原始紋理相乘
+      // 適用於 BM 字體、有描邊/陰影的字體
+      o.rgb = o.rgb * gradientColor.rgb * brightness;
+    } else {
+      // 直接替換模式：直接使用漸變色
+      // 適用於純色系統字體
+      o.rgb = gradientColor.rgb * brightness;
+    }
+    // o.a 保持原始紋理的 alpha（文字形狀）
+
+    return o;
+  }
+}%
+

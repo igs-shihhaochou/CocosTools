@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<!-- Server Response Message -->
+	<!--AccessDeniedReason -->
+	<msg code="0" type="0" priority="1" name="UNDEFINED">您的网络连接质量不稳，无法与服务器连接!</msg>
+	<msg code="1" type="0" priority="2" name="ACCESSDENIED_USER_NAME_NOT_FOUND">帐户或密码错误，请重新输入。</msg>
+	<msg code="2" type="0" priority="1" name="USER_NAME_NOT_FOUND">帐户无效或密码错误，请重试。</msg>
+	<msg code="3" type="0" priority="1" name="DUPLICATE_LOGIN">此账户已被使用</msg>
+	<msg code="4" type="0" priority="2" name="USER_NAME_IS_EMPTY">提供的帐户或密码不正确</msg>
+	<msg code="5" type="0" priority="1" name="PASSWORD_INCORRECT">提供的帐户或密码不正确</msg>
+	<msg code="6" type="0" priority="2" name="NO_BASE">您的装置发生意外状况，即将返回大厅，请稍后进入游戏。</msg>
+	<msg code="7" type="0" priority="2" name="REGISTER_BASE_FAIL">您的网络连接质量不稳。</msg>
+	<msg code="8" type="0" priority="2" name="L1_REJECT">您的网络连接质量不稳。</msg>
+	<msg code="9" type="0" priority="1" name="INVALID_PROTOCOL_VERSION">已有新的更新需立即下载，造成不便请您见谅。</msg>
+	<msg code="10" type="0" priority="2" name="NO_NICKNAME">提供的帐户或密码不正确</msg>
+	<msg code="11" type="0" priority="2" name="UNKNOWN">出于安全保护，您的账号已暂被冻结无法使用。</msg>
+	<msg code="20" type="0" priority="1" name="USER_NAME_IS_EMPTY">帐户无效或密码错误，请重试。</msg>
+	<msg code="22" type="0" priority="1" name="CHECK_KEY_IS_ZERO">您的网络连接质量不稳。</msg>
+	<msg code="24" type="0" priority="1" name="L1_REJECT">您的网络连接质量不稳。</msg>
+	<msg code="25" type="0" priority="1" name="NOT_SOBER">您的网络连接质量不稳。</msg>
+	<msg code="27" type="0" priority="1" name="NO_BASE">您的网络连接质量不稳。</msg>
+	<msg code="28" type="0" priority="1" name="REGISTER_BASE_FAIL">您的网络连接质量不稳。</msg>
+	<msg code="29" type="0" priority="1" name="VERIFY_NUMBER_ERROR">验证码无效，请重新输入。</msg>
+	<msg code="30" type="0" priority="1" name="NO_NICKNAME">提供的帐户或密码不正确</msg>
+	<msg code="31" type="0" priority="1" name="PERMISSION_TYPE_CENTRAL_NOT_FOUND">您的网络连接质量不稳。</msg>
+	<msg code="32" type="0" priority="1" name="PERMISSION_TYPE_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="33" type="0" priority="1" name="PERMISSION_TYPE_RELOGIN_TOO_FAST">您的网络连接质量不稳。</msg>
+	<msg code="34" type="0" priority="1" name="PERMISSION_TYPE_HS_CODE_REQUIRED">您的网络连接质量不稳。</msg>
+	<msg code="254" type="0" priority="1" name="MAINTENANCE">服务器维护中，请稍后登入!</msg>
+	<msg code="255" type="0" priority="1" name="UNKNOWN">您的网络连接质量不稳。</msg>
+	<!-- login failed -->
+	<msg code="100" type="0" priority="1" name="LOGINFAILED_VERIFY_FAILED">无法连线到验证码验证，请稍后再试。</msg>
+	<msg code="101" type="0" priority="1" name="LOGINFAILED_LOGIN_FAILED">服务器维护中，请稍后登入!</msg>
+	<msg code="190" type="0" priority="1" name="LOGINFAILED_UNKNOWN">您的网络连接质量不稳。</msg>
+	<msg code="192" type="0" priority="1" name="LOGINFAILED_INVALID_GROUPNAME">您的网络连接质量不稳。</msg>
+	<!-- disconnected with base server reason code -->
+	<msg code="200" type="0" priority="1" name="DISCONNECTED_NETWORK_FAILED">您的网络连接质量不稳。</msg>
+	<msg code="201" type="0" priority="1" name="DISCONNECTED_ACCESS_DENIED">帐户无效或密码错误，请重试。</msg>
+	<msg code="202" type="0" priority="1" name="DISCONNECTED_WRONG_PROTOCOL">此游戏版本失效，将会自动更新最新版本。</msg>
+	<msg code="203" type="0" priority="1" name="DISCONNECTED_USER_REQUEST">您已斷線</msg>
+	<msg code="204" type="0" priority="1" name="DISCONNECTED_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="205" type="0" priority="1" name="DISCONNECTED_NETWORK_SHUTDOWN">您的网络连接质量不稳。</msg>
+	<msg code="206" type="0" priority="1" name="DISCONNECTED_RESET_BY_PEER">您的网络连接质量不稳。</msg>
+	<msg code="220" type="0" priority="1" name="DISCONNECTED_STILL_ONLINE">即将断开与行动装置的连接。</msg>
+	<msg code="222" type="0" priority="1" name="DISCONNECTED_MASTER_KICKED">您的网络连接质量不稳。</msg>
+	<msg code="224" type="0" priority="1" name="DISCONNECTED_USER_SHUTDOWN">您的网络连接质量不稳。</msg>
+	<msg code="225" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_SHUTDOWN">服务器正在关闭中，请稍后登入。</msg>
+	<msg code="226" type="0" priority="1" name="DISCONNECTED_PACKAGE_OVERLOAD">您的网络连接质量不稳。</msg>
+	<msg code="240" type="0" priority="1" name="DISCONNECTED_USING_SPEEDER">您的网络连接质量不稳。</msg>
+	<msg code="241" type="0" priority="1" name="DISCONNECTED_TABLE_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="242" type="0" priority="1" name="DISCONNECTED_ACCOUNT_DATABASE_ERROR">您的网络连接质量不稳。</msg>
+	<msg code="243" type="0" priority="1" name="DISCONNECTED_BILL_DATABASE_ERROR">您的网络连接质量不稳。</msg>
+	<msg code="244" type="0" priority="1" name="DISCONNECTED_GAME_DATABASE_ERROR">您的网络连接质量不稳。</msg>
+	<msg code="245" type="0" priority="1" name="DISCONNECTED_TRY_PASSWORD_TOO_MANY_TIMES">您的网络连接质量不稳。</msg>
+	<msg code="246" type="0" priority="1" name="DISCONNECTED_COMMAND_ERROR">您的网络连接质量不稳。</msg>
+	<msg code="248" type="0" priority="1" name="DISCONNECTED_TABLE_FULL">抱歉，游戏房间已满员，请稍后再试。</msg>
+	<msg code="260" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_SHUTDOWN">游戏大厅正关闭中，请稍后再行登入。</msg>
+	<msg code="261" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_DISCONNECT">您的网络连接质量不稳。</msg>
+	<msg code="262" type="0" priority="1" name="DISCONNECTED_USER_LEAVE_GAME">您已退出游戏</msg>
+	<msg code="263" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_DISCONNECT">您的网络连接质量不稳。</msg>
+	<msg code="264" type="0" priority="1" name="DISCONNECTED_BASE_CLEANUP">您的网络连接质量不稳。</msg>
+	<msg code="265" type="0" priority="1" name="DISCONNECTED_BASE_CANCEL_JOIN_GAME">您的网络连接质量不稳。</msg>
+	<msg code="266" type="0" priority="1" name="DISCONNECTED_JOIN_GAME_SERVER_EXCEPTION">您的网络连接质量不稳。</msg>
+	<msg code="267" type="0" priority="1" name="DISCONNECTED_USER_TABLE_IS_FULL">您的网络连接质量不稳。</msg>
+	<msg code="268" type="0" priority="1" name="DISCONNECTED_USER_IS_DUPLICATED">帐户或密码错误，请区分大小写再重新输入哦。</msg>
+	<msg code="270" type="0" priority="1" name="DISCONNECTED_UNDISCONNECTED">您的网络连接质量不稳。</msg>
+	<msg code="271" type="0" priority="1" name="DISCONNECTED_UNDEFINED">已有新的更新！请立即加载！</msg>
+	<!-- user join game failed reason code -->
+	<msg code="310" type="0" priority="1" name="JOINGAME_INVALID_THEME_NAME">您的网络连接质量不稳。</msg>
+	<msg code="311" type="0" priority="1" name="JOINGAME_THEME_NOT_ACTIVE">您的网络连接质量不稳。</msg>
+	<msg code="312" type="0" priority="1" name="JOINGAME_GAME_SERVER_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="313" type="0" priority="1" name="JOINGAME_USER_IP_NOT_ALLOWED">抱歉，您的网络IP被限制，无法进入游戏。</msg>
+	<msg code="314" type="0" priority="1" name="JOINGAME_VERSION_NOT_MATCHED">此游戏版本失效，将会自动更新最新版本。</msg>
+	<msg code="315" type="0" priority="1" name="JOINGAME_USER_ALREADY_JOINED">您的网络连接质量不稳。</msg>
+	<msg code="316" type="0" priority="1" name="JOINGAME_CANNOT_JOIN_MORE_GAMES">已有游戏正在开启，</msg>
+	<msg code="317" type="0" priority="1" name="JOINGAME_TEMPORARY_NOT_ALLOW">游戏大厅正关闭中，请稍后再行登录。</msg>
+	<msg code="318" type="0" priority="1" name="JOINGAME_PERPARING_SHUTDOWN">游戏大厅正关闭中，请稍后再行登录。</msg>
+	<msg code="321" type="0" priority="1" name="JOINGAME_PLS_RE_ENTER_GAME">抱歉，游戏的玩家人数已达封頂限制。</msg>
+	<msg code="330" type="0" priority="1" name="JOINGAME_THEME_IS_FULL">抱歉，游戏人数满员，造成不便敬请见谅。</msg>
+	<msg code="331" type="0" priority="1" name="JOINGAME_USER_IS_DUPLICATE">您的网络连接质量不稳。</msg>
+	<msg code="332" type="0" priority="1" name="JOINGAME_GAME_SERVER_IS_SHUTTINGDOWN">游戏大厅正关闭中，请稍后再登入。</msg>
+	<msg code="333" type="0" priority="1" name="JOINGAME_GAME_SERVER_HAS_EXCEPTION">进入游戏大厅失败，请稍后再试。</msg>
+	<msg code="334" type="0" priority="1" name="JOINGAME_GAME_SERVER_BAD_REJECTION">抱歉，您无法进入此厅房，请选择其他厅房。</msg>
+	<msg code="380" type="0" priority="1" name="JOINGAME_REJECTED">抱歉，你无法进入，请选择其它游戏。</msg>
+	<msg code="381" type="0" priority="1" name="JOINGAME_MONEY_IS_BELOW_MINIMUM">余额不足，无法进入这个大厅。 请选其他的試試。</msg>
+	<msg code="382" type="0" priority="1" name="JOINGAME_MONEY_IS_ABOVE_MAXIMUM">您的余额太多无法進入， 请选其他的試試。</msg>
+	<msg code="383" type="0" priority="1" name="JOINGAME_LEVEL_IS_BELOW_MINIMUM">很抱歉!您的等级无法进入， 请选其他的试试。</msg>
+	<msg code="384" type="0" priority="1" name="JOINGAME_LEVEL_IS_ABOVE_MAXIMUM">很抱歉!您的等级无法进入， 请选其他的试试。</msg>
+	<msg code="385" type="0" priority="1" name="JOINGAME_REPEATED_DISCONNECT">你已经开启这个游戏，请稍后。</msg>
+	<msg code="386" type="0" priority="1" name="JOINGAME_CONTEST_FINISHED">本次比赛结束。</msg>
+	<msg code="387" type="0" priority="1" name="JOINGAME_CONTEST_ADMISSION_NOT_PAID">入场本次比赛有限制条件，请查活动说明。</msg>
+	<msg code="395" type="0" priority="1" name="JOINGAME_UNJOINED">您的网络连接质量不稳。</msg>
+	<msg code="396" type="0" priority="1" name="JOINGAME_UNDEFINED">已有新的更新！请立即加载哦！</msg>
+	<!-- leave game reason code -->
+	<msg code="400" type="0" priority="1" name="LEAVEGAME_USER_REQUEST">退出游戏</msg>
+	<msg code="402" type="0" priority="1" name="LEAVEGAME_GAME_DISCONNECT">您的网络连接质量不稳。</msg>
+	<msg code="403" type="0" priority="1" name="LEAVEGAME_BASE_DISCONNECT">您的网络连接质量不稳。</msg>
+	<msg code="404" type="0" priority="1" name="LEAVEGAME_MASTER_KICK">您的网络连接质量不稳。</msg>
+	<msg code="407" type="0" priority="1" name="LEAVEGAME_USER_DISCONNECT">您已退出游戏</msg>
+	<msg code="425" type="0" priority="1" name="LEAVEGAME_GAME_SERVER_SHUTDOWN">游戏大厅正关闭中，请稍后再行登入。</msg>
+	<msg code="440" type="0" priority="1" name="LEAVEGAME_USING_SPEEDER">您的网络连接质量不稳。</msg>
+	<msg code="441" type="0" priority="1" name="LEAVEGAME_TABLE_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="444" type="0" priority="1" name="LEAVEGAME_GAME_DATABASE_ERROR">系统错误，请关闭后重新登入。</msg>
+	<msg code="445" type="0" priority="1" name="LEAVEGAME_TRY_PASSWORD_TOO_MANY_TIMES">输入密码错误超过限制的次数。</msg>
+	<msg code="446" type="0" priority="1" name="LEAVEGAME_COMMAND_ERROR">协议命令出现错误</msg>
+	<msg code="448" type="0" priority="1" name="LEAVEGAME_GAME_ROOM_FULL">抱歉，此游戏人数已满，造成不便敬请见谅。</msg>
+	<msg code="466" type="0" priority="1" name="LEAVEGAME_JOIN_GAME_EXCEPTION">进入游戏失败，请稍后再试。</msg>
+	<msg code="481" type="0" priority="1" name="LEAVEGAME_MONEY_IS_BELOW_MINIMUM">余额不足，无法进入这个大厅。 请选择另一个。</msg>
+	<msg code="482" type="0" priority="1" name="LEAVEGAME_MONEY_IS_ABOVE_MAXIMUM">您的余额太多无法进入，请选择另一个。</msg>
+	<msg code="483" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_BELOW_MINIMUM">很抱歉!您的等级无法进入， 请选其他的试试。</msg>
+	<msg code="484" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_ABOVE_MAXIMUM">很抱歉!您的等级无法进入， 请选其他的试试。</msg>
+	<msg code="485" type="0" priority="1" name="LEAVEGAME_REPEATED_DISCONNECT">您已退出游戏</msg>
+	<msg code="486" type="0" priority="1" name="LEAVEGAME_CONTEST_FINISHED">本次比赛结束。</msg>
+	<msg code="487" type="0" priority="1" name="LEAVEGAME_CONTEST_ADMISSION_NOT_PAID">入场本次比赛有限制条件，请查活动说明。</msg>
+	<msg code="495" type="0" priority="1" name="LEAVEGAME_UNLEFT">您的网络连接质量不稳。</msg>
+	<msg code="496" type="0" priority="1" name="LEAVEGAME_UNDEFINED">已有新的更新！请立即下载！</msg>
+	<!-- local connection error code -->	
+	<msg code="1000" type="0" priority="1" name="LOCALCONNECT_FAIL_SUFFIX">获取信息失败：连接错误！请稍后重试。</msg>
+	<msg code="1001" type="0" priority="1" name="LOCALCONNECT_INVALID_GAMENAME">获取信息失败：连接错误！请稍后重试。</msg>
+	<msg code="1002" type="0" priority="1" name="LOCALCONNECT_GAMENAME_DUPLICATE">获取信息失败：名称重复！请重试。</msg>
+	<msg code="1003" type="0" priority="1" name="LOCALCONNECT_DISCONNECT_PLATFORM">获取信息失败：获取大厅讯息等待时间太久！请重试。</msg>
+	<msg code="1004" type="0" priority="1" name="LOCALCONNECT_GAME_ALIVE_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="1005" type="0" priority="1" name="LOCALCONNECT_LOBBY_ALIVE_TIMEOUT">无法连接到大厅，请稍后重试。</msg>
+	<msg code="1006" type="0" priority="1" name="LOCALCONNECT_GAME_REQ_RESET_LOBBY">您的网络连接质量不稳。</msg>
+	<msg code="1100" type="0" priority="1" name="ERRORID_THIS_ROOM_IS_FULL">加入失败：此房间已满员！请稍后重试。</msg>
+	<msg code="1101" type="0" priority="1" name="ERRORID_ALL_ROOMS_ARE_FULL">加入失败：所有房间满员！请稍后重试。</msg>
+	<msg code="1102" type="0" priority="1" name="ERRORID_THIS_ROOM_ID_IS_INVALID">加入失败：连接房间失败！请稍后重试。</msg>
+	<msg code="1103" type="0" priority="1" name="ERRORID_PLAYER_ALREADY_IN_ROOM">加入失败：用户帐号已在房间内！请尝试关闭游戏重新进入。</msg>
+	<msg code="1104" type="0" priority="1" name="ERRORID_CLIENT_MONEY_ERROR">下注失败，将退回本次下注。</msg>
+<!-- Client Message -->
+	<!-- custom error -->
+	<msg code="2001" type="0" priority="1" name="INSUFFICIENT_AMOUNT">抱歉，您的帐户余额不足哦。</msg>
+	<msg code="2002" type="0" priority="1" name="SERVER_RESPONSE_ERROR">您的网络连接质量不稳。</msg>
+	<msg code="2003" type="0" priority="1" name="WANT_QUIT">您确定要退出吗？</msg>
+	<msg code="2004" type="0" priority="1" name="IDLE_TIMEOUT">您的网络连接质量不稳。</msg>
+	<msg code="2005" type="0" priority="1" name="CANNOT_BACKTO_THEME">请先完成此回合，再行结束哦。</msg>
+	<msg code="2006" type="0" priority="1" name="EXPIRE_MAX_CREDIT">您的余额已达封顶限制。</msg>
+	<msg code="2007" type="0" priority="1" name="BET_ERROR">您的余额不足，将退回本次的下注。</msg>
+	<msg code="2008" type="0" priority="1" name="SERVER_DATA_ERROR">您的网络连接质量不稳。</msg>
+	<msg code="2009" type="0" priority="1" name="JOIN_LOBBY_FAIL">您的网络连接质量不稳。</msg>
+	<msg code="2025" type="0" priority="1" name="BET_ERROR_MAX_BET">允许最大的总和下注是%s， 您本次的下注失敗将被退回。</msg>
+	<msg code="2026" type="0" priority="1" name="BET_ERROR_MIN_BET">允许最小的总和下注是%s， 您本次的下注失敗将被退回。</msg>
+	<msg code="2027" type="0" priority="1" name="BET_ERROR_DATA">本次投注出現不允許的規則限制， 本次下注将被退回。</msg>
+	<msg code="2028" type="0" priority="1" name="DOUBLE_UP_LIMIT_REACHED">双倍加注已达封顶限制了。</msg>
+	<msg code="2029" type="0" priority="1" name="ADD_CLIENT_MONEY_TIMEOUT">您的网络连接质量不稳。</msg>
+  <msg code="2030" type="0" priority="1" name="INSUFFICIENT_AMOUNT_STORE">Insuffcient Balance! Please get more coin at the shop.</msg>
+	<msg code="2031" type="0" priority="1" name="TOO_MUCH_BALANCE">Your balance is too much.</msg>
+	<!-- slot -->
+	<msg code="2010" type="0" priority="1" name="SERVER_RESPONSE_ERROR_MAINGAME_SPIN_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2011" type="0" priority="1" name="SERVER_DATA_ERROR_MAINGAME_SPIN_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2012" type="0" priority="1" name="SERVER_RESPONSE_ERROR_FREEGAME_SPIN_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2013" type="0" priority="1" name="SERVER_DATA_ERROR_FREEGAME_SPIN_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2014" type="0" priority="1" name="SERVER_RESPONSE_ERROR_DOUBLEGAME_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2015" type="0" priority="1" name="SERVER_DATA_ERROR_DOUBLEGAME_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2016" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS1_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2017" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS1_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2018" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS2_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2019" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS2_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2020" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS3_ACK">您的网络连接质量不稳。</msg>
+	<msg code="2021" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS3_ACK">您的网络连接质量不稳。</msg>
+	<!-- arcade -->
+	<msg code="2022" type="0" priority="1" name="SERVER_KICKOUT">您的网络连接质量不稳。</msg>
+	<msg code="2023" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_CLIENT">您的网络连接质量不稳。</msg>
+	<msg code="2024" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_SERVER">您的网络连接质量不稳。</msg>
+	<!-- mobile lobby -->
+	<msg code="3000" type="0" priority="1" name="NOT_ENOUGH_CAPACITY">加载失败，您得装置硬件空间不足。</msg>
+	<msg code="3001" type="0" priority="1" name="LOBBY_PROGRESS_PANEL_NULL">补丁失败！ 请尽快重建！</msg>
+	<msg code="3002" type="0" priority="1" name="LOBBY_NEW_VERSION_DETECTED">检测到新的更新，请获取最新版本。</msg>
+	<msg code="3003" type="0" priority="1" name="LOBBY_GAME_LOCKED">游戏锁定， 请联系客户服务以获得帮助。</msg>
+	<msg code="3004" type="0" priority="1" name="LOBBY_GAME_DOWNLOADING">游戏正在下载</msg>
+	<msg code="3005" type="0" priority="1" name="LOBBY_GAME_MEM_REQ_1GB">这款游戏对于设备最小内存要求是1GB。</msg>
+	<msg code="3006" type="0" priority="1" name="LOBBY_GAME_PROGRESSING">游戏正在进行中， 比赛结束后，您可以返回大厅。</msg>
+	<msg code="3007" type="0" priority="1" name="LOBBY_DEPOSIT">储值%s分</msg>
+	<msg code="3008" type="0" priority="1" name="LOBBY_CASH_OUT">提领%s分</msg>
+	<!-- Client Msg -->
+	<msg code="9101" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG">您闲置没下注时间过长，如果下注会重新计时，可避免计时结束自动退出游戏。</msg>
+	<msg code="9102" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG_NEW">由于活动结束，本游戏将在几秒钟后自动关闭。单击“确定”继续播放。</msg>
+	<msg code="9103" type="0" priority="1" name="CLIENT_IDLE_TOO_LONG_CLOSED">由于活动结束，此游戏将自动关闭。单击确定即返回大厅。</msg>
+	<msg code="9201" type="0" priority="1" name="CLIENT_MSG_IDLE_TOO_LONG">您未投注闲置时间过长。请您下注或将退出游戏。</msg>
+	<!-- H5 Client Msg -->
+	<msg code="50000" type="0" priority="1" name="HTML5_BROWSER_ERROR">为获得最佳性能，推荐使用Chrome或Safari或FireFox</msg>
+	<msg code="50001" type="0" priority="1" name="HTML5_WEBGL_NOT_SUPPORT">请更新浏览器版本或推荐使用Safari、火狐、谷歌浏览器</msg>
+	<!-- system -->
+	<msg code="100101" type="0" priority="1" name="ERRORID_MAX_GAMES_WERE_OPENED">您已达到打开的游戏窗口的最大数量。</msg>
+	<msg code="100102" type="0" priority="1" name="CONFIRM_BACKTO_THEMELIST">你确定要回到选单页吗？</msg>
+	<msg code="100103" type="0" priority="1" name="CONFIRM_COMPLETE_GAME_BEFORE_QUIT">完成此回合才能结束哦。</msg>
+	<msg code="100104" type="0" priority="1" name="LOADER_FAILED">加载文件错误，请重新打开游戏。</msg>
+	<!-- Server -->
+	<msg code="200001" type="0" priority="1" name="STATUS_CODE_ERR_CMD_NOT_FOUND">状态异常。</msg>
+	<msg code="200002" type="0" priority="1" name="STATUS_CODE_ERR_DATA_FIELD">状态异常。</msg>
+	<msg code="200003" type="0" priority="1" name="STATUS_CODE_ERR_CMD_IMP">状态异常。</msg>
+	<msg code="200004" type="0" priority="1" name="STATUS_CODE_ERR_USER_NOT_EXIST">状态异常。</msg>
+	<msg code="200005" type="0" priority="1" name="STATUS_CODE_ERR_TOKEN_EXPIRED">状态异常。</msg>
+	<msg code="200006" type="0" priority="1" name="STATUS_CODE_ERR_SIGNATURE">状态异常。</msg>
+	<msg code="200007" type="0" priority="1" name="STATUS_CODE_ERR_JSON_FORMAT">状态异常。</msg>
+	<msg code="200008" type="0" priority="1" name="STATUS_CODE_ERR_SET_SESSION">状态异常。</msg>
+	<msg code="200009" type="0" priority="1" name="STATUS_CODE_ERR_SET_SHARD_INFO">状态异常。</msg>
+	<msg code="200010" type="0" priority="1" name="STATUS_CODE_ERR_USER_HAD_BEEN_SUSPENDED">状态异常。</msg>
+	<msg code="209999" type="0" priority="1" name="STATUS_CODE_ERR_EXCEPTION">状态异常。</msg>
+	<!-- Main Game -->
+	<msg code="200020" type="0" priority="1" name="STATUS_CODE_ERR_ANOTHER_DEVICE_IS_PLAYING">此帐号已由其他装置登入。</msg>
+	<msg code="200021" type="0" priority="1" name="STATUS_CODE_ERR_COIN_NOT_ENOUGH">帐号余额不足。</msg>
+	<msg code="200024" type="0" priority="1" name="STATUS_CODE_ERR_SPIN_AUTH">状态异常。</msg>
+	<msg code="200025" type="0" priority="1" name="STATUS_CODE_ERR_GAME_SESSION_MISSING">状态异常。</msg>
+	<msg code="200026" type="0" priority="1" name="STATUS_CODE_ERR_BET_ALREADY_CONSUMED">状态异常。</msg>
+	<msg code="200027" type="0" priority="1" name="STATUS_CODE_ERR_BET_DATA_NOT_EXISTS">状态异常。</msg>
+	<msg code="200028" type="0" priority="1" name="STATUS_CODE_ERR_USER_IS_PLAYING_SOCKET_GAME">此帐号正在游玩其他游戏。</msg>
+	<msg code="200029" type="0" priority="1" name="STATUS_CODE_ERR_MAINGAME_STATE_EXCEPTION">状态异常。</msg>
+	<msg code="200030" type="0" priority="1" name="STATUS_CODE_ERR_BONUSGAME_STATE_EXCEPTION">状态异常。</msg>
+	<msg code="200031" type="0" priority="1" name="STATUS_CODE_ERR_FEVERGAME_STATE_EXCEPTION">状态异常。</msg>
+	<msg code="200032" type="0" priority="1" name="STATUS_CODE_ERR_GAME_IS_UNDER_CONSTRUCTION">状态异常。</msg>
+	<msg code="200033" type="0" priority="1" name="STATUS_CODE_ERR_GET_GAME_STATE_ERROR">状态异常。</msg>
+	<msg code="200034" type="0" priority="1" name="STATUS_CODE_ERR_UPDATE_GAME_STATE_ERROR">状态异常。</msg>
+	<msg code="200035" type="0" priority="1" name="STATUS_CODE_ERR_USER_BALANCE_ERROR">状态异常。</msg>
+	<msg code="200036" type="0" priority="1" name="STATUS_CODE_ERR_USER_START_GAME_INFO_SN_ERROR">状态异常。</msg>
+	<msg code="200037" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_STATE_EXCEPTION">状态异常。</msg>
+	<msg code="200038" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_IS_UNDER_CONSTRUCTION">状态异常。</msg>
+	<!-- API Server Connect -->
+	<msg code="201001" type="0" priority="1" name="STATUS_CODE_ERR_API_SIGN_ERROR">状态异常。</msg>
+	<msg code="201002" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DATA_ILLEAGL">状态异常。</msg>
+	<msg code="201003" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_NOT_EXIST">状态异常。</msg>
+	<msg code="201005" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DUPLICATE">状态异常。</msg>
+	<msg code="201009" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_BALANCE_NOT_EXIST">状态异常。</msg>
+	<msg code="201011" type="0" priority="1" name="STATUS_CODE_ERR_API_COIN_NOT_ENOUGH">帐号余额不足。</msg>
+	<msg code="201013" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_DATA_NOT_EXIST">状态异常。</msg>
+	<msg code="201099" type="0" priority="1" name="STATUS_CODE_ERR_API_DATABASE_ERROR">状态异常。</msg>
+	<msg code="201999" type="0" priority="1" name="ESTATUS_CODE_ERR_API_SERVER_ERROR">状态异常。</msg>
+	
+</data>

@@ -1,0 +1,100 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "2e7146e8-a99f-4314-8668-b2fccc358ea5",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "YouWin": {
+      "ver": "1.0.6",
+      "uuid": "a7afd2ee-8e39-48a7-bfa9-ca69f108ef42",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2e7146e8-a99f-4314-8668-b2fccc358ea5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1226,
+      "height": 112,
+      "rawWidth": 1226,
+      "rawHeight": 112,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "f9941": {
+      "uuid": "2c0343f5-3227-431f-8d16-16b2b6a2154e",
+      "imported": false,
+      "importer": "sprite-frame",
+      "files": [],
+      "subMetas": {},
+      "userData": {
+        "importer": "sprite-frame",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 1226,
+        "height": 112,
+        "rawWidth": 1226,
+        "rawHeight": 112,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "imageUuidOrDatabaseUri": "2e7146e8-a99f-4314-8668-b2fccc358ea5@6c48a"
+      },
+      "ver": "0.0.1",
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "2e7146e8-a99f-4314-8668-b2fccc358ea5@6c48a",
+      "displayName": "YouWin",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "clamp-to-edge",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2e7146e8-a99f-4314-8668-b2fccc358ea5",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "2e7146e8-a99f-4314-8668-b2fccc358ea5@6c48a"
+  }
+}

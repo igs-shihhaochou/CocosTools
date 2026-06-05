@@ -1,0 +1,286 @@
+
+MaxWinBoard.png
+size: 1309,1015
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+all_light
+  rotate: false
+  xy: 116, 510
+  size: 228, 98
+  orig: 228, 98
+  offset: 0, 0
+  index: -1
+bw_vfx_j_add_03
+  rotate: false
+  xy: 965, 273
+  size: 246, 247
+  orig: 246, 247
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 588, 702
+  size: 185, 115
+  orig: 185, 115
+  offset: 0, 0
+  index: -1
+crown_light
+  rotate: false
+  xy: 1, 522
+  size: 113, 77
+  orig: 113, 77
+  offset: 0, 0
+  index: -1
+dark
+  rotate: false
+  xy: 1290, 1
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+g111
+  rotate: false
+  xy: 589, 468
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+Glow_1
+  rotate: false
+  xy: 665, 819
+  size: 419, 195
+  orig: 419, 195
+  offset: 0, 0
+  index: -1
+Glow_02
+  rotate: false
+  xy: 965, 1
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+Glow_2
+  rotate: false
+  xy: 1, 617
+  size: 455, 269
+  orig: 455, 269
+  offset: 0, 0
+  index: -1
+Glow_011
+  rotate: false
+  xy: 949, 522
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+left_L
+  rotate: false
+  xy: 448, 888
+  size: 215, 124
+  orig: 215, 124
+  offset: 0, 0
+  index: -1
+left_L_light
+  rotate: false
+  xy: 1237, 111
+  size: 66, 51
+  orig: 66, 51
+  offset: 0, 0
+  index: -1
+left_R
+  rotate: false
+  xy: 232, 888
+  size: 214, 125
+  orig: 214, 125
+  offset: 0, 0
+  index: -1
+left_R_light
+  rotate: false
+  xy: 1131, 522
+  size: 80, 51
+  orig: 80, 51
+  offset: 0, 0
+  index: -1
+Max_Win1
+  rotate: false
+  xy: 823, 468
+  size: 124, 120
+  orig: 124, 120
+  offset: 0, 0
+  index: -1
+Max_Win2
+  rotate: false
+  xy: 458, 740
+  size: 107, 111
+  orig: 107, 111
+  offset: 0, 0
+  index: -1
+Max_Win3
+  rotate: false
+  xy: 775, 702
+  size: 85, 107
+  orig: 85, 107
+  offset: 0, 0
+  index: -1
+Max_Win4
+  rotate: false
+  xy: 823, 590
+  size: 111, 110
+  orig: 111, 110
+  offset: 0, 0
+  index: -1
+Max_Win5
+  rotate: false
+  xy: 1237, 1
+  size: 51, 108
+  orig: 51, 108
+  offset: 0, 0
+  index: -1
+Max_Win6
+  rotate: false
+  xy: 1183, 617
+  size: 109, 118
+  orig: 109, 118
+  offset: 0, 0
+  index: -1
+Max_Win_shadow
+  rotate: false
+  xy: 1, 468
+  size: 135, 40
+  orig: 135, 40
+  offset: 0, 0
+  index: -1
+MoneyPile
+  rotate: false
+  xy: 1, 1
+  size: 962, 465
+  orig: 962, 465
+  offset: 0, 0
+  index: -1
+MoneyPile_light
+  rotate: false
+  xy: 346, 468
+  size: 241, 140
+  orig: 241, 140
+  offset: 0, 0
+  index: -1
+newcoin0000
+  rotate: false
+  xy: 1237, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0002
+  rotate: false
+  xy: 1237, 216
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0003
+  rotate: false
+  xy: 1237, 268
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0004
+  rotate: false
+  xy: 1131, 575
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0005
+  rotate: false
+  xy: 1131, 627
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0006
+  rotate: false
+  xy: 1131, 679
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0009
+  rotate: false
+  xy: 567, 819
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0010
+  rotate: false
+  xy: 862, 702
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0011
+  rotate: false
+  xy: 862, 754
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+newcoin0012
+  rotate: false
+  xy: 1119, 731
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+Particle_1
+  rotate: false
+  xy: 1119, 783
+  size: 189, 106
+  orig: 189, 106
+  offset: 0, 0
+  index: -1
+Particle_2
+  rotate: false
+  xy: 914, 704
+  size: 203, 99
+  orig: 203, 99
+  offset: 0, 0
+  index: -1
+Particle_3
+  rotate: false
+  xy: 1086, 891
+  size: 203, 96
+  orig: 203, 96
+  offset: 0, 0
+  index: -1
+special_effects3
+  rotate: false
+  xy: 1, 888
+  size: 229, 120
+  orig: 229, 120
+  offset: 0, 0
+  index: -1
+Star_1
+  rotate: false
+  xy: 1213, 481
+  size: 80, 134
+  orig: 80, 134
+  offset: 0, 0
+  index: -1
+Star_2
+  rotate: false
+  xy: 1213, 320
+  size: 94, 159
+  orig: 94, 159
+  offset: 0, 0
+  index: -1
+xg_01
+  rotate: false
+  xy: 458, 610
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

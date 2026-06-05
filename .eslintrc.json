@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "@typescript-eslint-no-namespce": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "camelcase": "warn",
+    "no-prototype-builtins": "off"
+  }
+}

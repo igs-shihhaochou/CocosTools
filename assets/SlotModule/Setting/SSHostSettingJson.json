@@ -1,0 +1,72 @@
+{
+  "connectSetting": {
+    "isConnectServer": true,
+    "serverAddress": "http://54.248.221.3:8080",
+    "fakeDataPathStartGame": "G08_MonkeyKing\\LocalGameData\\G60_StartGame.txt",
+    "fakeDataPathSpin": [
+      "G08_MonkeyKing\\LocalGameData\\G60_MysteryFG_KillBullWIn.txt",
+      "G08_MonkeyKing\\LocalGameData\\G60_MysteryFG_KillBullWIn.txt",
+      "G08_MonkeyKing\\LocalGameData\\G60_FreeGame.txt"
+    ],
+    "retryIntervalArray": [
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  "gameSetting": {
+    "readyToSpinDelay": {
+      "noWin": 0.4,
+      "fastSpinNoWin": 0.4,
+      "haveWin": 0.1,
+      "multiplier": 1
+    },
+    "inGameJPIntervalTime": 10,
+    "isUseShutter": false,
+    "quickStopWhenFastSpin": true,
+    "bgm": {
+      "fadeInWhenSpin": false,
+      "fadeOutDelay": -1
+    }
+  },
+  "bingo": {
+    "showMode": 2,
+    "useBingoFrame": true,
+    "useWheelMask": true,
+    "useScatterWin": false,
+    "dontShowAllBingoAnimationInMG": false,
+    "showWinEffectAfterAllBingo": true,
+    "showDuation": 2,
+    "hideDuration": 0
+  },
+  "winEffect": {
+    "skipInSpecialGame": true,
+    "showTotalAfterSpecialGame": true,
+    "smallWin": {
+      "showDelay": 0,
+      "duration": 0.01,
+      "skipDelay": 0
+    },
+    "bigWin": {
+      "showDelay": 0,
+      "duration": 4,
+      "skipDelay": 1
+    },
+    "megaWin": {
+      "showDelay": 0,
+      "duration": 8,
+      "skipDelay": 1
+    },
+    "superWin": {
+      "showDelay": 0,
+      "duration": 12,
+      "skipDelay": 1
+    },
+    "specialWin": {
+      "showDelay": 0,
+      "duration": 4,
+      "skipDelay": 1
+    }
+  }
+}

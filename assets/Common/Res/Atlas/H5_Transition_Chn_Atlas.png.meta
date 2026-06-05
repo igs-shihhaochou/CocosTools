@@ -1,0 +1,100 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a24a6df8-c845-4145-a1c4-cae8ccf9be33",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "H5_Transition_Chn_Atlas": {
+      "ver": "1.0.6",
+      "uuid": "32c7ccd6-8045-4958-8a9b-a64894ddf4a5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a24a6df8-c845-4145-a1c4-cae8ccf9be33",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4,
+      "offsetY": 14,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 500,
+      "height": 480,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "f9941": {
+      "uuid": "f73433ec-5f83-4c73-b154-3aae65d1fd5b",
+      "imported": false,
+      "importer": "sprite-frame",
+      "files": [],
+      "subMetas": {},
+      "userData": {
+        "importer": "sprite-frame",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -4,
+        "offsetY": 14,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 500,
+        "height": 480,
+        "rawWidth": 512,
+        "rawHeight": 512,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "imageUuidOrDatabaseUri": "a24a6df8-c845-4145-a1c4-cae8ccf9be33@6c48a"
+      },
+      "ver": "0.0.1",
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a24a6df8-c845-4145-a1c4-cae8ccf9be33@6c48a",
+      "displayName": "H5_Transition_Chn_Atlas",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "clamp-to-edge",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a24a6df8-c845-4145-a1c4-cae8ccf9be33",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "a24a6df8-c845-4145-a1c4-cae8ccf9be33@6c48a"
+  }
+}

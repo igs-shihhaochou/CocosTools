@@ -1,0 +1,13 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "397e8c6e-9c9a-475c-8adf-e8c527f35651",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "bundleName": "CommonLoadingPage",
+    "isBundle": true,
+    "priority": 5
+  }
+}

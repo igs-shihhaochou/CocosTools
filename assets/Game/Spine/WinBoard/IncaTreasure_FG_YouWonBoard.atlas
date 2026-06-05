@@ -1,0 +1,356 @@
+
+IncaTreasure_FG_YouWonBoard.png
+size: 974,1253
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 868, 236
+  size: 72, 140
+  orig: 72, 140
+  offset: 0, 0
+  index: -1
+box1_1
+  rotate: false
+  xy: 335, 1099
+  size: 263, 72
+  orig: 263, 72
+  offset: 0, 0
+  index: -1
+box1_2
+  rotate: false
+  xy: 633, 946
+  size: 277, 36
+  orig: 277, 36
+  offset: 0, 0
+  index: -1
+box2
+  rotate: false
+  xy: 5, 704
+  size: 294, 199
+  orig: 294, 199
+  offset: 0, 0
+  index: -1
+box2_1
+  rotate: false
+  xy: 518, 515
+  size: 297, 113
+  orig: 297, 113
+  offset: 0, 0
+  index: -1
+box2_2
+  rotate: false
+  xy: 518, 638
+  size: 289, 98
+  orig: 289, 98
+  offset: 0, 0
+  index: -1
+box2_3
+  rotate: false
+  xy: 516, 5
+  size: 388, 104
+  orig: 388, 104
+  offset: 0, 0
+  index: -1
+box2_4
+  rotate: false
+  xy: 537, 119
+  size: 298, 121
+  orig: 298, 121
+  offset: 0, 0
+  index: -1
+box2_4_2
+  rotate: false
+  xy: 777, 1088
+  size: 84, 24
+  orig: 84, 24
+  offset: 0, 0
+  index: -1
+box_1
+  rotate: false
+  xy: 309, 746
+  size: 539, 32
+  orig: 539, 32
+  offset: 0, 0
+  index: -1
+box_2
+  rotate: false
+  xy: 5, 1198
+  size: 524, 37
+  orig: 524, 37
+  offset: 0, 0
+  index: -1
+box_gold
+  rotate: false
+  xy: 5, 913
+  size: 320, 142
+  orig: 320, 142
+  offset: 0, 0
+  index: -1
+congrats
+  rotate: false
+  xy: 5, 5
+  size: 501, 150
+  orig: 501, 150
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 633, 888
+  size: 288, 48
+  orig: 288, 48
+  offset: 0, 0
+  index: -1
+gold_1
+  rotate: false
+  xy: 886, 744
+  size: 76, 106
+  orig: 76, 106
+  offset: 0, 0
+  index: -1
+gold_2
+  rotate: false
+  xy: 914, 70
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+gold_3
+  rotate: false
+  xy: 909, 386
+  size: 42, 56
+  orig: 42, 56
+  offset: 0, 0
+  index: -1
+gold_4
+  rotate: false
+  xy: 777, 992
+  size: 81, 86
+  orig: 81, 86
+  offset: 0, 0
+  index: -1
+gold_5
+  rotate: false
+  xy: 909, 452
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+gold_6
+  rotate: false
+  xy: 707, 1122
+  size: 77, 87
+  orig: 77, 87
+  offset: 0, 0
+  index: -1
+gold_7
+  rotate: false
+  xy: 845, 119
+  size: 106, 107
+  orig: 106, 107
+  offset: 0, 0
+  index: -1
+gold_8
+  rotate: false
+  xy: 608, 1122
+  size: 89, 126
+  orig: 89, 126
+  offset: 0, 0
+  index: -1
+gold_9
+  rotate: false
+  xy: 633, 992
+  size: 134, 120
+  orig: 134, 120
+  offset: 0, 0
+  index: -1
+gold_10
+  rotate: false
+  xy: 401, 669
+  size: 74, 61
+  orig: 74, 61
+  offset: 0, 0
+  index: -1
+gold_11
+  rotate: false
+  xy: 539, 1181
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
+gold_12
+  rotate: false
+  xy: 794, 1122
+  size: 85, 75
+  orig: 85, 75
+  offset: 0, 0
+  index: -1
+gold_heap_1
+  rotate: false
+  xy: 335, 897
+  size: 288, 92
+  orig: 288, 92
+  offset: 0, 0
+  index: -1
+gold_heap_2
+  rotate: false
+  xy: 309, 788
+  size: 288, 99
+  orig: 288, 99
+  offset: 0, 0
+  index: -1
+gold_heap_3
+  rotate: false
+  xy: 335, 999
+  size: 286, 90
+  orig: 286, 90
+  offset: 0, 0
+  index: -1
+gold_heap_4
+  rotate: false
+  xy: 607, 788
+  size: 269, 90
+  orig: 269, 90
+  offset: 0, 0
+  index: -1
+leaf_1
+  rotate: false
+  xy: 315, 487
+  size: 193, 172
+  orig: 193, 172
+  offset: 0, 0
+  index: -1
+leaf_2
+  rotate: false
+  xy: 5, 265
+  size: 360, 208
+  orig: 360, 208
+  offset: 0, 0
+  index: -1
+leaf_3
+  rotate: false
+  xy: 763, 250
+  size: 95, 155
+  orig: 95, 155
+  offset: 0, 0
+  index: -1
+leaf_4
+  rotate: false
+  xy: 763, 415
+  size: 136, 87
+  orig: 136, 87
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 5, 483
+  size: 300, 211
+  orig: 300, 211
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 825, 599
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+light_3
+  rotate: false
+  xy: 375, 265
+  size: 224, 212
+  orig: 224, 212
+  offset: 0, 0
+  index: -1
+light_4
+  rotate: false
+  xy: 609, 250
+  size: 144, 255
+  orig: 144, 255
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 825, 512
+  size: 144, 77
+  orig: 144, 77
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 707, 1219
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 914, 5
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+Star_4
+  rotate: false
+  xy: 485, 669
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+x_jb
+  rotate: false
+  xy: 5, 1065
+  size: 320, 123
+  orig: 320, 123
+  offset: 0, 0
+  index: -1
+x_jb_1
+  rotate: false
+  xy: 868, 992
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+x_jb_2
+  rotate: false
+  xy: 889, 1199
+  size: 73, 42
+  orig: 73, 42
+  offset: 0, 0
+  index: -1
+x_jb_3
+  rotate: false
+  xy: 889, 1072
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+x_jb_4
+  rotate: false
+  xy: 889, 1136
+  size: 73, 53
+  orig: 73, 53
+  offset: 0, 0
+  index: -1
+x_jb_5
+  rotate: false
+  xy: 315, 669
+  size: 76, 50
+  orig: 76, 50
+  offset: 0, 0
+  index: -1
+x_jb_shadow
+  rotate: false
+  xy: 518, 487
+  size: 73, 15
+  orig: 73, 15
+  offset: 0, 0
+  index: -1
+you_have_won
+  rotate: false
+  xy: 5, 165
+  size: 522, 90
+  orig: 522, 90
+  offset: 0, 0
+  index: -1

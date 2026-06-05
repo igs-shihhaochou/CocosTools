@@ -1,0 +1,202 @@
+
+AltarRiches_Rotor.png
+size: 2000,636
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Circle_04
+  rotate: false
+  xy: 1250, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+FX_SoftGlowDots
+  rotate: true
+  xy: 992, 27
+  size: 92, 87
+  orig: 93, 87
+  offset: 0, 0
+  index: -1
+Lz11
+  rotate: true
+  xy: 730, 291
+  size: 344, 154
+  orig: 397, 154
+  offset: 0, 0
+  index: -1
+P2yuansu_3
+  rotate: true
+  xy: 1838, 315
+  size: 157, 158
+  orig: 159, 160
+  offset: 2, 1
+  index: -1
+eff_glow_shanguang_022_y
+  rotate: false
+  xy: 734, 33
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 886, 379
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+glow1
+  rotate: true
+  xy: 131, 235
+  size: 400, 133
+  orig: 400, 133
+  offset: 0, 0
+  index: -1
+glow1_1
+  rotate: true
+  xy: 266, 235
+  size: 400, 133
+  orig: 400, 133
+  offset: 0, 0
+  index: -1
+glow3
+  rotate: false
+  xy: 131, 133
+  size: 367, 100
+  orig: 367, 100
+  offset: 0, 0
+  index: -1
+glow3_0
+  rotate: true
+  xy: 628, 268
+  size: 367, 100
+  orig: 367, 100
+  offset: 0, 0
+  index: -1
+glow4
+  rotate: true
+  xy: 536, 251
+  size: 384, 90
+  orig: 389, 94
+  offset: 5, 1
+  index: -1
+glow_1
+  rotate: true
+  xy: 1495, 186
+  size: 218, 213
+  orig: 218, 218
+  offset: 0, 5
+  index: -1
+hg2
+  rotate: false
+  xy: 500, 1
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+hkg
+  rotate: true
+  xy: 1710, 223
+  size: 198, 125
+  orig: 232, 232
+  offset: 17, 53
+  index: -1
+kuang
+  rotate: true
+  xy: 401, 235
+  size: 400, 133
+  orig: 400, 133
+  offset: 0, 0
+  index: -1
+liuguang1
+  rotate: true
+  xy: 1, 12
+  size: 109, 466
+  orig: 109, 524
+  offset: 0, 58
+  index: -1
+lx02
+  rotate: false
+  xy: 1510, 4
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+qq_0
+  rotate: true
+  xy: 886, 303
+  size: 74, 88
+  orig: 100, 100
+  offset: 0, 12
+  index: -1
+trail01
+  rotate: false
+  xy: 1, 123
+  size: 128, 512
+  orig: 128, 512
+  offset: 0, 0
+  index: -1
+trail03
+  rotate: false
+  xy: 1380, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+tx/fazhen
+  rotate: false
+  xy: 992, 121
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+tx/gx05
+  rotate: true
+  xy: 1144, 379
+  size: 256, 250
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+tx/gx08
+  rotate: false
+  xy: 1250, 134
+  size: 243, 243
+  orig: 256, 256
+  offset: 5, 6
+  index: -1
+tx/xg_01
+  rotate: false
+  xy: 1692, 56
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+tx/yh01
+  rotate: false
+  xy: 1837, 159
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+xg2
+  rotate: false
+  xy: 1838, 474
+  size: 161, 161
+  orig: 222, 167
+  offset: 31, 3
+  index: -1
+yh04
+  rotate: false
+  xy: 1624, 423
+  size: 212, 212
+  orig: 212, 212
+  offset: 0, 0
+  index: -1
+zc_glow7_00000
+  rotate: false
+  xy: 1396, 406
+  size: 226, 229
+  orig: 226, 229
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+ExtraPlayTriggered.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ExtraBetTriggered01
+  rotate: false
+  xy: 680, 118
+  size: 101, 110
+  orig: 101, 110
+  offset: 0, 0
+  index: -1
+ExtraBetTriggered02
+  rotate: false
+  xy: 620, 6
+  size: 101, 110
+  orig: 101, 110
+  offset: 0, 0
+  index: -1
+ExtraBetTriggered03
+  rotate: false
+  xy: 0, 0
+  size: 209, 228
+  orig: 209, 228
+  offset: 0, 0
+  index: -1
+ExtraBetTriggered04
+  rotate: false
+  xy: 211, 138
+  size: 467, 90
+  orig: 467, 90
+  offset: 0, 0
+  index: -1
+ExtraBetTriggered05
+  rotate: false
+  xy: 211, 49
+  size: 381, 87
+  orig: 381, 87
+  offset: 0, 0
+  index: -1
+extra-play-triggered
+  rotate: false
+  xy: 211, 0
+  size: 407, 47
+  orig: 407, 47
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<!-- Server Response Message -->
+	<!--AccessDeniedReason -->
+	<msg code="0" type="0" priority="1" name="UNDEFINED">Rangkaian internet tidak stabil, gagal disambung ke pelayar!</msg>
+	<msg code="1" type="0" priority="2" name="ACCESSDENIED_USER_NAME_NOT_FOUND">Akaun atau kata laluan yang salah, sila cuba semula.</msg>
+	<msg code="2" type="0" priority="1" name="USER_NAME_NOT_FOUND">Akaun atau kata laluan yang salah, sila cuba semula.</msg>
+	<msg code="3" type="0" priority="1" name="DUPLICATE_LOGIN">Akaun ini telah digunakan</msg>
+	<msg code="4" type="0" priority="2" name="USER_NAME_IS_EMPTY">Akaun atau kata laluan yang diberikan tidak tepat</msg>
+	<msg code="5" type="0" priority="1" name="PASSWORD_INCORRECT">Akaun atau kata laluan yang diberikan tidak tepat</msg>
+	<msg code="6" type="0" priority="2" name="NO_BASE">Ralat berlaku semasa proses pemasangan. Anda akan kembali ke ruang utama, sila masuk ke permainan kemudian.</msg>
+	<msg code="7" type="0" priority="2" name="REGISTER_BASE_FAIL">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="8" type="0" priority="2" name="L1_REJECT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="9" type="0" priority="1" name="INVALID_PROTOCOL_VERSION">Kemas kini terbaru sudah tersedia, sila muat turun sekarang.</msg>
+	<msg code="10" type="0" priority="2" name="NO_NICKNAME">Akaun atau kata laluan yang diberikan tidak tepat</msg>
+	<msg code="11" type="0" priority="2" name="UNKNOWN">Akaun ini telah dibeku sementara, sila hubungi perkhidmatan pelanggan.</msg>
+	<msg code="20" type="0" priority="1" name="USER_NAME_IS_EMPTY">Akaun atau kata laluan yang salah, sila cuba semula.</msg>
+	<msg code="22" type="0" priority="1" name="CHECK_KEY_IS_ZERO">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="24" type="0" priority="1" name="L1_REJECT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="25" type="0" priority="1" name="NOT_SOBER">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="27" type="0" priority="1" name="NO_BASE">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="28" type="0" priority="1" name="REGISTER_BASE_FAIL">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="29" type="0" priority="1" name="VERIFY_NUMBER_ERROR">Kod pengesahan tidak berkesan, sila memasukkan semula kod.</msg>
+	<msg code="30" type="0" priority="1" name="NO_NICKNAME">Akaun atau kata laluan yang diberikan tidak tepat</msg>
+	<msg code="31" type="0" priority="1" name="PERMISSION_TYPE_CENTRAL_NOT_FOUND">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="32" type="0" priority="1" name="PERMISSION_TYPE_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="33" type="0" priority="1" name="PERMISSION_TYPE_RELOGIN_TOO_FAST">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="34" type="0" priority="1" name="PERMISSION_TYPE_HS_CODE_REQUIRED">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="254" type="0" priority="1" name="MAINTENANCE">Pelayan permainan sedang diselenggara, sila log masuk kemudian!</msg>
+	<msg code="255" type="0" priority="1" name="UNKNOWN">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<!-- login failed -->
+	<msg code="100" type="0" priority="1" name="LOGINFAILED_VERIFY_FAILED">Gagal untuk memadankan kod pengesahan, sila cuba kemudian.</msg>
+	<msg code="101" type="0" priority="1" name="LOGINFAILED_LOGIN_FAILED">Pelayan permainan sedang diselenggara, sila log masuk kemudian!</msg>
+	<msg code="190" type="0" priority="1" name="LOGINFAILED_UNKNOWN">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="192" type="0" priority="1" name="LOGINFAILED_INVALID_GROUPNAME">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<!-- disconnected with base server reason code -->
+	<msg code="200" type="0" priority="1" name="DISCONNECTED_NETWORK_FAILED">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="201" type="0" priority="1" name="DISCONNECTED_ACCESS_DENIED">Akaun atau kata laluan yang salah, sila cuba semula.</msg>
+	<msg code="202" type="0" priority="1" name="DISCONNECTED_WRONG_PROTOCOL">Versi permainan ini tidak lagi berfungsi, permainan akan dikemaskini secara automatik.</msg>
+	<msg code="203" type="0" priority="1" name="DISCONNECTED_USER_REQUEST">Sambungan talian anda telah putus</msg>
+	<msg code="204" type="0" priority="1" name="DISCONNECTED_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="205" type="0" priority="1" name="DISCONNECTED_NETWORK_SHUTDOWN">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="206" type="0" priority="1" name="DISCONNECTED_RESET_BY_PEER">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="220" type="0" priority="1" name="DISCONNECTED_STILL_ONLINE">Sambungan ke peranti mudah alih akan diputuskan.</msg>
+	<msg code="222" type="0" priority="1" name="DISCONNECTED_MASTER_KICKED">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="224" type="0" priority="1" name="DISCONNECTED_USER_SHUTDOWN">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="225" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_SHUTDOWN">Pelayan permainan sedang ditutup, sila log masuk kemudian.</msg>
+	<msg code="226" type="0" priority="1" name="DISCONNECTED_PACKAGE_OVERLOAD">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="240" type="0" priority="1" name="DISCONNECTED_USING_SPEEDER">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="241" type="0" priority="1" name="DISCONNECTED_TABLE_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="242" type="0" priority="1" name="DISCONNECTED_ACCOUNT_DATABASE_ERROR">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="243" type="0" priority="1" name="DISCONNECTED_BILL_DATABASE_ERROR">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="244" type="0" priority="1" name="DISCONNECTED_GAME_DATABASE_ERROR">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="245" type="0" priority="1" name="DISCONNECTED_TRY_PASSWORD_TOO_MANY_TIMES">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="246" type="0" priority="1" name="DISCONNECTED_COMMAND_ERROR">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="248" type="0" priority="1" name="DISCONNECTED_TABLE_FULL">Bilangan pemain telah penuh, sila cuba semula kemudian.</msg>
+	<msg code="260" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_SHUTDOWN">Ruang utama sedang ditutup, sila log masuk kemudian.</msg>
+	<msg code="261" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_DISCONNECT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="262" type="0" priority="1" name="DISCONNECTED_USER_LEAVE_GAME">Anda telah keluar dari permainan</msg>
+	<msg code="263" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_DISCONNECT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="264" type="0" priority="1" name="DISCONNECTED_BASE_CLEANUP">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="265" type="0" priority="1" name="DISCONNECTED_BASE_CANCEL_JOIN_GAME">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="266" type="0" priority="1" name="DISCONNECTED_JOIN_GAME_SERVER_EXCEPTION">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="267" type="0" priority="1" name="DISCONNECTED_USER_TABLE_IS_FULL">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="268" type="0" priority="1" name="DISCONNECTED_USER_IS_DUPLICATED">Akaun atau kata laluan yang salah, sila membezakan huruf besar dan huruf kecil dan memasukkan semula input.</msg>
+	<msg code="270" type="0" priority="1" name="DISCONNECTED_UNDISCONNECTED">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="271" type="0" priority="1" name="DISCONNECTED_UNDEFINED">Kemas kini terbaru sudah tersedia, sila muat turun sekarang.</msg>
+	<!-- user join game failed reason code -->
+	<msg code="310" type="0" priority="1" name="JOINGAME_INVALID_THEME_NAME">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="311" type="0" priority="1" name="JOINGAME_THEME_NOT_ACTIVE">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="312" type="0" priority="1" name="JOINGAME_GAME_SERVER_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="313" type="0" priority="1" name="JOINGAME_USER_IP_NOT_ALLOWED">Harap maaf, IP rangkaian internet ini telah dihadkan, gagal untuk memasuki permainan.</msg>
+	<msg code="314" type="0" priority="1" name="JOINGAME_VERSION_NOT_MATCHED">Kemas kini baharu telah dikesan, sila memuat turun versi terbaru.</msg>
+	<msg code="315" type="0" priority="1" name="JOINGAME_USER_ALREADY_JOINED">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="316" type="0" priority="1" name="JOINGAME_CANNOT_JOIN_MORE_GAMES">Terdapat permainan yang telah dibuka</msg>
+	<msg code="317" type="0" priority="1" name="JOINGAME_TEMPORARY_NOT_ALLOW">Ruang utama permainan sedang ditutup, sila log masuk kemudian.</msg>
+	<msg code="318" type="0" priority="1" name="JOINGAME_PERPARING_SHUTDOWN">Ruang utama permainan sedang ditutup, sila log masuk kemudian.</msg>
+	<msg code="321" type="0" priority="1" name="JOINGAME_PLS_RE_ENTER_GAME">Harap maaf, bilangan pemain telah mencapai had tertinggi</msg>
+	<msg code="330" type="0" priority="1" name="JOINGAME_THEME_IS_FULL">Harap maaf, bilangan pemain telah penuh, segala kesulitan amat dikesali</msg>
+	<msg code="331" type="0" priority="1" name="JOINGAME_USER_IS_DUPLICATE">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="332" type="0" priority="1" name="JOINGAME_GAME_SERVER_IS_SHUTTINGDOWN">Ruang utama permainan sedang ditutup, sila log masuk kemudian.</msg>
+	<msg code="333" type="0" priority="1" name="JOINGAME_GAME_SERVER_HAS_EXCEPTION">Gagal untuk memasuki ruang utama, sila cuba semula kemudian.</msg>
+	<msg code="334" type="0" priority="1" name="JOINGAME_GAME_SERVER_BAD_REJECTION">Harap maaf, anda gagal untuk memasuki ruang bilik ini, sila pilih ruang bilik yang lain.</msg>
+	<msg code="380" type="0" priority="1" name="JOINGAME_REJECTED">Harap maaf, anda gagal untuk memasuki permainan ini, sila pilih permainan yang lain.</msg>
+	<msg code="381" type="0" priority="1" name="JOINGAME_MONEY_IS_BELOW_MINIMUM">Baki anda tidak mencukupi, gagal untuk memasuki ruang permainan ini. Sila cuba ruang permainan yang lain.</msg>
+	<msg code="382" type="0" priority="1" name="JOINGAME_MONEY_IS_ABOVE_MAXIMUM">Baki yang anda mempunyai telah melebihi had ruang bilik permainan, sila pindah keluar sebahagian baki atau cuba ruang permainan yang lain.</msg>
+	<msg code="383" type="0" priority="1" name="JOINGAME_LEVEL_IS_BELOW_MINIMUM">Harap maaf! Tahap anda tidak melayakkan anda ke ruang bilik ini, sila cuba permainan yang lain.</msg>
+	<msg code="384" type="0" priority="1" name="JOINGAME_LEVEL_IS_ABOVE_MAXIMUM">Harap maaf! Tahap anda tidak melayakkan anda ke ruang bilik ini, sila cuba permainan yang lain.</msg>
+	<msg code="385" type="0" priority="1" name="JOINGAME_REPEATED_DISCONNECT">Anda telah membukakan permainan ini, sila cuba kemudian.</msg>
+	<msg code="386" type="0" priority="1" name="JOINGAME_CONTEST_FINISHED">Pertandingan kali ini telah tamat.</msg>
+	<msg code="387" type="0" priority="1" name="JOINGAME_CONTEST_ADMISSION_NOT_PAID">Pertandingan pusingan ini telah dihadkan oleh beberapa syarat, sila baca butiran aktiviti.</msg>
+	<msg code="395" type="0" priority="1" name="JOINGAME_UNJOINED">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="396" type="0" priority="1" name="JOINGAME_UNDEFINED">Kemas kini terbaru sudah tersedia, sila muat turun sekarang.</msg>
+	<!-- leave game reason code -->
+	<msg code="400" type="0" priority="1" name="LEAVEGAME_USER_REQUEST">Keluar dari permainan</msg>
+	<msg code="402" type="0" priority="1" name="LEAVEGAME_GAME_DISCONNECT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="403" type="0" priority="1" name="LEAVEGAME_BASE_DISCONNECT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="404" type="0" priority="1" name="LEAVEGAME_MASTER_KICK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="407" type="0" priority="1" name="LEAVEGAME_USER_DISCONNECT">Anda telah keluar dari permainan</msg>
+	<msg code="425" type="0" priority="1" name="LEAVEGAME_GAME_SERVER_SHUTDOWN">Ruang utama permainan sedang ditutup, sila log masuk kemudian.</msg>
+	<msg code="440" type="0" priority="1" name="LEAVEGAME_USING_SPEEDER">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="441" type="0" priority="1" name="LEAVEGAME_TABLE_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="444" type="0" priority="1" name="LEAVEGAME_GAME_DATABASE_ERROR">Terdapat ralat dalam sistem, sila tutup permainan ini dan log masuk semula.</msg>
+	<msg code="445" type="0" priority="1" name="LEAVEGAME_TRY_PASSWORD_TOO_MANY_TIMES">Kesalahan kata laluan telah melebihi had kekerapan yang diizinkan.</msg>
+	<msg code="446" type="0" priority="1" name="LEAVEGAME_COMMAND_ERROR">Ralat telah berlaku pada arahan protokol</msg>
+	<msg code="448" type="0" priority="1" name="LEAVEGAME_GAME_ROOM_FULL">Harap maaf, bilangan pemain untuk permainan ini telah penuh, sila cuba semula kemudian.</msg>
+	<msg code="466" type="0" priority="1" name="LEAVEGAME_JOIN_GAME_EXCEPTION">Gagal untuk memasuki permainan, sila cuba semula kemudian</msg>
+	<msg code="481" type="0" priority="1" name="LEAVEGAME_MONEY_IS_BELOW_MINIMUM">Baki anda tidak mencukupi, gagal untuk memasuki ruang permainan ini. Sila cuba ruang permainan yang lain.</msg>
+	<msg code="482" type="0" priority="1" name="LEAVEGAME_MONEY_IS_ABOVE_MAXIMUM">Baki yang anda mempunyai telah melebihi had ruang bilik permainan, sila pindah keluar sebahagian baki atau cuba ruang permainan yang lain.</msg>
+	<msg code="483" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_BELOW_MINIMUM">Harap maaf! Tahap anda tidak melayakkan anda ke ruang bilik ini, sila cuba permainan yang lain.</msg>
+	<msg code="484" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_ABOVE_MAXIMUM">Harap maaf! Tahap anda tidak melayakkan anda ke ruang bilik ini, sila cuba permainan yang lain.</msg>
+	<msg code="485" type="0" priority="1" name="LEAVEGAME_REPEATED_DISCONNECT">Anda telah keluar dari permainan</msg>
+	<msg code="486" type="0" priority="1" name="LEAVEGAME_CONTEST_FINISHED">Pertandingan kali ini telah tamat.</msg>
+	<msg code="487" type="0" priority="1" name="LEAVEGAME_CONTEST_ADMISSION_NOT_PAID">Pertandingan pusingan ini telah dihadkan oleh beberapa syarat, sila baca butiran aktiviti.</msg>
+	<msg code="495" type="0" priority="1" name="LEAVEGAME_UNLEFT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="496" type="0" priority="1" name="LEAVEGAME_UNDEFINED">Kemas kini terbaru sudah tersedia, sila muat turun sekarang.</msg>
+	<!-- local connection error code -->	
+	<msg code="1000" type="0" priority="1" name="LOCALCONNECT_FAIL_SUFFIX">Gagal untuk memperoleh maklumat: Terdapat ralat pada sambungan! Sila cuba semula kemudian.</msg>
+	<msg code="1001" type="0" priority="1" name="LOCALCONNECT_INVALID_GAMENAME">Gagal untuk memperoleh maklumat: Terdapat ralat pada sambungan! Sila cuba semula kemudian.</msg>
+	<msg code="1002" type="0" priority="1" name="LOCALCONNECT_GAMENAME_DUPLICATE">Gagal untuk memperoleh maklumat: Nama yang berulang! Sila cuba semula.</msg>
+	<msg code="1003" type="0" priority="1" name="LOCALCONNECT_DISCONNECT_PLATFORM">Gagal untuk memperoleh maklumat: Masa menunggu untuk memperoleh mesej ruang utama terlalu lama! Sila cuba semula.</msg>
+	<msg code="1004" type="0" priority="1" name="LOCALCONNECT_GAME_ALIVE_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="1005" type="0" priority="1" name="LOCALCONNECT_LOBBY_ALIVE_TIMEOUT">Gagal untuk disambungkan ke ruang utama, sila cuba semula kemudian.</msg>
+	<msg code="1006" type="0" priority="1" name="LOCALCONNECT_GAME_REQ_RESET_LOBBY">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="1100" type="0" priority="1" name="ERRORID_THIS_ROOM_IS_FULL">Gagal untuk sertai: Bilik ini telah penuh! Sila cuba semula kemudian.</msg>
+	<msg code="1101" type="0" priority="1" name="ERRORID_ALL_ROOMS_ARE_FULL">Gagal untuk sertai: Bilik ini telah penuh! Sila cuba semula kemudian.</msg>
+	<msg code="1102" type="0" priority="1" name="ERRORID_THIS_ROOM_ID_IS_INVALID">Gagal untuk sertai: Gagal disambung ke bilik! Sila cuba semula kemudian.</msg>
+	<msg code="1103" type="0" priority="1" name="ERRORID_PLAYER_ALREADY_IN_ROOM">Gagal untuk sertai: Akaun ini telah berada dalam bilik tersebut! Sila tutup permainan dan cuba memasuki semula ke ruang bilik tersebut.</msg>
+	<msg code="1104" type="0" priority="1" name="ERRORID_CLIENT_MONEY_ERROR">Gagal untuk melakukan taruhan, wang taruhan untuk kali ini akan dikembalikan.</msg>
+<!-- Client Message -->
+	<!-- custom error -->
+	<msg code="2001" type="0" priority="1" name="INSUFFICIENT_AMOUNT">Baki akaun anda tidak mencukupi</msg>
+	<msg code="2002" type="0" priority="1" name="SERVER_RESPONSE_ERROR">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2003" type="0" priority="1" name="WANT_QUIT">Adakah anda pasti untuk keluar?</msg>
+	<msg code="2004" type="0" priority="1" name="IDLE_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2005" type="0" priority="1" name="CANNOT_BACKTO_THEME">Sila menghabiskan permainan untuk pusingan ini dulu, baru ketik fungsi tamat permainan.</msg>
+	<msg code="2006" type="0" priority="1" name="EXPIRE_MAX_CREDIT">Baki anda telah mencapai had tertinggi</msg>
+	<msg code="2007" type="0" priority="1" name="BET_ERROR">Baki anda tidak mencukupi, wang taruhan untuk kali ini akan dikembalikan.</msg>
+	<msg code="2008" type="0" priority="1" name="SERVER_DATA_ERROR">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2009" type="0" priority="1" name="JOIN_LOBBY_FAIL">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2025" type="0" priority="1" name="BET_ERROR_MAX_BET">Taruhan maksimum adalah sebanyak %s, wang taruhan yang berlebihan akan dikembalikan.</msg>
+	<msg code="2026" type="0" priority="1" name="BET_ERROR_MIN_BET">Taruhan minimum adalah sebanyak %s, wang taruhan yang berlebihan akan dikembalikan.</msg>
+	<msg code="2027" type="0" priority="1" name="BET_ERROR_DATA">Taruhan kali ini dihadkan oleh sekatan peraturan, wang taruhan untuk kali ini akan dibayar balik.</msg>
+	<msg code="2028" type="0" priority="1" name="DOUBLE_UP_LIMIT_REACHED">Taruhan dua kali ganda telah mencapai had tertinggi.</msg>
+	<msg code="2029" type="0" priority="1" name="ADD_CLIENT_MONEY_TIMEOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+  <msg code="2030" type="0" priority="1" name="INSUFFICIENT_AMOUNT_STORE">Insuffcient Balance! Please get more coin at the shop.</msg>
+	<msg code="2031" type="0" priority="1" name="TOO_MUCH_BALANCE">Your balance is too much.</msg>
+	<!-- slot -->
+	<msg code="2010" type="0" priority="1" name="SERVER_RESPONSE_ERROR_MAINGAME_SPIN_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2011" type="0" priority="1" name="SERVER_DATA_ERROR_MAINGAME_SPIN_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2012" type="0" priority="1" name="SERVER_RESPONSE_ERROR_FREEGAME_SPIN_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2013" type="0" priority="1" name="SERVER_DATA_ERROR_FREEGAME_SPIN_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2014" type="0" priority="1" name="SERVER_RESPONSE_ERROR_DOUBLEGAME_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2015" type="0" priority="1" name="SERVER_DATA_ERROR_DOUBLEGAME_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2016" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS1_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2017" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS1_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2018" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS2_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2019" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS2_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2020" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS3_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2021" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS3_ACK">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<!-- arcade -->
+	<msg code="2022" type="0" priority="1" name="SERVER_KICKOUT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2023" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_CLIENT">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<msg code="2024" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_SERVER">Sambungan ke rangkaian internet tidak stabil.</msg>
+	<!-- mobile lobby -->
+	<msg code="3000" type="0" priority="1" name="NOT_ENOUGH_CAPACITY">Pemasangan gagal dilakukan, ruang cakera keras anda tidak mencukupi.</msg>
+	<msg code="3001" type="0" priority="1" name="LOBBY_PROGRESS_PANEL_NULL">Gagal untuk menampal! Sila melakukan pembinaan semula secepat yang mungkin!</msg>
+	<msg code="3002" type="0" priority="1" name="LOBBY_NEW_VERSION_DETECTED">Kemas kini baharu telah dikesan, sila memuat turun versi terbaru.</msg>
+	<msg code="3003" type="0" priority="1" name="LOBBY_GAME_LOCKED">Permainan telah dikunci, sila hubungi perkhidmatan pelanggan.</msg>
+	<msg code="3004" type="0" priority="1" name="LOBBY_GAME_DOWNLOADING">Permainan sedang dimuat turun</msg>
+	<msg code="3005" type="0" priority="1" name="LOBBY_GAME_MEM_REQ_1GB">Ruang minimum untuk pemasangan permainan ini adalah 1GB.</msg>
+	<msg code="3006" type="0" priority="1" name="LOBBY_GAME_PROGRESSING">Permainan sedang berlangsung, anda boleh kembali ke ruang utama selepas pertandingan tamat.</msg>
+	<msg code="3007" type="0" priority="1" name="LOBBY_DEPOSIT">Tambah nilai %s mata</msg>
+	<msg code="3008" type="0" priority="1" name="LOBBY_CASH_OUT">Keluaran %s mata</msg>
+	<!-- Client Msg -->
+	<msg code="9101" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG">Anda berada dalam status melahu terlalu lama tanpa melakukan taruhan, anda boleh mengelakkan diri daripada dikeluarkan dari permainan secara automatik selepas tamatnya kira detik jika kira detik untuk meletakkan taruhan boleh diulang.</msg>
+	<msg code="9102" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG_NEW">Aktiviti telah tamat, permainan ini akan ditutupkan secara automatik selepas beberapa saat. Tekan "Pasti" untuk terus menayang.</msg>
+	<msg code="9103" type="0" priority="1" name="CLIENT_IDLE_TOO_LONG_CLOSED">Permainan ini akan ditutup secara automatik selepas aktiviti tamat. Tekan "Pasti" untuk kembali ke ruang utama.</msg>
+	<msg code="9201" type="0" priority="1" name="CLIENT_MSG_IDLE_TOO_LONG">Anda berada dalam status melahu terlalu lama.\n Sila melakukan taruhan atau anda akan dikeluarkan dari permainan secara automatik</msg>
+	<!-- H5 Client Msg -->
+	<msg code="50000" type="0" priority="1" name="HTML5_BROWSER_ERROR">Sila mengguna pelayar Chrome atau Safari atau Firefox untuk fungsi permainan terbaik</msg>
+	<msg code="50001" type="0" priority="1" name="HTML5_WEBGL_NOT_SUPPORT">Sila mengemaskinikan versi pelayar. Anda dicadangkan untuk menggunakan pelayar Safari, Firefox atau Chrome</msg>
+	<!-- system -->
+	<msg code="100101" type="0" priority="1" name="ERRORID_MAX_GAMES_WERE_OPENED">Anda telah mencapai had untuk pembukaan tingkap permainan.</msg>
+	<msg code="100102" type="0" priority="1" name="CONFIRM_BACKTO_THEMELIST">Adakah anda pasti untuk kembali ke laman menu?</msg>
+	<msg code="100103" type="0" priority="1" name="CONFIRM_COMPLETE_GAME_BEFORE_QUIT">Permainan hanya boleh ditamatkan selepas anda menyelesaikan pusingan ini.</msg>
+	<msg code="100104" type="0" priority="1" name="LOADER_FAILED">"Terdapat ralat pada fail pemuat, sila buka semula permainan.
+"</msg>
+	<!-- Server -->
+	<msg code="200001" type="0" priority="1" name="STATUS_CODE_ERR_CMD_NOT_FOUND">Status tidak normal</msg>
+	<msg code="200002" type="0" priority="1" name="STATUS_CODE_ERR_DATA_FIELD">Status tidak normal</msg>
+	<msg code="200003" type="0" priority="1" name="STATUS_CODE_ERR_CMD_IMP">Status tidak normal</msg>
+	<msg code="200004" type="0" priority="1" name="STATUS_CODE_ERR_USER_NOT_EXIST">Status tidak normal</msg>
+	<msg code="200005" type="0" priority="1" name="STATUS_CODE_ERR_TOKEN_EXPIRED">Status tidak normal</msg>
+	<msg code="200006" type="0" priority="1" name="STATUS_CODE_ERR_SIGNATURE">Status tidak normal</msg>
+	<msg code="200007" type="0" priority="1" name="STATUS_CODE_ERR_JSON_FORMAT">Status tidak normal</msg>
+	<msg code="200008" type="0" priority="1" name="STATUS_CODE_ERR_SET_SESSION">Status tidak normal</msg>
+	<msg code="200009" type="0" priority="1" name="STATUS_CODE_ERR_SET_SHARD_INFO">Status tidak normal</msg>
+	<msg code="200010" type="0" priority="1" name="STATUS_CODE_ERR_USER_HAD_BEEN_SUSPENDED">Status tidak normal</msg>
+	<msg code="209999" type="0" priority="1" name="STATUS_CODE_ERR_EXCEPTION">Status tidak normal</msg>
+	<!-- Main Game -->
+	<msg code="200020" type="0" priority="1" name="STATUS_CODE_ERR_ANOTHER_DEVICE_IS_PLAYING">Akaun ini telah dilog masuk oleh peranti yang lain</msg>
+	<msg code="200021" type="0" priority="1" name="STATUS_CODE_ERR_COIN_NOT_ENOUGH">Baki akaun tidak mencukupi</msg>
+	<msg code="200024" type="0" priority="1" name="STATUS_CODE_ERR_SPIN_AUTH">Status tidak normal</msg>
+	<msg code="200025" type="0" priority="1" name="STATUS_CODE_ERR_GAME_SESSION_MISSING">Status tidak normal</msg>
+	<msg code="200026" type="0" priority="1" name="STATUS_CODE_ERR_BET_ALREADY_CONSUMED">Status tidak normal</msg>
+	<msg code="200027" type="0" priority="1" name="STATUS_CODE_ERR_BET_DATA_NOT_EXISTS">Status tidak normal</msg>
+	<msg code="200028" type="0" priority="1" name="STATUS_CODE_ERR_USER_IS_PLAYING_SOCKET_GAME">Terdapat permainan yang lain yang sedang dimainkan oleh akaun ini</msg>
+	<msg code="200029" type="0" priority="1" name="STATUS_CODE_ERR_MAINGAME_STATE_EXCEPTION">Status tidak normal</msg>
+	<msg code="200030" type="0" priority="1" name="STATUS_CODE_ERR_BONUSGAME_STATE_EXCEPTION">Status tidak normal</msg>
+	<msg code="200031" type="0" priority="1" name="STATUS_CODE_ERR_FEVERGAME_STATE_EXCEPTION">Status tidak normal</msg>
+	<msg code="200032" type="0" priority="1" name="STATUS_CODE_ERR_GAME_IS_UNDER_CONSTRUCTION">Status tidak normal</msg>
+	<msg code="200033" type="0" priority="1" name="STATUS_CODE_ERR_GET_GAME_STATE_ERROR">Status tidak normal</msg>
+	<msg code="200034" type="0" priority="1" name="STATUS_CODE_ERR_UPDATE_GAME_STATE_ERROR">Status tidak normal</msg>
+	<msg code="200035" type="0" priority="1" name="STATUS_CODE_ERR_USER_BALANCE_ERROR">Status tidak normal</msg>
+	<msg code="200036" type="0" priority="1" name="STATUS_CODE_ERR_USER_START_GAME_INFO_SN_ERROR">Status tidak normal</msg>
+	<msg code="200037" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_STATE_EXCEPTION">Status tidak normal</msg>
+	<msg code="200038" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_IS_UNDER_CONSTRUCTION">Status tidak normal</msg>
+	<!-- API Server Connect -->
+	<msg code="201001" type="0" priority="1" name="STATUS_CODE_ERR_API_SIGN_ERROR">Status tidak normal</msg>
+	<msg code="201002" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DATA_ILLEAGL">Status tidak normal</msg>
+	<msg code="201003" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_NOT_EXIST">Status tidak normal</msg>
+	<msg code="201005" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DUPLICATE">Status tidak normal</msg>
+	<msg code="201009" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_BALANCE_NOT_EXIST">Status tidak normal</msg>
+	<msg code="201011" type="0" priority="1" name="STATUS_CODE_ERR_API_COIN_NOT_ENOUGH">Baki akaun tidak mencukupi</msg>
+	<msg code="201013" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_DATA_NOT_EXIST">Status tidak normal</msg>
+	<msg code="201099" type="0" priority="1" name="STATUS_CODE_ERR_API_DATABASE_ERROR">Status tidak normal</msg>
+	<msg code="201999" type="0" priority="1" name="ESTATUS_CODE_ERR_API_SERVER_ERROR">Status tidak normal</msg>
+	
+</data>

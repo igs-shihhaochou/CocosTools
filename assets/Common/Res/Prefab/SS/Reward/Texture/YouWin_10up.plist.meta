@@ -1,0 +1,93 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "e46ec9d9-641f-4c67-8162-160c473a83c9",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "BigWin.png": {
+      "ver": "1.0.6",
+      "uuid": "e25c782d-6e68-4b2f-83a8-d44e9afaed62",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b8e00bc1-d925-4656-8850-37c1d96821d2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 10,
+      "offsetY": 1,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 652,
+      "height": 138,
+      "rawWidth": 1280,
+      "rawHeight": 720,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "c04f0": {
+      "importer": "sprite-frame",
+      "uuid": "e46ec9d9-641f-4c67-8162-160c473a83c9@c04f0",
+      "displayName": "",
+      "id": "c04f0",
+      "name": "BigWin",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "e46ec9d9-641f-4c67-8162-160c473a83c9",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 10,
+        "offsetY": 1,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 652,
+        "height": 138,
+        "rawWidth": 1280,
+        "rawHeight": 720,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b8e00bc1-d925-4656-8850-37c1d96821d2@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "YouWin_10up.png",
+    "format": 3,
+    "textureUuid": "b8e00bc1-d925-4656-8850-37c1d96821d2@6c48a",
+    "uuid": "e46ec9d9-641f-4c67-8162-160c473a83c9"
+  }
+}

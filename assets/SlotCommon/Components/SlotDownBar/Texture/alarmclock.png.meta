@@ -1,0 +1,163 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "4b21c75f-63b4-46df-93cd-5de69316c8bf",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "alarmclock": {
+      "ver": "1.0.6",
+      "uuid": "c119ab80-e6e2-4c7c-90f8-4d6cddbe99c5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4b21c75f-63b4-46df-93cd-5de69316c8bf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -6.5,
+      "offsetY": 0,
+      "trimX": 27,
+      "trimY": 0,
+      "width": 445,
+      "height": 512,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "4b21c75f-63b4-46df-93cd-5de69316c8bf@6c48a",
+      "displayName": "alarmclock",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "clamp-to-edge",
+        "mipfilter": "none",
+        "imageUuidOrDatabaseUri": "4b21c75f-63b4-46df-93cd-5de69316c8bf",
+        "isUuid": true,
+        "visible": false,
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "4b21c75f-63b4-46df-93cd-5de69316c8bf@f9941",
+      "displayName": "alarmclock",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "importer": "sprite-frame",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -6.5,
+        "offsetY": 0,
+        "trimX": 27,
+        "trimY": 0,
+        "width": 445,
+        "height": 512,
+        "rawWidth": 512,
+        "rawHeight": 512,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "imageUuidOrDatabaseUri": "4b21c75f-63b4-46df-93cd-5de69316c8bf@6c48a",
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -222.5,
+            -256,
+            0,
+            222.5,
+            -256,
+            0,
+            -222.5,
+            256,
+            0,
+            222.5,
+            256,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            27,
+            512,
+            472,
+            512,
+            27,
+            0,
+            472,
+            0
+          ],
+          "nuv": [
+            0.052734375,
+            0,
+            0.921875,
+            0,
+            0.052734375,
+            1,
+            0.921875,
+            1
+          ],
+          "minPos": [
+            -222.5,
+            -256,
+            0
+          ],
+          "maxPos": [
+            222.5,
+            256,
+            0
+          ]
+        },
+        "isUuid": true,
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "4b21c75f-63b4-46df-93cd-5de69316c8bf@6c48a",
+    "hasAlpha": true
+  }
+}

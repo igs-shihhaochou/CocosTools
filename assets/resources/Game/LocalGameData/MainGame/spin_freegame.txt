@@ -1,0 +1,51 @@
+{
+    "data": {
+        "win_type": 1,
+        "game_state": {
+            "current_sg_id" : 0,
+            "current_lines": 50,
+            "sg_state": 1,
+            "current_script": { 
+                "sg_state" : 1,
+                "sg_map" : {
+                    "total_times" : 5,
+                    "collect_lv" : [0,0,0,0,0],
+                    "lantern_multipier" : [1,1,1]
+                }
+            },
+            "current_bet": 4
+        },
+        "total_win_amount": 500,
+        "this_win_amount": 500,
+        "serial_id": 100071878814,
+        "balance": 248644.37,
+        "wheel_blocks": [ {
+                "result_wheels": {
+                    "0": [ 1, 3, 3, 10, 7 ],
+                    "1": [ 1, 15, 4, 11, 2 ],
+                    "2": [ 2, 3, 16, 1, 4 ],
+                    "3": [ 4, 11, 3, 1, 8 ],
+                    "4": [ 3, 12, 10, 16, 1 ]
+                },
+                "win_special_symbols": {
+                    "0": [1, 1, -1], 
+                    "1": [-1, 1, -1],
+                    "2": [1, -1, -1], 
+                    "3": [-1, 1, -1], 
+                    "4": [-1, -1, -1]
+                },
+                "pre_win_wheels": [0,0,1,1,0],
+                "id": 0
+            }
+        ],
+        "extra_info": {
+            "score": {
+                "0": [ 0, 30, 40, 0, 0 ],
+                "1": [ 0, 0, 100, 0, 0 ],
+                "2": [ 0, 20, 0, 0, 100 ],
+                "3": [ 90, 0, 80, 0, 0],
+                "4": [ 30, 0, 0, 0, 0 ]
+            }
+        }
+    }
+}

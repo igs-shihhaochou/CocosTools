@@ -1,0 +1,9 @@
+{
+    "q1": "Trong trò chơi thường, khi tiến hành xóa bỏ các biểu tượng  sẽ dựa vào số lần xóa bỏ mà nhận được hệ số nhân là  \"x1, x2, x3, x5\" ",
+    "q2": "Khi không có phần thưởng phù hợp thì \" hệ số nhân loại bỏ\" sẽ quay về cấp độ ban đầu x1 và sẽ tiến hành lần quay tiếp theo.",
+    "q3": "Khi bài Poker vàng bị xóa bỏ thì vị trí ban đầu sẽ biến thành @Wild  hoặc  @FWild ",
+    "q4": " @Wild    @FWild  cũng như những biểu tượng wild khác có thể thay thế cho tất cả các biểu tượng trừ @SC .",
+    "q5": "Sau khi  @FWild  xuất hiện, vị trí ban đầu của bài poker vàng sẽ biến thành  @FWild  và sẽ sao chép ngẫu nhiên 1 vài lá  @FWild  để thay thế các biểu tượng khác.",
+    "q6": "Khi xuất hiện 3 cái  @SC là sẽ được thưởng 10 lượt chơi miễn phí.",
+    "q7": "Trong trò chơi miễn phí, \"hệ số nhân loại bỏ\" sẽ gấp đôi so với trò chơi thường, nâng cấp thành \"x2, x4, x6, x10\" ."
+}

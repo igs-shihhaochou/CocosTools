@@ -1,0 +1,160 @@
+
+IncaTreasure_MG_FreeGameBoard.png
+size: 487,1096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball_yellow
+  rotate: false
+  xy: 450, 382
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+baseplate
+  rotate: false
+  xy: 5, 5
+  size: 368, 366
+  orig: 368, 366
+  offset: 0, 0
+  index: -1
+Dot
+  rotate: false
+  xy: 450, 424
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+free_spin
+  rotate: false
+  xy: 5, 905
+  size: 460, 74
+  orig: 460, 74
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 307, 726
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+g_1
+  rotate: false
+  xy: 381, 726
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+g_2
+  rotate: false
+  xy: 318, 382
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+g_5
+  rotate: false
+  xy: 182, 632
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+glow_42
+  rotate: false
+  xy: 231, 989
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+leaves_1
+  rotate: false
+  xy: 383, 5
+  size: 89, 217
+  orig: 89, 217
+  offset: 0, 0
+  index: -1
+leaves_2
+  rotate: false
+  xy: 182, 381
+  size: 126, 241
+  orig: 126, 241
+  offset: 0, 0
+  index: -1
+leaves_3
+  rotate: false
+  xy: 5, 381
+  size: 167, 418
+  orig: 167, 418
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 124, 989
+  size: 97, 91
+  orig: 97, 91
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 5, 989
+  size: 109, 102
+  orig: 109, 102
+  offset: 0, 0
+  index: -1
+light_3
+  rotate: false
+  xy: 318, 508
+  size: 144, 208
+  orig: 144, 208
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 383, 232
+  size: 72, 140
+  orig: 72, 140
+  offset: 0, 0
+  index: -1
+SymbolLight
+  rotate: false
+  xy: 450, 466
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 182, 757
+  size: 68, 42
+  orig: 68, 42
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 305, 1042
+  size: 68, 42
+  orig: 68, 42
+  offset: 0, 0
+  index: -1
+x6
+  rotate: false
+  xy: 398, 989
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1
+x10
+  rotate: false
+  xy: 305, 989
+  size: 83, 43
+  orig: 83, 43
+  offset: 0, 0
+  index: -1
+you_win
+  rotate: false
+  xy: 5, 809
+  size: 435, 86
+  orig: 435, 86
+  offset: 0, 0
+  index: -1

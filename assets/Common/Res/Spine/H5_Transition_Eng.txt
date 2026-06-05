@@ -1,0 +1,13 @@
+
+H5_Transition_Eng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+H5_Transition_Eng
+  rotate: false
+  xy: 2, 2
+  size: 712, 719
+  orig: 720, 720
+  offset: 7, 1
+  index: -1

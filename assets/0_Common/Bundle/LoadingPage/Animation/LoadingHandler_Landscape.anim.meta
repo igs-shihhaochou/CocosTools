@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.4",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "fa10bea0-e2bb-4b8b-bcdc-1d77fcf805a5",
+  "files": [
+    ".bin"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "LoadingHandler_Landscape"
+  }
+}

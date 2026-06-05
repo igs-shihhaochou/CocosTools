@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<!-- Server Response Message -->
+	<!--AccessDeniedReason -->
+	<msg code="0" type="0" priority="1" name="UNDEFINED">Mạng không ổn định, không thể kết nối với máy chủ!</msg>
+	<msg code="1" type="0" priority="2" name="ACCESSDENIED_USER_NAME_NOT_FOUND">Tài khoản hoặc mật khẩu không đúng, vui lòng thử lại.</msg>
+	<msg code="2" type="0" priority="1" name="USER_NAME_NOT_FOUND">Tài khoản hoặc mật khẩu không đúng, vui lòng thử lại.</msg>
+	<msg code="3" type="0" priority="1" name="DUPLICATE_LOGIN">Tài khoản này đã có người sử dụng</msg>
+	<msg code="4" type="0" priority="2" name="USER_NAME_IS_EMPTY">Tài khoản hoặc mật khẩu cung cấp không đúng</msg>
+	<msg code="5" type="0" priority="1" name="PASSWORD_INCORRECT">Tài khoản hoặc mật khẩu cung cấp không đúng</msg>
+	<msg code="6" type="0" priority="2" name="NO_BASE">Thiết bị có trục trặc, sẽ quay về đại sảnh, xin vào lại trò chơi sau chốc lát.</msg>
+	<msg code="7" type="0" priority="2" name="REGISTER_BASE_FAIL">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="8" type="0" priority="2" name="L1_REJECT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="9" type="0" priority="1" name="INVALID_PROTOCOL_VERSION">Đã có bản cập nhật mới, vui lòng tải về ngay.</msg>
+	<msg code="10" type="0" priority="2" name="NO_NICKNAME">Tài khoản hoặc mật khẩu cung cấp không đúng</msg>
+	<msg code="11" type="0" priority="2" name="UNKNOWN">Để đảm bảo an toàn, tài khoản của bạn đã tạm thời bại đóng băng không thể sử dụng</msg>
+	<msg code="20" type="0" priority="1" name="USER_NAME_IS_EMPTY">Tài khoản hoặc mật khẩu không đúng, vui lòng thử lại.</msg>
+	<msg code="22" type="0" priority="1" name="CHECK_KEY_IS_ZERO">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="24" type="0" priority="1" name="L1_REJECT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="25" type="0" priority="1" name="NOT_SOBER">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="27" type="0" priority="1" name="NO_BASE">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="28" type="0" priority="1" name="REGISTER_BASE_FAIL">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="29" type="0" priority="1" name="VERIFY_NUMBER_ERROR">Mã xác thực không hợp lệ, vui lòng nhập lại.</msg>
+	<msg code="30" type="0" priority="1" name="NO_NICKNAME">Tài khoản hoặc mật khẩu cung cấp không đúng</msg>
+	<msg code="31" type="0" priority="1" name="PERMISSION_TYPE_CENTRAL_NOT_FOUND">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="32" type="0" priority="1" name="PERMISSION_TYPE_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="33" type="0" priority="1" name="PERMISSION_TYPE_RELOGIN_TOO_FAST">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="34" type="0" priority="1" name="PERMISSION_TYPE_HS_CODE_REQUIRED">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="254" type="0" priority="1" name="MAINTENANCE">Máy chủ đang bảo trì, vui lòng đăng nhập lại sau!!</msg>
+	<msg code="255" type="0" priority="1" name="UNKNOWN">Chất lượng kết nối mạng không ổn định.</msg>
+	<!-- login failed -->
+	<msg code="100" type="0" priority="1" name="LOGINFAILED_VERIFY_FAILED">Không thể kết nối xác nhận mã xác thực, vui lòng thử lại sau.</msg>
+	<msg code="101" type="0" priority="1" name="LOGINFAILED_LOGIN_FAILED">Máy chủ đang bảo trì, vui lòng đăng nhập lại sau!!</msg>
+	<msg code="190" type="0" priority="1" name="LOGINFAILED_UNKNOWN">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="192" type="0" priority="1" name="LOGINFAILED_INVALID_GROUPNAME">Chất lượng kết nối mạng không ổn định.</msg>
+	<!-- disconnected with base server reason code -->
+	<msg code="200" type="0" priority="1" name="DISCONNECTED_NETWORK_FAILED">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="201" type="0" priority="1" name="DISCONNECTED_ACCESS_DENIED">Tài khoản hoặc mật khẩu không đúng, vui lòng thử lại.</msg>
+	<msg code="202" type="0" priority="1" name="DISCONNECTED_WRONG_PROTOCOL">Phiên bản trò chơi này đã hết hiệu lực, sẽ tự động cập nhật phiên bản mới.</msg>
+	<msg code="203" type="0" priority="1" name="DISCONNECTED_USER_REQUEST">Bạn đã mất kết nối</msg>
+	<msg code="204" type="0" priority="1" name="DISCONNECTED_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="205" type="0" priority="1" name="DISCONNECTED_NETWORK_SHUTDOWN">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="206" type="0" priority="1" name="DISCONNECTED_RESET_BY_PEER">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="220" type="0" priority="1" name="DISCONNECTED_STILL_ONLINE">Sắp ngắt kết nối với thiết bị di động.</msg>
+	<msg code="222" type="0" priority="1" name="DISCONNECTED_MASTER_KICKED">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="224" type="0" priority="1" name="DISCONNECTED_USER_SHUTDOWN">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="225" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_SHUTDOWN">Máy chủ đang đóng, vui lòng đăng nhập lại sau.</msg>
+	<msg code="226" type="0" priority="1" name="DISCONNECTED_PACKAGE_OVERLOAD">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="240" type="0" priority="1" name="DISCONNECTED_USING_SPEEDER">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="241" type="0" priority="1" name="DISCONNECTED_TABLE_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="242" type="0" priority="1" name="DISCONNECTED_ACCOUNT_DATABASE_ERROR">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="243" type="0" priority="1" name="DISCONNECTED_BILL_DATABASE_ERROR">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="244" type="0" priority="1" name="DISCONNECTED_GAME_DATABASE_ERROR">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="245" type="0" priority="1" name="DISCONNECTED_TRY_PASSWORD_TOO_MANY_TIMES">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="246" type="0" priority="1" name="DISCONNECTED_COMMAND_ERROR">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="248" type="0" priority="1" name="DISCONNECTED_TABLE_FULL">Số người tham gia trò chơi đã đủ, vui lòng thử lại sau.</msg>
+	<msg code="260" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_SHUTDOWN">Đại sảnh trò chơi đang đóng, vui lòng đăng nhập lại sau.</msg>
+	<msg code="261" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_DISCONNECT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="262" type="0" priority="1" name="DISCONNECTED_USER_LEAVE_GAME">Bạn đã thoát game</msg>
+	<msg code="263" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_DISCONNECT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="264" type="0" priority="1" name="DISCONNECTED_BASE_CLEANUP">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="265" type="0" priority="1" name="DISCONNECTED_BASE_CANCEL_JOIN_GAME">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="266" type="0" priority="1" name="DISCONNECTED_JOIN_GAME_SERVER_EXCEPTION">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="267" type="0" priority="1" name="DISCONNECTED_USER_TABLE_IS_FULL">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="268" type="0" priority="1" name="DISCONNECTED_USER_IS_DUPLICATED">Tài khoản hoặc mật khẩu không đúng, vui lòng kiểm tra viết hoa và viết thường rồi nhập lại.</msg>
+	<msg code="270" type="0" priority="1" name="DISCONNECTED_UNDISCONNECTED">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="271" type="0" priority="1" name="DISCONNECTED_UNDEFINED">Đã có bản cập nhật mới, vui lòng tải về ngay.</msg>
+	<!-- user join game failed reason code -->
+	<msg code="310" type="0" priority="1" name="JOINGAME_INVALID_THEME_NAME">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="311" type="0" priority="1" name="JOINGAME_THEME_NOT_ACTIVE">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="312" type="0" priority="1" name="JOINGAME_GAME_SERVER_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="313" type="0" priority="1" name="JOINGAME_USER_IP_NOT_ALLOWED">Xin lỗi, IP này bị hạn chế, không thể vào trò chơi.</msg>
+	<msg code="314" type="0" priority="1" name="JOINGAME_VERSION_NOT_MATCHED">Phiên bản trò chơi này đã hết hiệu lực, sẽ tự động cập nhật phiên bản mới.</msg>
+	<msg code="315" type="0" priority="1" name="JOINGAME_USER_ALREADY_JOINED">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="316" type="0" priority="1" name="JOINGAME_CANNOT_JOIN_MORE_GAMES">Đã có trò chơi đang mở</msg>
+	<msg code="317" type="0" priority="1" name="JOINGAME_TEMPORARY_NOT_ALLOW">Đại sảnh trò chơi đang đóng, vui lòng đăng nhập lại sau.</msg>
+	<msg code="318" type="0" priority="1" name="JOINGAME_PERPARING_SHUTDOWN">Đại sảnh trò chơi đang đóng, vui lòng đăng nhập lại sau.</msg>
+	<msg code="321" type="0" priority="1" name="JOINGAME_PLS_RE_ENTER_GAME">Xin lỗi, số lượng người chơi của trò chơi đã đạt giới hạn chạm đỉnh</msg>
+	<msg code="330" type="0" priority="1" name="JOINGAME_THEME_IS_FULL">Xin lỗi, số người của trò chơi đã đủ, xin thông cảm vì sự bất tiện</msg>
+	<msg code="331" type="0" priority="1" name="JOINGAME_USER_IS_DUPLICATE">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="332" type="0" priority="1" name="JOINGAME_GAME_SERVER_IS_SHUTTINGDOWN">Đại sảnh trò chơi đang đóng, vui lòng đăng nhập lại sau.</msg>
+	<msg code="333" type="0" priority="1" name="JOINGAME_GAME_SERVER_HAS_EXCEPTION">Vào đại sảnh trò chơi thất bại, vui lòng thử lại sau.</msg>
+	<msg code="334" type="0" priority="1" name="JOINGAME_GAME_SERVER_BAD_REJECTION">Xin lỗi, bạn không thể vào sảnh này, vui lòng chọn sảnh khác.</msg>
+	<msg code="380" type="0" priority="1" name="JOINGAME_REJECTED">Xin lỗi, bạn không thể vào, vui lòng chọn trò chơi khác.</msg>
+	<msg code="381" type="0" priority="1" name="JOINGAME_MONEY_IS_BELOW_MINIMUM">Số dư của bạn không đủ, không thể vào sảnh trò chơi này. Vui lòng thử sảnh trò chơi khác.</msg>
+	<msg code="382" type="0" priority="1" name="JOINGAME_MONEY_IS_ABOVE_MAXIMUM">Số dư bạn chuyển vào vượt quá giới hạn tối đa của sảnh trò chơi, vui lòng chuyển bớt ra hoặc thử trò chơi khác.</msg>
+	<msg code="383" type="0" priority="1" name="JOINGAME_LEVEL_IS_BELOW_MINIMUM">Rất xin lỗi, cấp bậc của bạn không thể vào, vui lòng thử trò chơi khác.</msg>
+	<msg code="384" type="0" priority="1" name="JOINGAME_LEVEL_IS_ABOVE_MAXIMUM">Rất xin lỗi, cấp bậc của bạn không thể vào, vui lòng thử trò chơi khác.</msg>
+	<msg code="385" type="0" priority="1" name="JOINGAME_REPEATED_DISCONNECT">Bạn đã mở trò chơi này rồi, xin chờ thêm.</msg>
+	<msg code="386" type="0" priority="1" name="JOINGAME_CONTEST_FINISHED">Lần thi đấu này đã kết thúc.</msg>
+	<msg code="387" type="0" priority="1" name="JOINGAME_CONTEST_ADMISSION_NOT_PAID">Lần thi đấu này có điều kiện giới hạn, vui lòng đọc hướng dẫn hoạt động.</msg>
+	<msg code="395" type="0" priority="1" name="JOINGAME_UNJOINED">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="396" type="0" priority="1" name="JOINGAME_UNDEFINED">Đã có bản cập nhật mới, vui lòng tải về ngay.</msg>
+	<!-- leave game reason code -->
+	<msg code="400" type="0" priority="1" name="LEAVEGAME_USER_REQUEST">Exit the game.</msg>
+	<msg code="402" type="0" priority="1" name="LEAVEGAME_GAME_DISCONNECT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="403" type="0" priority="1" name="LEAVEGAME_BASE_DISCONNECT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="404" type="0" priority="1" name="LEAVEGAME_MASTER_KICK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="407" type="0" priority="1" name="LEAVEGAME_USER_DISCONNECT">Bạn đã thoát game</msg>
+	<msg code="425" type="0" priority="1" name="LEAVEGAME_GAME_SERVER_SHUTDOWN">Đại sảnh trò chơi đang đóng, vui lòng đăng nhập lại sau.</msg>
+	<msg code="440" type="0" priority="1" name="LEAVEGAME_USING_SPEEDER">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="441" type="0" priority="1" name="LEAVEGAME_TABLE_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="444" type="0" priority="1" name="LEAVEGAME_GAME_DATABASE_ERROR">Lỗi hệ thống, vui lòng đóng rồi đăng nhập lại.</msg>
+	<msg code="445" type="0" priority="1" name="LEAVEGAME_TRY_PASSWORD_TOO_MANY_TIMES">Mật khẩu nhập sai quá số lần giới hạn.</msg>
+	<msg code="446" type="0" priority="1" name="LEAVEGAME_COMMAND_ERROR">Lỗi lệnh giao thức</msg>
+	<msg code="448" type="0" priority="1" name="LEAVEGAME_GAME_ROOM_FULL">Xin lỗi, số người tham gia trò chơi này đã đủ, vui lòng thử lại sau.</msg>
+	<msg code="466" type="0" priority="1" name="LEAVEGAME_JOIN_GAME_EXCEPTION">Vào trò chơi thất bại, vui lòng thử lại sau</msg>
+	<msg code="481" type="0" priority="1" name="LEAVEGAME_MONEY_IS_BELOW_MINIMUM">Số dư không đủ, không thể vào đại sảnh này. Vui lòng chọn sảnh khác.</msg>
+	<msg code="482" type="0" priority="1" name="LEAVEGAME_MONEY_IS_ABOVE_MAXIMUM">Số dư của bạn quá nhiều không thể vào, vui lòng chọn sảnh khác.</msg>
+	<msg code="483" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_BELOW_MINIMUM">Rất xin lỗi, cấp bậc của bạn không thể vào, vui lòng thử trò chơi khác.</msg>
+	<msg code="484" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_ABOVE_MAXIMUM">Rất xin lỗi, cấp bậc của bạn không thể vào, vui lòng thử trò chơi khác.</msg>
+	<msg code="485" type="0" priority="1" name="LEAVEGAME_REPEATED_DISCONNECT">Bạn đã thoát game</msg>
+	<msg code="486" type="0" priority="1" name="LEAVEGAME_CONTEST_FINISHED">Lần thi đấu này đã kết thúc.</msg>
+	<msg code="487" type="0" priority="1" name="LEAVEGAME_CONTEST_ADMISSION_NOT_PAID">Lần thi đấu này có điều kiện giới hạn, vui lòng đọc hướng dẫn hoạt động.</msg>
+	<msg code="495" type="0" priority="1" name="LEAVEGAME_UNLEFT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="496" type="0" priority="1" name="LEAVEGAME_UNDEFINED">Đã có bản cập nhật mới, vui lòng tải về ngay.</msg>
+	<!-- local connection error code -->	
+	<msg code="1000" type="0" priority="1" name="LOCALCONNECT_FAIL_SUFFIX">Truy xuất thông tin thất bại: Lỗi kết nối! Vui lòng thử lại sau.</msg>
+	<msg code="1001" type="0" priority="1" name="LOCALCONNECT_INVALID_GAMENAME">Truy xuất thông tin thất bại: Lỗi kết nối! Vui lòng thử lại sau.</msg>
+	<msg code="1002" type="0" priority="1" name="LOCALCONNECT_GAMENAME_DUPLICATE">Truy xuất thông tin thất bại: Tên trùng lặp! Hãy thử lại.</msg>
+	<msg code="1003" type="0" priority="1" name="LOCALCONNECT_DISCONNECT_PLATFORM">Truy xuất thông tin thất bại: Thời gian chờ truy xuất thông tin đại sảnh quá lâu! Hãy thử lại.</msg>
+	<msg code="1004" type="0" priority="1" name="LOCALCONNECT_GAME_ALIVE_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="1005" type="0" priority="1" name="LOCALCONNECT_LOBBY_ALIVE_TIMEOUT">Không thể kết nối với đại sảnh, vui lòng thử lại sau.</msg>
+	<msg code="1006" type="0" priority="1" name="LOCALCONNECT_GAME_REQ_RESET_LOBBY">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="1100" type="0" priority="1" name="ERRORID_THIS_ROOM_IS_FULL">Gia nhập thất bại: Phòng này đã đủ người! Vui lòng thử lại sau.</msg>
+	<msg code="1101" type="0" priority="1" name="ERRORID_ALL_ROOMS_ARE_FULL">Gia nhập thất bại: Phòng này đã đủ người! Vui lòng thử lại sau.</msg>
+	<msg code="1102" type="0" priority="1" name="ERRORID_THIS_ROOM_ID_IS_INVALID">Gia nhập thất bại: Kết nối phòng thất bại! Vui lòng thử lại sau.</msg>
+	<msg code="1103" type="0" priority="1" name="ERRORID_PLAYER_ALREADY_IN_ROOM">Gia nhập thất bại: Tài khoản này đã ở trong phòng! Vui lòng đóng trò chơi và vào lại.</msg>
+	<msg code="1104" type="0" priority="1" name="ERRORID_CLIENT_MONEY_ERROR">Đặt cược thất bại, sẽ trả lại tiền cược lần này.</msg>
+<!-- Client Message -->
+	<!-- custom error -->
+	<msg code="2001" type="0" priority="1" name="INSUFFICIENT_AMOUNT">Số dư tài khoản không
+	đủ</msg>
+	<msg code="2002" type="0" priority="1" name="SERVER_RESPONSE_ERROR">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2003" type="0" priority="1" name="WANT_QUIT">Có muốn thoát ra?</msg>
+	<msg code="2004" type="0" priority="1" name="IDLE_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2005" type="0" priority="1" name="CANNOT_BACKTO_THEME">Vui lòng hoàn tất hiệp trò chơi này, rồi mới kết thúc.</msg>
+	<msg code="2006" type="0" priority="1" name="EXPIRE_MAX_CREDIT">Số dư của bạn đã đạt tới giới hạn chạm đỉnh</msg>
+	<msg code="2007" type="0" priority="1" name="BET_ERROR">Số dư của bạn không đủ, sẽ trả lại tiền cược lần này.</msg>
+	<msg code="2008" type="0" priority="1" name="SERVER_DATA_ERROR">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2009" type="0" priority="1" name="JOIN_LOBBY_FAIL">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2025" type="0" priority="1" name="BET_ERROR_MAX_BET">Tổng đặt cược tối đa là %s, sẽ trả lại số tiền cược vượt quá giới hạn.</msg>
+	<msg code="2026" type="0" priority="1" name="BET_ERROR_MIN_BET">Tổng đặt cược tối thiểu là %s, sẽ trả lại số tiền cược vượt quá giới hạn.</msg>
+	<msg code="2027" type="0" priority="1" name="BET_ERROR_DATA">Lần cược này trái với quy tắc cho phép, cược sẽ được trả lại.</msg>
+	<msg code="2028" type="0" priority="1" name="DOUBLE_UP_LIMIT_REACHED">Đặt cược thêm x2 đã chạm đỉnh.</msg>
+	<msg code="2029" type="0" priority="1" name="ADD_CLIENT_MONEY_TIMEOUT">Chất lượng kết nối mạng không ổn định.</msg>
+  <msg code="2030" type="0" priority="1" name="INSUFFICIENT_AMOUNT_STORE">Insuffcient Balance! Please get more coin at the shop.</msg>
+	<msg code="2031" type="0" priority="1" name="TOO_MUCH_BALANCE">Your balance is too much.</msg>
+	<!-- slot -->
+	<msg code="2010" type="0" priority="1" name="SERVER_RESPONSE_ERROR_MAINGAME_SPIN_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2011" type="0" priority="1" name="SERVER_DATA_ERROR_MAINGAME_SPIN_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2012" type="0" priority="1" name="SERVER_RESPONSE_ERROR_FREEGAME_SPIN_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2013" type="0" priority="1" name="SERVER_DATA_ERROR_FREEGAME_SPIN_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2014" type="0" priority="1" name="SERVER_RESPONSE_ERROR_DOUBLEGAME_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2015" type="0" priority="1" name="SERVER_DATA_ERROR_DOUBLEGAME_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2016" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS1_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2017" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS1_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2018" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS2_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2019" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS2_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2020" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS3_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2021" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS3_ACK">Chất lượng kết nối mạng không ổn định.</msg>
+	<!-- arcade -->
+	<msg code="2022" type="0" priority="1" name="SERVER_KICKOUT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2023" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_CLIENT">Chất lượng kết nối mạng không ổn định.</msg>
+	<msg code="2024" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_SERVER">Chất lượng kết nối mạng không ổn định.</msg>
+	<!-- mobile lobby -->
+	<msg code="3000" type="0" priority="1" name="NOT_ENOUGH_CAPACITY">Tải thất bại, thiết bị của bạn không đủ dung lượng.</msg>
+	<msg code="3001" type="0" priority="1" name="LOBBY_PROGRESS_PANEL_NULL">Patch thất bại! Hãy mau chóng cài lại!</msg>
+	<msg code="3002" type="0" priority="1" name="LOBBY_NEW_VERSION_DETECTED">Có bản cập nhật mới, vui lòng cài phiên bản mới nhất.</msg>
+	<msg code="3003" type="0" priority="1" name="LOBBY_GAME_LOCKED">Trò chơi đã bị khóa, vui lòng liên hệ CSKH.</msg>
+	<msg code="3004" type="0" priority="1" name="LOBBY_GAME_DOWNLOADING">Đang tải trò chơi</msg>
+	<msg code="3005" type="0" priority="1" name="LOBBY_GAME_MEM_REQ_1GB">Để tải trò chơi này, bộ nhớ thiết bị cần còn ít nhất 1GB.</msg>
+	<msg code="3006" type="0" priority="1" name="LOBBY_GAME_PROGRESSING">Trò chơi đang tiến hành, sau khi kết thúc thi đấu, bạn có thể quay về đại sảnh.</msg>
+	<msg code="3007" type="0" priority="1" name="LOBBY_DEPOSIT">Nạp %s điểm</msg>
+	<msg code="3008" type="0" priority="1" name="LOBBY_CASH_OUT">Rút %s điểm</msg>
+	<!-- Client Msg -->
+	<msg code="9101" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG">Ở trạng thái nghỉ quá lâu, vui lòng đặt cược. Sau khi kết thúc đếm thời gian, sẽ tự động thoát trò chơi.</msg>
+	<msg code="9102" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG_NEW">Hoạt động đã kết thúc, trò chơi này sẽ tự động đóng sau vài giây. Bấm "OK" để phát tiếp.</msg>
+	<msg code="9103" type="0" priority="1" name="CLIENT_IDLE_TOO_LONG_CLOSED">Hoạt động đã kết thúc, trò chơi này sẽ tự động đóng. Bấm "OK" rồi quay về đại sảnh.</msg>
+	<msg code="9201" type="0" priority="1" name="CLIENT_MSG_IDLE_TOO_LONG">Bạn ở trạng thái nghỉ quá lâu.
+	Vui lòng đặt cược hoặc sẽ tự động thoát trò chơi</msg>
+	<!-- H5 Client Msg -->
+	<msg code="50000" type="0" priority="1" name="HTML5_BROWSER_ERROR">Để có được tính năng tốt nhất, vui lòng sử dụng Chrome hoặc Safari hoặc FireFox</msg>
+	<msg code="50001" type="0" priority="1" name="HTML5_WEBGL_NOT_SUPPORT">Vui lòng cập nhật phiên bản trình duyệt hoặc đề xuất sử dụng Safari, Firefox, Google Chrome</msg>
+	<!-- system -->
+	<msg code="100101" type="0" priority="1" name="ERRORID_MAX_GAMES_WERE_OPENED">Bạn đã đạt số lần mở cửa sổ trò chơi tối đa.</msg>
+	<msg code="100102" type="0" priority="1" name="CONFIRM_BACKTO_THEMELIST">Có chắc muốn quay về trang menu?</msg>
+	<msg code="100103" type="0" priority="1" name="CONFIRM_COMPLETE_GAME_BEFORE_QUIT">Hoàn thành hiệp này xong mới được kết thúc.</msg>
+	<msg code="100104" type="0" priority="1" name="LOADER_FAILED">Lỗi tải tệp, vui lòng mở lại trò chơi.</msg>
+	<!-- Server -->
+	<msg code="200001" type="0" priority="1" name="STATUS_CODE_ERR_CMD_NOT_FOUND">Trạng thái bất thường</msg>
+	<msg code="200002" type="0" priority="1" name="STATUS_CODE_ERR_DATA_FIELD">Trạng thái bất thường</msg>
+	<msg code="200003" type="0" priority="1" name="STATUS_CODE_ERR_CMD_IMP">Trạng thái bất thường</msg>
+	<msg code="200004" type="0" priority="1" name="STATUS_CODE_ERR_USER_NOT_EXIST">Trạng thái bất thường</msg>
+	<msg code="200005" type="0" priority="1" name="STATUS_CODE_ERR_TOKEN_EXPIRED">Trạng thái bất thường</msg>
+	<msg code="200006" type="0" priority="1" name="STATUS_CODE_ERR_SIGNATURE">Trạng thái bất thường</msg>
+	<msg code="200007" type="0" priority="1" name="STATUS_CODE_ERR_JSON_FORMAT">Trạng thái bất thường</msg>
+	<msg code="200008" type="0" priority="1" name="STATUS_CODE_ERR_SET_SESSION">Trạng thái bất thường</msg>
+	<msg code="200009" type="0" priority="1" name="STATUS_CODE_ERR_SET_SHARD_INFO">Trạng thái bất thường</msg>
+	<msg code="200010" type="0" priority="1" name="STATUS_CODE_ERR_USER_HAD_BEEN_SUSPENDED">Trạng thái bất thường</msg>
+	<msg code="209999" type="0" priority="1" name="STATUS_CODE_ERR_EXCEPTION">Trạng thái bất thường</msg>
+	<!-- Main Game -->
+	<msg code="200020" type="0" priority="1" name="STATUS_CODE_ERR_ANOTHER_DEVICE_IS_PLAYING">Tài khoản này đã được đăng nhập bởi người khác</msg>
+	<msg code="200021" type="0" priority="1" name="STATUS_CODE_ERR_COIN_NOT_ENOUGH">Số dư tài khoản không đủ</msg>
+	<msg code="200024" type="0" priority="1" name="STATUS_CODE_ERR_SPIN_AUTH">Trạng thái bất thường</msg>
+	<msg code="200025" type="0" priority="1" name="STATUS_CODE_ERR_GAME_SESSION_MISSING">Trạng thái bất thường</msg>
+	<msg code="200026" type="0" priority="1" name="STATUS_CODE_ERR_BET_ALREADY_CONSUMED">Trạng thái bất thường</msg>
+	<msg code="200027" type="0" priority="1" name="STATUS_CODE_ERR_BET_DATA_NOT_EXISTS">Trạng thái bất thường</msg>
+	<msg code="200028" type="0" priority="1" name="STATUS_CODE_ERR_USER_IS_PLAYING_SOCKET_GAME">Tài khoản này đang chơi trò chơi khác</msg>
+	<msg code="200029" type="0" priority="1" name="STATUS_CODE_ERR_MAINGAME_STATE_EXCEPTION">Trạng thái bất thường</msg>
+	<msg code="200030" type="0" priority="1" name="STATUS_CODE_ERR_BONUSGAME_STATE_EXCEPTION">Trạng thái bất thường</msg>
+	<msg code="200031" type="0" priority="1" name="STATUS_CODE_ERR_FEVERGAME_STATE_EXCEPTION">Trạng thái bất thường</msg>
+	<msg code="200032" type="0" priority="1" name="STATUS_CODE_ERR_GAME_IS_UNDER_CONSTRUCTION">Trạng thái bất thường</msg>
+	<msg code="200033" type="0" priority="1" name="STATUS_CODE_ERR_GET_GAME_STATE_ERROR">Trạng thái bất thường</msg>
+	<msg code="200034" type="0" priority="1" name="STATUS_CODE_ERR_UPDATE_GAME_STATE_ERROR">Trạng thái bất thường</msg>
+	<msg code="200035" type="0" priority="1" name="STATUS_CODE_ERR_USER_BALANCE_ERROR">Trạng thái bất thường</msg>
+	<msg code="200036" type="0" priority="1" name="STATUS_CODE_ERR_USER_START_GAME_INFO_SN_ERROR">Trạng thái bất thường</msg>
+	<msg code="200037" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_STATE_EXCEPTION">Trạng thái bất thường</msg>
+	<msg code="200038" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_IS_UNDER_CONSTRUCTION">Trạng thái bất thường</msg>
+	<!-- API Server Connect -->
+	<msg code="201001" type="0" priority="1" name="STATUS_CODE_ERR_API_SIGN_ERROR">Trạng thái bất thường</msg>
+	<msg code="201002" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DATA_ILLEAGL">Trạng thái bất thường</msg>
+	<msg code="201003" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_NOT_EXIST">Trạng thái bất thường</msg>
+	<msg code="201005" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DUPLICATE">Trạng thái bất thường</msg>
+	<msg code="201009" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_BALANCE_NOT_EXIST">Trạng thái bất thường</msg>
+	<msg code="201011" type="0" priority="1" name="STATUS_CODE_ERR_API_COIN_NOT_ENOUGH">Số dư tài khoản không đủ</msg>
+	<msg code="201013" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_DATA_NOT_EXIST">Trạng thái bất thường</msg>
+	<msg code="201099" type="0" priority="1" name="STATUS_CODE_ERR_API_DATABASE_ERROR">Trạng thái bất thường</msg>
+	<msg code="201999" type="0" priority="1" name="ESTATUS_CODE_ERR_API_SERVER_ERROR">Trạng thái bất thường</msg>
+	
+</data>

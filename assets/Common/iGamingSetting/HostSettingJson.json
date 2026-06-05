@@ -1,0 +1,89 @@
+{
+	"ConnectSetting": {
+		"IsConnectServer": true,
+		"Server": {
+			"IsSimpleServer": false,
+			"UserId": "SimpleTest"
+		},
+		"FakeDataPath_StartGame": "Game/LocalGameData/G62_StartGame",
+		"FakeDataPath_Spin": [
+			"Game/LocalGameData/G62_MainGame_Extra",
+			"Game/LocalGameData/G62_FreeGame_Extra"
+		],
+		"RetryIntervalArray": [
+			15
+		]
+	},
+	"GameSetting": {
+		"ReadyToSpinDelay": {
+			"NoWin": 0.4,
+			"FastSpinNoWin": 0.4,
+			"HaveWin": 0.8,
+			"Multiplier": 1
+		},
+		"InGameJPIntervalTime": 10,
+		"IsUseShutter": false,
+		"QuickStopWhenFastSpin": true,
+		"BGM": {
+			"FadeInWhenSpin": false,
+			"FadeOutDelay": -1
+		}
+	},
+	"Bingo": {
+		"ShowMode": 2,
+		"UseBingoFrame": true,
+		"UseWheelMask": true,
+		"UseScatterWin": false,
+		"DontShowAllBingoAnimationInMG": true,
+		"ShowWinEffectAfterAllBingo": false,
+		"DontShowBottomBarMessage": false,
+		"ShowDuation": 2,
+		"HideDuration": 0
+	},
+	"WinEffect": {
+		"SkipInSpecialGame": false,
+		"ShowTotalAfterSpecialGame": false,
+		"SmallWin": {
+			"ShowDelay": 0,
+			"Duration": 0.65,
+			"SkipDelay": 2
+		},
+		"BigWin": {
+			"ShowDelay": 0,
+			"Duration": 4,
+			"SkipDelay": 1
+		},
+		"MegaWin": {
+			"ShowDelay": 0,
+			"Duration": 6,
+			"SkipDelay": 1
+		},
+		"SuperWin": {
+			"ShowDelay": 0,
+			"Duration": 7,
+			"SkipDelay": 1
+		},
+		"SpecialWin": {
+			"ShowDelay": 0,
+			"Duration": 4,
+			"SkipDelay": 1
+		}
+	},
+	"WinLabel": {
+		"SmallWin": {
+			"Duration": 2
+		},
+		"BigWin": {
+			"Duration": 4
+		},
+		"MegaWin": {
+			"Duration": 6
+		},
+		"SuperWin": {
+			"Duration": 7
+		},
+		"SpecialWin": {
+			"Duration": 4
+		}
+	}
+}

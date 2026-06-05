@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<!-- Server Response Message -->
+	<!--AccessDeniedReason -->
+	<msg code="0" type="0" priority="1" name="UNDEFINED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="1" type="0" priority="2" name="ACCESSDENIED_USER_NAME_NOT_FOUND">บัญชีหรือรหัสผ่านไม่ถูกต้อง กรุณาลองอีกครั้ง</msg>
+	<msg code="2" type="0" priority="1" name="USER_NAME_NOT_FOUND">บัญชีหรือรหัสผ่านไม่ถูกต้อง กรุณาลองอีกครั้ง</msg>
+	<msg code="3" type="0" priority="1" name="DUPLICATE_LOGIN">บัญชีนี้ถูกใช้แล้ว</msg>
+	<msg code="4" type="0" priority="2" name="USER_NAME_IS_EMPTY">บัญชีหรือรหัสผ่านไม่ถูกต้อง</msg>
+	<msg code="5" type="0" priority="1" name="PASSWORD_INCORRECT">บัญชีหรือรหัสผ่านไม่ถูกต้อง</msg>
+	<msg code="6" type="0" priority="2" name="NO_BASE">เกิดข้อผิดพลาดที่คาดไม่ถึงเกี่ยวกับอุปกรณ์ จะกลับสู่ล็อบบี้ กรุณาเข้าสู่เกมอีกครั้งในภายหลัง</msg>
+	<msg code="7" type="0" priority="2" name="REGISTER_BASE_FAIL">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="8" type="0" priority="2" name="L1_REJECT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="9" type="0" priority="1" name="INVALID_PROTOCOL_VERSION">มีการอัพเดทใหม่ ดาวน์โหลดได้เลยทันที</msg>
+	<msg code="10" type="0" priority="2" name="NO_NICKNAME">บัญชีหรือรหัสผ่านไม่ถูกต้อง</msg>
+	<msg code="11" type="0" priority="2" name="UNKNOWN">บัญชีนี้ถูกระงับใช้สิทธ์เป็นชั่วคราว กรุณาติดต่อฝ่ายบริการลูกค้า</msg>
+	<msg code="20" type="0" priority="1" name="USER_NAME_IS_EMPTY">บัญชีหรือรหัสผ่านไม่ถูกต้อง กรุณาลองอีกครั้ง</msg>
+	<msg code="22" type="0" priority="1" name="CHECK_KEY_IS_ZERO">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="24" type="0" priority="1" name="L1_REJECT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="25" type="0" priority="1" name="NOT_SOBER">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="27" type="0" priority="1" name="NO_BASE">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="28" type="0" priority="1" name="REGISTER_BASE_FAIL">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="29" type="0" priority="1" name="VERIFY_NUMBER_ERROR">รหัสยืนยันไม่มีประสิทธิภาพ กรุณาป้อนอีกครั้ง</msg>
+	<msg code="30" type="0" priority="1" name="NO_NICKNAME">บัญชีหรือรหัสผ่านไม่ถูกต้อง</msg>
+	<msg code="31" type="0" priority="1" name="PERMISSION_TYPE_CENTRAL_NOT_FOUND">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="32" type="0" priority="1" name="PERMISSION_TYPE_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="33" type="0" priority="1" name="PERMISSION_TYPE_RELOGIN_TOO_FAST">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="34" type="0" priority="1" name="PERMISSION_TYPE_HS_CODE_REQUIRED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="254" type="0" priority="1" name="MAINTENANCE">กำลังปรับปรุงเซิร์ฟเวอร์ กรุณาลงชื่อเข้าใช้ในภายหลัง!</msg>
+	<msg code="255" type="0" priority="1" name="UNKNOWN">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<!-- login failed -->
+	<msg code="100" type="0" priority="1" name="LOGINFAILED_VERIFY_FAILED">ไม่สามารถเชื่อมต่อเพื่อดำเนินการยืนยันรหัสยืนยัน กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="101" type="0" priority="1" name="LOGINFAILED_LOGIN_FAILED">กำลังปรับปรุงเซิร์ฟเวอร์ กรุณาลงชื่อเข้าใช้ในภายหลัง!</msg>
+	<msg code="190" type="0" priority="1" name="LOGINFAILED_UNKNOWN">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="192" type="0" priority="1" name="LOGINFAILED_INVALID_GROUPNAME">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<!-- disconnected with base server reason code -->
+	<msg code="200" type="0" priority="1" name="DISCONNECTED_NETWORK_FAILED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="201" type="0" priority="1" name="DISCONNECTED_ACCESS_DENIED">บัญชีหรือรหัสผ่านไม่ถูกต้อง กรุณาลองอีกครั้ง</msg>
+	<msg code="202" type="0" priority="1" name="DISCONNECTED_WRONG_PROTOCOL">ฉบับเกมนี้หมดประสิทธิภาพแล้ว ระบบจะทำการอัพเดทฉบับใหม่โดยอัตโนมัติ</msg>
+	<msg code="203" type="0" priority="1" name="DISCONNECTED_USER_REQUEST">การเชื่อมต่อของคุณขาดหาย</msg>
+	<msg code="204" type="0" priority="1" name="DISCONNECTED_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="205" type="0" priority="1" name="DISCONNECTED_NETWORK_SHUTDOWN">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="206" type="0" priority="1" name="DISCONNECTED_RESET_BY_PEER">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="220" type="0" priority="1" name="DISCONNECTED_STILL_ONLINE">กำลังตัดการเชื่อมต่อกับอุปกรณ์เคลื่อนที่</msg>
+	<msg code="222" type="0" priority="1" name="DISCONNECTED_MASTER_KICKED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="224" type="0" priority="1" name="DISCONNECTED_USER_SHUTDOWN">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="225" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_SHUTDOWN">ขณะนี้เซิร์ฟเวอร์ปิดบริการอยู่ กรุณาลงชื่อเข้าใช้ในภายหลัง</msg>
+	<msg code="226" type="0" priority="1" name="DISCONNECTED_PACKAGE_OVERLOAD">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="240" type="0" priority="1" name="DISCONNECTED_USING_SPEEDER">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="241" type="0" priority="1" name="DISCONNECTED_TABLE_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="242" type="0" priority="1" name="DISCONNECTED_ACCOUNT_DATABASE_ERROR">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="243" type="0" priority="1" name="DISCONNECTED_BILL_DATABASE_ERROR">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="244" type="0" priority="1" name="DISCONNECTED_GAME_DATABASE_ERROR">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="245" type="0" priority="1" name="DISCONNECTED_TRY_PASSWORD_TOO_MANY_TIMES">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="246" type="0" priority="1" name="DISCONNECTED_COMMAND_ERROR">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="248" type="0" priority="1" name="DISCONNECTED_TABLE_FULL">ผู้เข้าเล่นเกมครบจำนวนแล้ว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="260" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_SHUTDOWN">ล็อบบี้เกมปิดบริการ กรุณาลงชื่อเข้าใช้ในภายหลัง</msg>
+	<msg code="261" type="0" priority="1" name="DISCONNECTED_GAME_SERVER_DISCONNECT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="262" type="0" priority="1" name="DISCONNECTED_USER_LEAVE_GAME">คุณออกจากเกมแล้ว</msg>
+	<msg code="263" type="0" priority="1" name="DISCONNECTED_BASE_SERVER_DISCONNECT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="264" type="0" priority="1" name="DISCONNECTED_BASE_CLEANUP">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="265" type="0" priority="1" name="DISCONNECTED_BASE_CANCEL_JOIN_GAME">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="266" type="0" priority="1" name="DISCONNECTED_JOIN_GAME_SERVER_EXCEPTION">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="267" type="0" priority="1" name="DISCONNECTED_USER_TABLE_IS_FULL">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="268" type="0" priority="1" name="DISCONNECTED_USER_IS_DUPLICATED">บัญชีหรือรหัสผ่านไม่ถูกต้อง กรุณาแยกแยะตัวใหญ่หรือตัวเล็กและป้อนอีกครั้ง</msg>
+	<msg code="270" type="0" priority="1" name="DISCONNECTED_UNDISCONNECTED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="271" type="0" priority="1" name="DISCONNECTED_UNDEFINED">มีการอัพเดทใหม่ ดาวน์โหลดได้เลยทันที</msg>
+	<!-- user join game failed reason code -->
+	<msg code="310" type="0" priority="1" name="JOINGAME_INVALID_THEME_NAME">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="311" type="0" priority="1" name="JOINGAME_THEME_NOT_ACTIVE">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="312" type="0" priority="1" name="JOINGAME_GAME_SERVER_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="313" type="0" priority="1" name="JOINGAME_USER_IP_NOT_ALLOWED">ขออภัย IP อินเตอร์เน็ตถูกระงับจำกัด ไม่สามารถเข้าสูระบบเกมได้</msg>
+	<msg code="314" type="0" priority="1" name="JOINGAME_VERSION_NOT_MATCHED">ฉบับเกมนี้หมดประสิทธิภาพแล้ว ระบบจะทำการอัพเดทฉบับใหม่โดยอัตโนมัติ</msg>
+	<msg code="315" type="0" priority="1" name="JOINGAME_USER_ALREADY_JOINED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="316" type="0" priority="1" name="JOINGAME_CANNOT_JOIN_MORE_GAMES">มีเกมที่เปิดเข้าเล่นอยู่แล้ว</msg>
+	<msg code="317" type="0" priority="1" name="JOINGAME_TEMPORARY_NOT_ALLOW">ล็อบบี้เกมปิดบริการ กรุณาลงชื่อเข้าใช้ในภายหลัง</msg>
+	<msg code="318" type="0" priority="1" name="JOINGAME_PERPARING_SHUTDOWN">ล็อบบี้เกมปิดบริการ กรุณาลงชื่อเข้าใช้ในภายหลัง</msg>
+	<msg code="321" type="0" priority="1" name="JOINGAME_PLS_RE_ENTER_GAME">ขออภัยค่ะ ผู้เล่นในเกมครบจำนวนขีดจำกัดที่กำหนด</msg>
+	<msg code="330" type="0" priority="1" name="JOINGAME_THEME_IS_FULL">ขออภัยค่ะ จำนวนคนผู้เข้าเล่นเกมเต็มแล้ว ขออภัยในความไม่สะดวก</msg>
+	<msg code="331" type="0" priority="1" name="JOINGAME_USER_IS_DUPLICATE">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="332" type="0" priority="1" name="JOINGAME_GAME_SERVER_IS_SHUTTINGDOWN">ล็อบบี้เกมปิดบริการ กรุณาลงชื่อเข้าใช้ในภายหลัง</msg>
+	<msg code="333" type="0" priority="1" name="JOINGAME_GAME_SERVER_HAS_EXCEPTION">การเข้าสู่ล็อบบี้เกมล้มเหลว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="334" type="0" priority="1" name="JOINGAME_GAME_SERVER_BAD_REJECTION">ขออภัยค่ะ คุณไม่สามารถเข้าสู่ห้องเกมนี้ กรุณาเลือกเล่นในห้องเกมอื่นๆ</msg>
+	<msg code="380" type="0" priority="1" name="JOINGAME_REJECTED">ขออภัยค่ะ คุณไม่สามารถเข้าเล่น กรุณาเลือกเล่นเกมอื่นๆ</msg>
+	<msg code="381" type="0" priority="1" name="JOINGAME_MONEY_IS_BELOW_MINIMUM">ยอดคงเหลือของคุณไม่เพียงพอ ไม่สามารถเข้าสู่ฮอลล์เกมนี้ กรุณาเลือกเข้าสู่ฮอลล์เกมอื่นๆ</msg>
+	<msg code="382" type="0" priority="1" name="JOINGAME_MONEY_IS_ABOVE_MAXIMUM">ยอดคงเหลือของคุณที่นำเข้ามา มากกว่าขีดสูงสุดของฮอลล์เกม กรุณาโอนยอดเงินบางส่วนออกหรือเลือกเล่นในฮอลล์เกมอื่นๆ</msg>
+	<msg code="383" type="0" priority="1" name="JOINGAME_LEVEL_IS_BELOW_MINIMUM">ขออภัยค่ะ เลเวลของคุณไม่สามารถเข้าสู่เกมนี้ กรุณาเลือกเล่นเกมอื่นๆ</msg>
+	<msg code="384" type="0" priority="1" name="JOINGAME_LEVEL_IS_ABOVE_MAXIMUM">ขออภัยค่ะ เลเวลของคุณไม่สามารถเข้าสู่เกมนี้ กรุณาเลือกเล่นเกมอื่นๆ</msg>
+	<msg code="385" type="0" priority="1" name="JOINGAME_REPEATED_DISCONNECT">คุณได้เปิดเกมนี้แล้ว โปรดรอสักครู่</msg>
+	<msg code="386" type="0" priority="1" name="JOINGAME_CONTEST_FINISHED">การแข่งขันในครั้งนี้สิ้นสุดลงแล้ว</msg>
+	<msg code="387" type="0" priority="1" name="JOINGAME_CONTEST_ADMISSION_NOT_PAID">การแข่งขันในครั้งนี้มีเงื่อนไขกำหนด กรุณาตรวจสอบคำแนะนำกิจกรรม</msg>
+	<msg code="395" type="0" priority="1" name="JOINGAME_UNJOINED">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="396" type="0" priority="1" name="JOINGAME_UNDEFINED">มีการอัพเดทใหม่ ดาวน์โหลดได้เลยทันที</msg>
+	<!-- leave game reason code -->
+	<msg code="400" type="0" priority="1" name="LEAVEGAME_USER_REQUEST">ออกจากเกม</msg>
+	<msg code="402" type="0" priority="1" name="LEAVEGAME_GAME_DISCONNECT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="403" type="0" priority="1" name="LEAVEGAME_BASE_DISCONNECT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="404" type="0" priority="1" name="LEAVEGAME_MASTER_KICK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="407" type="0" priority="1" name="LEAVEGAME_USER_DISCONNECT">คุณออกจากเกมแล้ว</msg>
+	<msg code="425" type="0" priority="1" name="LEAVEGAME_GAME_SERVER_SHUTDOWN">ล็อบบี้เกมปิดบริการ กรุณาลงชื่อเข้าใช้ในภายหลัง</msg>
+	<msg code="440" type="0" priority="1" name="LEAVEGAME_USING_SPEEDER">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="441" type="0" priority="1" name="LEAVEGAME_TABLE_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="444" type="0" priority="1" name="LEAVEGAME_GAME_DATABASE_ERROR">เกิดข้อผิดพลาดในระบบ กรุณาปิดแล้วลงชื่อเข้าใช้อีกครั้ง</msg>
+	<msg code="445" type="0" priority="1" name="LEAVEGAME_TRY_PASSWORD_TOO_MANY_TIMES">ป้อนรหัสผ่านไม่ถูกต้องเกินกว่าจำนวนครั้งที่กำหนด</msg>
+	<msg code="446" type="0" priority="1" name="LEAVEGAME_COMMAND_ERROR">เกิดข้อผิดพลาดในคำสั่งข้อตกลง</msg>
+	<msg code="448" type="0" priority="1" name="LEAVEGAME_GAME_ROOM_FULL">ขออภัยค่ะ จำนวนคนผู้เข้าเล่นเต็มแล้ว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="466" type="0" priority="1" name="LEAVEGAME_JOIN_GAME_EXCEPTION">การเข้าสู่เกมล้มเหลว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="481" type="0" priority="1" name="LEAVEGAME_MONEY_IS_BELOW_MINIMUM">ยอดคงเหลือไม่เพียงพอ ไม่สามารถเข้าสู่ล็อบบี้นี้ กรุณาเปลี่ยนเลือกอีกรายการหนึ่ง</msg>
+	<msg code="482" type="0" priority="1" name="LEAVEGAME_MONEY_IS_ABOVE_MAXIMUM">ยอดคงเหลือของคุณมากเกินไปจึงเข้าเล่นไม่ได้ กรุณาเลือกอีกรายการหนึ่ง</msg>
+	<msg code="483" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_BELOW_MINIMUM">ขออภัยค่ะ เลเวลของคุณไม่สามารถเข้าสู่เกมนี้ กรุณาเลือกเล่นเกมอื่นๆ</msg>
+	<msg code="484" type="0" priority="1" name="LEAVEGAME_LEVEL_IS_ABOVE_MAXIMUM">ขออภัยค่ะ เลเวลของคุณไม่สามารถเข้าสู่เกมนี้ กรุณาเลือกเล่นเกมอื่นๆ</msg>
+	<msg code="485" type="0" priority="1" name="LEAVEGAME_REPEATED_DISCONNECT">คุณออกจากเกมแล้ว</msg>
+	<msg code="486" type="0" priority="1" name="LEAVEGAME_CONTEST_FINISHED">การแข่งขันในครั้งนี้สิ้นสุดลงแล้ว</msg>
+	<msg code="487" type="0" priority="1" name="LEAVEGAME_CONTEST_ADMISSION_NOT_PAID">การแข่งขันในครั้งนี้มีเงื่อนไขกำหนด กรุณาตรวจสอบคำแนะนำกิจกรรม</msg>
+	<msg code="495" type="0" priority="1" name="LEAVEGAME_UNLEFT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="496" type="0" priority="1" name="LEAVEGAME_UNDEFINED">มีการอัพเดทใหม่ ดาวน์โหลดได้เลยทันที</msg>
+	<!-- local connection error code -->	
+	<msg code="1000" type="0" priority="1" name="LOCALCONNECT_FAIL_SUFFIX">การเข้าถึงข้อมูลล้มเหลว: การเชื่อมต่อผิดพลาด กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="1001" type="0" priority="1" name="LOCALCONNECT_INVALID_GAMENAME">การเข้าถึงข้อมูลล้มเหลว: การเชื่อมต่อผิดพลาด กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="1002" type="0" priority="1" name="LOCALCONNECT_GAMENAME_DUPLICATE">การเข้าถึงข้อมูลล้มเหลว: ชื่อซ้ำกัน! กรุณาลองอีกครั้ง</msg>
+	<msg code="1003" type="0" priority="1" name="LOCALCONNECT_DISCONNECT_PLATFORM">การเข้าถึงข้อมูลล้มเหลว: ใช้เวลาเข้าถึงข้อมูลล็อบบี้นานเกินไป กรุณาลองอีกครั้ง</msg>
+	<msg code="1004" type="0" priority="1" name="LOCALCONNECT_GAME_ALIVE_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="1005" type="0" priority="1" name="LOCALCONNECT_LOBBY_ALIVE_TIMEOUT">ไม่สามารถเชื่อมต่อล็อบบี้ได้ กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="1006" type="0" priority="1" name="LOCALCONNECT_GAME_REQ_RESET_LOBBY">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="1100" type="0" priority="1" name="ERRORID_THIS_ROOM_IS_FULL">การเข้าร่วมล้มเหลว: ผู้เล่นในห้องครบจำนวนแล้ว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="1101" type="0" priority="1" name="ERRORID_ALL_ROOMS_ARE_FULL">การเข้าร่วมล้มเหลว: ผู้เล่นในห้องครบจำนวนแล้ว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="1102" type="0" priority="1" name="ERRORID_THIS_ROOM_ID_IS_INVALID">การเข้าร่วมล้มเหลว: การเชื่อมต่อห้องล้มเหลว กรุณาลองอีกครั้งในภายหลัง</msg>
+	<msg code="1103" type="0" priority="1" name="ERRORID_PLAYER_ALREADY_IN_ROOM">การเข้าร่วมล้มเหลว: บัญชีนี้อยู่ในห้องแล้ว กรุณาปิดเกมและเข้ามาใหม่</msg>
+	<msg code="1104" type="0" priority="1" name="ERRORID_CLIENT_MONEY_ERROR">การวางเดิมพันล้มเหลว กรุณายกเลิกการวางเดิมพันในครั้งนี้</msg>
+<!-- Client Message -->
+	<!-- custom error -->
+	<msg code="2001" type="0" priority="1" name="INSUFFICIENT_AMOUNT">ยอดคงเหลือในบัญชีไม่เพียงพอ</msg>
+	<msg code="2002" type="0" priority="1" name="SERVER_RESPONSE_ERROR">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2003" type="0" priority="1" name="WANT_QUIT">ยืนยันออกจากเกมหรือไม่?</msg>
+	<msg code="2004" type="0" priority="1" name="IDLE_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2005" type="0" priority="1" name="CANNOT_BACKTO_THEME">กรุณาเล่นเกมต่อนี้ให้จบก่อนที่จะสิ้นสุด</msg>
+	<msg code="2006" type="0" priority="1" name="EXPIRE_MAX_CREDIT">ยอดคงเหลือของคุณบรรลุขีดจำกัดที่กำหนดแล้ว</msg>
+	<msg code="2007" type="0" priority="1" name="BET_ERROR">ยอดคงเหลือของคุณไม่เพียงพอ การวางเดิมพันครั้งนี้จะถูกยกเลิก</msg>
+	<msg code="2008" type="0" priority="1" name="SERVER_DATA_ERROR">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2009" type="0" priority="1" name="JOIN_LOBBY_FAIL">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2025" type="0" priority="1" name="BET_ERROR_MAX_BET">ยอดรวมสูงสุดที่กำหนดในการวางเดิมพันคือ %s จะดำเนินการคืนเงินเดิมพันส่วนที่เกิน</msg>
+	<msg code="2026" type="0" priority="1" name="BET_ERROR_MIN_BET">ยอดรวมต่ำสุดที่กำหนดในการวางเดิมพันคือ %s จะดำเนินการคืนเงินเดิมพันส่วนที่เกิน</msg>
+	<msg code="2027" type="0" priority="1" name="BET_ERROR_DATA">การวางเดิมพันครั้งนี้เกิดข้อจำกัดโดยกฎที่ไม่อนุมัติ จะส่งคืนเงินเดิมพันครั้งนี้</msg>
+	<msg code="2028" type="0" priority="1" name="DOUBLE_UP_LIMIT_REACHED">การวางเดิมพันสองเท่าบรรลุขีดจำกัดแล้ว</msg>
+	<msg code="2029" type="0" priority="1" name="ADD_CLIENT_MONEY_TIMEOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+  <msg code="2030" type="0" priority="1" name="INSUFFICIENT_AMOUNT_STORE">Insuffcient Balance! Please get more coin at the shop.</msg>
+	<msg code="2031" type="0" priority="1" name="TOO_MUCH_BALANCE">Your balance is too much.</msg>
+	<!-- slot -->
+	<msg code="2010" type="0" priority="1" name="SERVER_RESPONSE_ERROR_MAINGAME_SPIN_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2011" type="0" priority="1" name="SERVER_DATA_ERROR_MAINGAME_SPIN_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2012" type="0" priority="1" name="SERVER_RESPONSE_ERROR_FREEGAME_SPIN_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2013" type="0" priority="1" name="SERVER_DATA_ERROR_FREEGAME_SPIN_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2014" type="0" priority="1" name="SERVER_RESPONSE_ERROR_DOUBLEGAME_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2015" type="0" priority="1" name="SERVER_DATA_ERROR_DOUBLEGAME_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2016" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS1_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2017" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS1_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2018" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS2_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2019" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS2_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2020" type="0" priority="1" name="SERVER_RESPONSE_ERROR_BONUS3_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2021" type="0" priority="1" name="SERVER_DATA_ERROR_BONUS3_ACK">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<!-- arcade -->
+	<msg code="2022" type="0" priority="1" name="SERVER_KICKOUT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2023" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_CLIENT">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<msg code="2024" type="0" priority="1" name="SERVER_TOOLONG_NOT_RESPONSE_SERVER">คุณภาพสัญญาณอินเตอร์เน็ตไม่เสถียร</msg>
+	<!-- mobile lobby -->
+	<msg code="3000" type="0" priority="1" name="NOT_ENOUGH_CAPACITY">การโหลดล้มเหลว พื้นที่ในอุปกรณ์ของคุณไม่เพียงพอ</msg>
+	<msg code="3001" type="0" priority="1" name="LOBBY_PROGRESS_PANEL_NULL">การแก้ไขบั๊กล้มเหลว กรุณาสร้างใหม่อีกครั้งโดยเร็ว</msg>
+	<msg code="3002" type="0" priority="1" name="LOBBY_NEW_VERSION_DETECTED">ตรวจพบการอัพเดทใหม่ กรุณาดาวน์โหลดฉบับใหม่ล่าสุด</msg>
+	<msg code="3003" type="0" priority="1" name="LOBBY_GAME_LOCKED">เกมถูกล็อคแล้ว กรุณาติดต่อฝ่ายบริการลูกค้า</msg>
+	<msg code="3004" type="0" priority="1" name="LOBBY_GAME_DOWNLOADING">เกมกำลังดาวน์โหลด</msg>
+	<msg code="3005" type="0" priority="1" name="LOBBY_GAME_MEM_REQ_1GB">เกมนี้ต้องการหน่วยความจำในอุปกรณ์อย่างน้อย 1 GB</msg>
+	<msg code="3006" type="0" priority="1" name="LOBBY_GAME_PROGRESSING">กำลังเล่นเกมอยู่ หลังจบการแข่งขันแล้ว คุณจึงสามารถกลับสู่ล็อบบี้ได้</msg>
+	<msg code="3007" type="0" priority="1" name="LOBBY_DEPOSIT">เติม %s คะแนน</msg>
+	<msg code="3008" type="0" priority="1" name="LOBBY_CASH_OUT">ถอน %s คะแนน</msg>
+	<!-- Client Msg -->
+	<msg code="9101" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG">ไม่มีการเคลื่อนไหวนานเกินไป กรุณาวางเดิมพัน หลังนับถอยหลังจบแล้ว ระบบจะออกจากเกมอัตโนมัติ</msg>
+	<msg code="9102" type="0" priority="1" name="CLIENT_WARNING_IDLE_TOO_LONG_NEW">กิจกรรมสิ้นสุดลงแล้ว เกมจะปิดโดยอัตโนมัติในอีกไม่กี่วินาที กด "ยืนยัน" เพื่อเปิดต่อ</msg>
+	<msg code="9103" type="0" priority="1" name="CLIENT_IDLE_TOO_LONG_CLOSED">กิจกรรมสิ้นสุดลงแล้ว เกมจะปิดโดยอัตโนมัติ กด "ยืนยัน" แล้วจะกลับสู่ล็อบบี้</msg>
+	<msg code="9201" type="0" priority="1" name="CLIENT_MSG_IDLE_TOO_LONG">คุณไม่มีการเคลื่อนไหวนานเกินไป
+	กรุณาวางเดิมพันหรือระบบจะออกจากเกมโดยอัตโนมัติ</msg>
+	<!-- H5 Client Msg -->
+	<msg code="50000" type="0" priority="1" name="HTML5_BROWSER_ERROR">เพื่อประสิทธิภาพสูงสุด กรุณาใช้ Chrome หรือ Safari หรือ FireFox</msg>
+	<msg code="50001" type="0" priority="1" name="HTML5_WEBGL_NOT_SUPPORT">กรุณาอัพเดทเบราว์เซอร์ฉบับใหม่ หรือแนะนำใช้เบราว์เซอร์ของ Safari, Firefox, และ Google</msg>
+	<!-- system -->
+	<msg code="100101" type="0" priority="1" name="ERRORID_MAX_GAMES_WERE_OPENED">คุณได้เปิดหน้าต่างครบจำนวนสูงสุดที่กำหนดแล้ว</msg>
+	<msg code="100102" type="0" priority="1" name="CONFIRM_BACKTO_THEMELIST">ยืนยันกลับสู่หน้าเมนูหรือไม่?</msg>
+	<msg code="100103" type="0" priority="1" name="CONFIRM_COMPLETE_GAME_BEFORE_QUIT">ต้องเล่นเกมต่อนี้ให้เสร็จถึงสิ้นสุดได้นะคะ</msg>
+	<msg code="100104" type="0" priority="1" name="LOADER_FAILED">การโหลดไฟล์ผิดพลาด กรุณาเปิดเกมใหม่อีกครั้ง</msg>
+	<!-- Server -->
+	<msg code="200001" type="0" priority="1" name="STATUS_CODE_ERR_CMD_NOT_FOUND">สถานะผิดปกติ</msg>
+	<msg code="200002" type="0" priority="1" name="STATUS_CODE_ERR_DATA_FIELD">สถานะผิดปกติ</msg>
+	<msg code="200003" type="0" priority="1" name="STATUS_CODE_ERR_CMD_IMP">สถานะผิดปกติ</msg>
+	<msg code="200004" type="0" priority="1" name="STATUS_CODE_ERR_USER_NOT_EXIST">สถานะผิดปกติ</msg>
+	<msg code="200005" type="0" priority="1" name="STATUS_CODE_ERR_TOKEN_EXPIRED">สถานะผิดปกติ</msg>
+	<msg code="200006" type="0" priority="1" name="STATUS_CODE_ERR_SIGNATURE">สถานะผิดปกติ</msg>
+	<msg code="200007" type="0" priority="1" name="STATUS_CODE_ERR_JSON_FORMAT">สถานะผิดปกติ</msg>
+	<msg code="200008" type="0" priority="1" name="STATUS_CODE_ERR_SET_SESSION">สถานะผิดปกติ</msg>
+	<msg code="200009" type="0" priority="1" name="STATUS_CODE_ERR_SET_SHARD_INFO">สถานะผิดปกติ</msg>
+	<msg code="200010" type="0" priority="1" name="STATUS_CODE_ERR_USER_HAD_BEEN_SUSPENDED">สถานะผิดปกติ</msg>
+	<msg code="209999" type="0" priority="1" name="STATUS_CODE_ERR_EXCEPTION">สถานะผิดปกติ</msg>
+	<!-- Main Game -->
+	<msg code="200020" type="0" priority="1" name="STATUS_CODE_ERR_ANOTHER_DEVICE_IS_PLAYING">บัญชีนี้ได้ลงชื่อเข้าใช้ด้วยอุปกรณ์อื่นแล้ว</msg>
+	<msg code="200021" type="0" priority="1" name="STATUS_CODE_ERR_COIN_NOT_ENOUGH">ยอดคงเหลือในบัญชีไม่เพียงพอ</msg>
+	<msg code="200024" type="0" priority="1" name="STATUS_CODE_ERR_SPIN_AUTH">สถานะผิดปกติ</msg>
+	<msg code="200025" type="0" priority="1" name="STATUS_CODE_ERR_GAME_SESSION_MISSING">สถานะผิดปกติ</msg>
+	<msg code="200026" type="0" priority="1" name="STATUS_CODE_ERR_BET_ALREADY_CONSUMED">สถานะผิดปกติ</msg>
+	<msg code="200027" type="0" priority="1" name="STATUS_CODE_ERR_BET_DATA_NOT_EXISTS">สถานะผิดปกติ</msg>
+	<msg code="200028" type="0" priority="1" name="STATUS_CODE_ERR_USER_IS_PLAYING_SOCKET_GAME">บัญชีนี้กำลังเล่นเกมอื่นอยู่</msg>
+	<msg code="200029" type="0" priority="1" name="STATUS_CODE_ERR_MAINGAME_STATE_EXCEPTION">สถานะผิดปกติ</msg>
+	<msg code="200030" type="0" priority="1" name="STATUS_CODE_ERR_BONUSGAME_STATE_EXCEPTION">สถานะผิดปกติ</msg>
+	<msg code="200031" type="0" priority="1" name="STATUS_CODE_ERR_FEVERGAME_STATE_EXCEPTION">สถานะผิดปกติ</msg>
+	<msg code="200032" type="0" priority="1" name="STATUS_CODE_ERR_GAME_IS_UNDER_CONSTRUCTION">สถานะผิดปกติ</msg>
+	<msg code="200033" type="0" priority="1" name="STATUS_CODE_ERR_GET_GAME_STATE_ERROR">สถานะผิดปกติ</msg>
+	<msg code="200034" type="0" priority="1" name="STATUS_CODE_ERR_UPDATE_GAME_STATE_ERROR">สถานะผิดปกติ</msg>
+	<msg code="200035" type="0" priority="1" name="STATUS_CODE_ERR_USER_BALANCE_ERROR">สถานะผิดปกติ</msg>
+	<msg code="200036" type="0" priority="1" name="STATUS_CODE_ERR_USER_START_GAME_INFO_SN_ERROR">สถานะผิดปกติ</msg>
+	<msg code="200037" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_STATE_EXCEPTION">สถานะผิดปกติ</msg>
+	<msg code="200038" type="0" priority="1" name="STATUS_CODE_ERR_DOUBLEGAME_IS_UNDER_CONSTRUCTION">สถานะผิดปกติ</msg>
+	<!-- API Server Connect -->
+	<msg code="201001" type="0" priority="1" name="STATUS_CODE_ERR_API_SIGN_ERROR">สถานะผิดปกติ</msg>
+	<msg code="201002" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DATA_ILLEAGL">สถานะผิดปกติ</msg>
+	<msg code="201003" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_NOT_EXIST">สถานะผิดปกติ</msg>
+	<msg code="201005" type="0" priority="1" name="STATUS_CODE_ERR_API_CMD_DUPLICATE">สถานะผิดปกติ</msg>
+	<msg code="201009" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_BALANCE_NOT_EXIST">สถานะผิดปกติ</msg>
+	<msg code="201011" type="0" priority="1" name="STATUS_CODE_ERR_API_COIN_NOT_ENOUGH">ยอดคงเหลือในบัญชีไม่เพียงพอ</msg>
+	<msg code="201013" type="0" priority="1" name="STATUS_CODE_ERR_API_USER_DATA_NOT_EXIST">สถานะผิดปกติ</msg>
+	<msg code="201099" type="0" priority="1" name="STATUS_CODE_ERR_API_DATABASE_ERROR">สถานะผิดปกติ</msg>
+	<msg code="201999" type="0" priority="1" name="ESTATUS_CODE_ERR_API_SERVER_ERROR">สถานะผิดปกติ</msg>
+	
+</data>

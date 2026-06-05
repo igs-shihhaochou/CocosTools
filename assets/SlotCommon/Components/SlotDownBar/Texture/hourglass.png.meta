@@ -1,0 +1,163 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "1e271146-a6ac-45cd-8259-51c869b3e422",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "hourglass": {
+      "ver": "1.0.6",
+      "uuid": "4f3a4e93-d115-4861-b32a-0aa634c1d61b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1e271146-a6ac-45cd-8259-51c869b3e422",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 25,
+      "trimY": 0,
+      "width": 462,
+      "height": 512,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "1e271146-a6ac-45cd-8259-51c869b3e422@6c48a",
+      "displayName": "hourglass",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "clamp-to-edge",
+        "mipfilter": "none",
+        "imageUuidOrDatabaseUri": "1e271146-a6ac-45cd-8259-51c869b3e422",
+        "isUuid": true,
+        "visible": false,
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "1e271146-a6ac-45cd-8259-51c869b3e422@f9941",
+      "displayName": "hourglass",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "importer": "sprite-frame",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 25,
+        "trimY": 0,
+        "width": 462,
+        "height": 512,
+        "rawWidth": 512,
+        "rawHeight": 512,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "imageUuidOrDatabaseUri": "1e271146-a6ac-45cd-8259-51c869b3e422@6c48a",
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -231,
+            -256,
+            0,
+            231,
+            -256,
+            0,
+            -231,
+            256,
+            0,
+            231,
+            256,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            25,
+            512,
+            487,
+            512,
+            25,
+            0,
+            487,
+            0
+          ],
+          "nuv": [
+            0.048828125,
+            0,
+            0.951171875,
+            0,
+            0.048828125,
+            1,
+            0.951171875,
+            1
+          ],
+          "minPos": [
+            -231,
+            -256,
+            0
+          ],
+          "maxPos": [
+            231,
+            256,
+            0
+          ]
+        },
+        "isUuid": true,
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "1e271146-a6ac-45cd-8259-51c869b3e422@6c48a",
+    "hasAlpha": true
+  }
+}

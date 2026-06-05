@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "dfa568c8-c8cc-4220-b13b-06b3369f692d",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "dfa568c8-c8cc-4220-b13b-06b3369f692d@6c48a",
+      "displayName": "AltarRiches_Extrabet",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "dfa568c8-c8cc-4220-b13b-06b3369f692d",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "dfa568c8-c8cc-4220-b13b-06b3369f692d@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "ecC6xafu1D3rAE7Fkep7Hc"
+    }
+  }
+}

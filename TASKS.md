@@ -106,10 +106,105 @@ H5 老虎機對包體大小有嚴格限制，專案中可能存在大量未壓�
   - 設定選項說明
 
 ### Task 6：進階功能（選做）
-- [ ] 支援匯出 CSV/JSON 報告
+- [ ] 支援匯出 CSV 報告
 - [ ] 支援自訂忽略清單（某些圖片不需要壓縮）
 - [ ] 支援與 CI/CD 整合的命令列模式
 - [ ] 圖片預覽對比（壓縮前 vs 壓縮後）
+
+---
+
+## 工具二：UUID 重置工具（UUID Resetter）
+
+### 痛點描述
+多個專案透過複製產出，交給外包或其他團隊製作後，只會將 Game 資料夾複製回主專案。但複製出去的資料夾內 UUID 與原專案相同，放回來時造成 UUID 衝突，導致場景、預製體、元件引用錯亂。
+
+### 工具目標
+提供一個 Cocos Creator 編輯器擴展，可在資源管理器中右鍵選擇資料夾後，一鍵重置該資料夾內所有資源的 UUID，並自動更新資料夾內部所有互相引用的關聯（確保內部關聯不斷裂）。
+
+---
+
+### Task 1：專案結構建立
+- [ ] 建立編輯器擴展結構：
+  ```
+  extensions/
+  └── uuid-resetter/
+      ├── package.json          # 插件描述
+      ├── tsconfig.json         # TypeScript 設定
+      ├── assets-menu.js        # 右鍵選單註冊
+      ├── src/
+      │   ├── main.ts          # 主進程
+      │   ├── resetter.ts      # 核心 UUID 重置邏輯
+      │   ├── types.ts         # 型別定義
+      │   ├── editor.d.ts      # Editor 型別宣告
+      │   └── panels/
+      │       └── default.ts   # 面板（進度顯示 + 結果報告）
+      ├── i18n/
+      │   ├── en.js
+      │   └── zh.js
+      └── README.md
+  ```
+- [ ] 在 `package.json` 中註冊：
+  - 右鍵資源管理器選單（透過 `assets-menu.js`）
+  - 所有面板和主進程需要的 messages
+
+### Task 2：UUID 掃描與映射建立
+- [ ] 遞迴掃描指定資料夾內所有 `.meta` 檔案
+- [ ] 收集所有現有 UUID（包含主資源 UUID 和 subMeta UUID）
+- [ ] 為每個舊 UUID 產生新的 UUID（使用 Cocos 相容的格式）
+- [ ] 建立 `oldUUID → newUUID` 的映射表
+- [ ] 處理 subMeta 的 UUID 格式（如 `uuid@6c48a`）：
+  - 主 UUID 部分替換，hash 後綴保留
+  - 確保 subMeta 的 key 對應關係正確
+
+### Task 3：UUID 替換邏輯
+- [ ] 更新所有 `.meta` 檔案中的 UUID：
+  - 頂層 `"uuid"` 欄位
+  - `subMetas` 中每個子資源的 `"uuid"` 欄位
+  - `userData` 中引用到的 UUID（如 `textureUuid`、`imageUuidOrDatabaseUri`）
+- [ ] 掃描並更新資料夾內所有引用到舊 UUID 的檔案：
+  - `.prefab`（預製體）中的 `__uuid__` 引用
+  - `.scene`（場景）中的 `__uuid__` 引用
+  - `.anim` / `.animation`（動畫）中的資源引用
+  - `.material`（材質）中的 `_effectAsset.__uuid__`
+  - `.fnt`（字型）中的 `textureUuid`
+  - `.pac.meta`（圖集）中引用到的 UUID
+  - TypeScript/JavaScript 中硬編碼的 UUID 字串（可選）
+- [ ] 確保只替換映射表中有的 UUID（不動外部引用）
+
+### Task 4：關聯完整性驗證
+- [ ] 替換完成後，重新掃描所有檔案
+- [ ] 驗證資料夾內部的所有 UUID 引用都指向有效的新 UUID
+- [ ] 列出「無法解析的引用」（可能指向資料夾外部的資源 — 這是正常的）
+- [ ] 產生替換報告：
+  - 總共重置了多少個 UUID
+  - 總共更新了多少個引用
+  - 有無失敗或未能處理的項目
+
+### Task 5：面板 UI 與安全機制
+- [ ] 右鍵選單入口：資料夾右鍵 → 「重置 UUID」
+- [ ] 點擊後彈出確認對話框：
+  - 顯示即將重置的資料夾路徑
+  - 警告此操作不可逆（建議先提交 Git）
+  - 確認 / 取消按鈕
+- [ ] 執行時顯示進度：
+  - 掃描進度
+  - 替換進度
+  - 驗證進度
+- [ ] 完成後顯示結果報告
+- [ ] 提供「匯出映射表」功能（JSON 格式，方便除錯或回溯）
+
+### Task 6：邊界情況處理
+- [ ] 處理 UUID 循環引用（A 引用 B，B 引用 A）
+- [ ] 處理同一 UUID 被多個檔案引用的情況
+- [ ] 忽略 `.meta` 以外的隱藏檔案
+- [ ] 不處理資料夾外部的引用（只更新選定資料夾內的檔案）
+- [ ] 支援巢狀 subMeta（如 SpriteFrame → Texture 的多層引用）
+
+### Task 7：跨專案可攜性
+- [ ] 確保插件為獨立模組，無外部依賴
+- [ ] 支援 Cocos Creator 3.8.x
+- [ ] 撰寫 README.md
+- [ ] 提供安裝說明
 
 ---
 
@@ -117,8 +212,9 @@ H5 老虎機對包體大小有嚴格限制，專案中可能存在大量未壓�
 | Task | 優先級 | 預估工作量 |
 |------|--------|-----------|
 | Task 1 | P0 | 0.5 天 |
-| Task 2 | P0 | 1.5 天 |
-| Task 3 | P0 | 1 天 |
-| Task 4 | P1 | 2 天 |
-| Task 5 | P1 | 0.5 天 |
-| Task 6 | P2 | 依需求 |
+| Task 2 | P0 | 1 天 |
+| Task 3 | P0 | 2 天 |
+| Task 4 | P0 | 1 天 |
+| Task 5 | P1 | 1 天 |
+| Task 6 | P1 | 1 天 |
+| Task 7 | P1 | 0.5 天 |

@@ -1,0 +1,132 @@
+
+AltarRiches_SpotLight.png
+size: 196,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjb_00007
+  rotate: false
+  xy: 72, 866
+  size: 80, 48
+  orig: 80, 48
+  offset: 0, 0
+  index: -1
+gd
+  rotate: false
+  xy: 154, 960
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+Light_2
+  rotate: false
+  xy: 2, 728
+  size: 65, 288
+  orig: 65, 288
+  offset: 0, 0
+  index: -1
+Light_3
+  rotate: false
+  xy: 2, 2
+  size: 162, 721
+  orig: 162, 721
+  offset: 0, 0
+  index: -1
+Pattern_1
+  rotate: false
+  xy: 169, 479
+  size: 23, 91
+  orig: 23, 91
+  offset: 0, 0
+  index: -1
+Pattern_2
+  rotate: false
+  xy: 157, 866
+  size: 27, 46
+  orig: 27, 46
+  offset: 0, 0
+  index: -1
+Pattern_3
+  rotate: false
+  xy: 169, 575
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+Pattern_4
+  rotate: false
+  xy: 169, 385
+  size: 24, 89
+  orig: 24, 89
+  offset: 0, 0
+  index: -1
+Pattern_5
+  rotate: false
+  xy: 169, 191
+  size: 24, 93
+  orig: 24, 93
+  offset: 0, 0
+  index: -1
+Pattern_6
+  rotate: false
+  xy: 169, 99
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+Pattern_7
+  rotate: true
+  xy: 169, 147
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+Pattern_8
+  rotate: true
+  xy: 72, 728
+  size: 26, 106
+  orig: 26, 106
+  offset: 0, 0
+  index: -1
+Pattern_9
+  rotate: false
+  xy: 169, 289
+  size: 24, 91
+  orig: 24, 91
+  offset: 0, 0
+  index: -1
+Pattern_10
+  rotate: false
+  xy: 157, 917
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+Pattern_11
+  rotate: true
+  xy: 169, 169
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+Pattern_12
+  rotate: false
+  xy: 169, 2
+  size: 25, 92
+  orig: 25, 92
+  offset: 0, 0
+  index: -1
+shuaguang
+  rotate: false
+  xy: 72, 759
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+xx
+  rotate: false
+  xy: 72, 919
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1

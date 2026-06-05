@@ -1,0 +1,58 @@
+{
+	"connectSetting": {
+		"isConnectServer": true,
+		"serverAddress": "https://ake-game.acewin-test.cc",
+		"fakeDataPathStartGame": "Game/LocalGameData/G08_StartGame",
+		"fakeDataPathSpin": [],
+		"retryIntervalArray": [
+			15
+		]
+	},
+	"gameSetting": {
+		"readyToSpinDelay": {
+			"noWin": 0.4,
+			"fastSpinNoWin": 0.4,
+			"haveWin": 0.1,
+			"multiplier": 1
+		},
+		"inGameJPIntervalTime": 10,
+		"isUseShutter": false,
+		"quickStopWhenFastSpin": true,
+		"bgm": {
+			"fadeInWhenSpin": false,
+			"fadeOutDelay": -1
+		}
+	},
+	"bingo": {
+		"showMode": 2,
+		"useBingoFrame": true,
+		"useWheelMask": true,
+		"useScatterWin": false,
+		"dontShowAllBingoAnimationInMG": true,
+		"showWinEffectAfterAllBingo": true,
+		"showDuation": 2,
+		"hideDuration": 0
+	},
+	"winEffect": {
+		"smallWin": {
+			"showDelay": 0.15,
+			"duration": 0.65,
+			"skipDelay": 2
+		},
+		"bigWin": {
+			"showDelay": 0.5,
+			"duration": 4,
+			"skipDelay": 2
+		},
+		"megaWin": {
+			"showDelay": 0.5,
+			"duration": 6,
+			"skipDelay": 2
+		},
+		"superWin": {
+			"showDelay": 2.5,
+			"duration": 7,
+			"skipDelay": 2
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "5285473c-acd3-477c-a974-1011cf4f7b30",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleFilterConfig": [
+      {
+        "range": "exclude",
+        "type": "asset",
+        "patchOption": {
+          "patchType": "glob",
+          "value": "db://assets/*.test"
+        },
+        "assets": [
+          "4532cca5-21c9-4ec7-b061-0b0f8904de1b"
+        ]
+      },
+      {
+        "range": "exclude",
+        "type": "asset",
+        "patchOption": {
+          "patchType": "glob",
+          "value": "db://assets/*.test"
+        },
+        "assets": [
+          "12d18ed9-d11c-4d19-bf9e-71abb26d5106"
+        ]
+      }
+    ]
+  }
+}

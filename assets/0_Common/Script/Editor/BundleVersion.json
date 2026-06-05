@@ -1,0 +1,1397 @@
+{
+  "Backpack": {
+    "Name": "Backpack",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.7.19",
+    "AllowDelay": true
+  },
+  "Backpack_NewModule": {
+    "Name": "Backpack_NewModule",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.7.5",
+    "AllowDelay": true
+  },
+  "BackpackMultilang": {
+    "Name": "BackpackMultilang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./",
+    "Version": "1.7.17",
+    "AllowDelay": true
+  },
+  "IG_ActivityModule": {
+    "Name": "ActivityModule",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.9.2.22903",
+    "AllowDelay": true
+  },
+  "IG_ActivityModule_NewModule": {
+    "Name": "ActivityModule",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.22908",
+    "AllowDelay": true
+  },
+  "IG_ActivityModule_New": {
+    "Name": "ActivityModule",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.1.23317",
+    "AllowDelay": true
+  },
+  "IG_ActivityModule_Ccv3": {
+    "Name": "ActivityModule",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "4.10.0",
+    "AllowDelay": true
+  },
+  "IG_LeaderboardMultiLang": {
+    "Name": "LeaderboardMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./",
+    "Version": "1.3.0.16285",
+    "AllowDelay": true
+  },
+  "IG_LeaderboardMultiLang_Ccv3": {
+    "Name": "LeaderboardMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./",
+    "Version": "4.10.0",
+    "AllowDelay": true
+  },
+  "IG_Leaderboard": {
+    "Name": "Leaderboard",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.6.0.16778",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule",
+      "IG_LeaderboardMultiLang"
+    ]
+  },
+  "IG_Leaderboard_NewModule": {
+    "Name": "Leaderboard",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "2.8.0.19032",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_NewModule",
+      "IG_LeaderboardMultiLang"
+    ]
+  },
+  "IG_Leaderboard_New": {
+    "Name": "Leaderboard",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.23086",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_New",
+      "IG_LeaderboardMultiLang"
+    ]
+  },
+  "IG_Leaderboard_Ccv3": {
+    "Name": "Leaderboard",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "4.10.0",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_Ccv3",
+      "IG_LeaderboardMultiLang_Ccv3"
+    ]
+  },
+  "IG_LuckyMissionMultiLang": {
+    "Name": "LuckyMissionMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./",
+    "Version": "1.6.1.17829",
+    "AllowDelay": true
+  },
+  "LuckyMissionItemBundle": {
+    "Name": "LuckyMissionItemBundle",
+    "Weight": 1,
+    "Version": "1.8.0.19779",
+    "Path": "./",
+    "AllowDelay": true
+  },
+  "LuckyMissionItemBundle_NewModule": {
+    "Name": "LuckyMissionItemBundle",
+    "Weight": 1,
+    "Version": "2.8.0.19782",
+    "Path": "./",
+    "AllowDelay": true
+  },
+  "IG_LuckyMission": {
+    "Name": "LuckyMission",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.8.0.19779",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule",
+      "IG_LuckyMissionMultiLang",
+      "LuckyMissionItemBundle"
+    ]
+  },
+  "IG_LuckyMission_New": {
+    "Name": "LuckyMission",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.22846",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_New",
+      "IG_LuckyMissionMultiLang",
+      "LuckyMissionItemBundle_NewModule"
+    ]
+  },
+  "IG_LuckyMission_NewModule": {
+    "Name": "LuckyMission",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "2.8.0.19782",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_NewModule",
+      "IG_LuckyMissionMultiLang",
+      "LuckyMissionItemBundle_NewModule"
+    ]
+  },
+  "IG_JackpotMultiLang": {
+    "Name": "JackpotMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./",
+    "Version": "3.10.1.23216",
+    "AllowDelay": true
+  },
+  "IG_Jackpot": {
+    "Name": "Jackpot",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.9.2.23215",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule",
+      "IG_JackpotMultiLang"
+    ]
+  },
+  "IG_Jackpot_New": {
+    "Name": "Jackpot",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.23222",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_New",
+      "IG_JackpotMultiLang"
+    ]
+  },
+  "IG_Jackpot_NewModule": {
+    "Name": "Jackpot",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.23216",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_NewModule",
+      "IG_JackpotMultiLang"
+    ]
+  },
+  "RecommendGame": {
+    "Name": "RecommendGame",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "1.5.0.23634",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule"
+    ]
+  },
+  "RecommendGame_NewModule": {
+    "Name": "RecommendGame",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "2.8.0.23633",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_NewModule"
+    ]
+  },
+  "RecommendGame_New": {
+    "Name": "RecommendGame",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.23627",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_New"
+    ]
+  },
+  "FishBuyBonus": {
+    "Name": "FishBuyBonus",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.0.24038",
+    "AllowDelay": true,
+    "Dependency": [
+      "IG_ActivityModule_New",
+      "FishBuyBonusMultiLang"
+    ]
+  },
+  "FishBuyBonusMultiLang": {
+    "Name": "FishBuyBonusMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./",
+    "Version": "3.10.0.23993",
+    "AllowDelay": true
+  },
+  "SlotCommonMultiLang": {
+    "Name": "SlotCommonMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./"
+  },
+  "CrashCommonMultiLang": {
+    "Name": "CrashCommonMultiLang",
+    "Weight": 1,
+    "MultiLang": true,
+    "Path": "./"
+  },
+  "SlotDownBar": {
+    "Name": "SlotDownBar",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.1.27000",
+    "AllowDelay": true,
+    "PrefabPath": "Prefab/SlotUI"
+  },
+  "SlotDownBarMultiLang": {
+    "Name": "SlotDownBarMultiLang",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.1.27000",
+    "AllowDelay": true
+  },
+  "BuyBonusUI": {
+    "Name": "BuyBonusUI",
+    "Weight": 1,
+    "Path": "./",
+    "Version": "3.10.1.28614",
+    "AllowDelay": true
+  },
+  "GameLobby": {
+    "Name": "GameLobby",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "PhoenixLegend": {
+    "Name": "PhoenixLegend",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HelloDoggy": {
+    "Name": "HelloDoggy",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "CaptainJack": {
+    "Name": "CaptainJack",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "Zeus": {
+    "Name": "Zeus",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "WildWedding": {
+    "Name": "WildWedding",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "GoldenTiger": {
+    "Name": "GoldenTiger",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "SherlockHolmes": {
+    "Name": "SherlockHolmes",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "MonkeyKing": {
+    "Name": "MonkeyKing",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FortuneTree": {
+    "Name": "FortuneTree",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FortunePanda": {
+    "Name": "FortunePanda",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "DolphinsNight": {
+    "Name": "DolphinsNight",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "DayOfTheDead": {
+    "Name": "DayOfTheDead",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HotShot": {
+    "Name": "HotShot",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HighWayKing": {
+    "Name": "HighWayKing",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "GrandBlue": {
+    "Name": "GrandBlue",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FuXingGaoZhao": {
+    "Name": "FuXingGaoZhao",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FuXingGaoZhaoArk": {
+    "Name": "FuXingGaoZhaoArk",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "5DragonsLegend": {
+    "Name": "5DragonsLegend",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "DragonsLegend": {
+    "Name": "DragonsLegend",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "Queen": {
+    "Name": "Queen",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "MoneyMage": {
+    "Name": "MoneyMage",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FruitCarnival": {
+    "Name": "FruitCarnival",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "GodOfWealth": {
+    "Name": "GodOfWealth",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "GoldenHen": {
+    "Name": "GoldenHen",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FaFaFa": {
+    "Name": "FaFaFa",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "SuperBar": {
+    "Name": "SuperBar",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "YellowDuck": {
+    "Name": "YellowDuck",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "TonsOfMoney": {
+    "Name": "TonsOfMoney",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HuaKaiFuKuei": {
+    "Name": "HuaKaiFuKuei",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "BeachBabes": {
+    "Name": "BeachBabes",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "JungleQueen": {
+    "Name": "JungleQueen",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "EasterIsland": {
+    "Name": "EasterIsland",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "ArcaneEgypt": {
+    "Name": "ArcaneEgypt",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "ShuLaiBao": {
+    "Name": "ShuLaiBao",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HulaoBattle": {
+    "Name": "HulaoBattle",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FlyToTheMoon": {
+    "Name": "FlyToTheMoon",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HoHoHo": {
+    "Name": "HoHoHo",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "SambaCarnival": {
+    "Name": "SambaCarnival",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "SAYURI": {
+    "Name": "SAYURI",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "Safari": {
+    "Name": "Safari",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "TheGoodLife": {
+    "Name": "TheGoodLife",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "PirateTreasure": {
+    "Name": "PirateTreasure",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HighWayKingPlus": {
+    "Name": "HighWayKingPlus",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HighWayKingPlusArk": {
+    "Name": "HighWayKingPlusArk",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "JumpForRich": {
+    "Name": "JumpForRich",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "LionDance": {
+    "Name": "LionDance",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FortuneFour": {
+    "Name": "FortuneFour",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "MayanEmpire": {
+    "Name": "MayanEmpire",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "RomaPlus": {
+    "Name": "RomaPlus",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "HighRoadKingClassic": {
+    "Name": "HighRoadKingClassic",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "DragonMaiden": {
+    "Name": "DragonMaiden",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "OngBak": {
+    "Name": "OngBak",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "FootballCarnival": {
+    "Name": "FootballCarnival",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard",
+      "RecommendGame",
+      "IG_LuckyMission",
+      "IG_Jackpot",
+      "Backpack",
+      "BackpackMultilang"
+    ]
+  },
+  "BingoFortune": {
+    "Name": "BingoFortune",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "WildChips": {
+    "Name": "WildChips",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "FistChampion": {
+    "Name": "FistChampion",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "LegendOfTheWhiteSnake": {
+    "Name": "LegendOfTheWhiteSnake",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "SpinOfFate": {
+    "Name": "SpinOfFate",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "SuperAceWin": {
+    "Name": "SuperAceWin",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "DragonBaoBao": {
+    "Name": "DragonBaoBao",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "FuXingGaoZhaoTaiChi": {
+    "Name": "FuXingGaoZhaoTaiChi",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "LanternBanquet": {
+    "Name": "LanternBanquet",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "RecommendGame_NewModule",
+      "Backpack_NewModule",
+      "BackpackMultilang"
+    ]
+  },
+  "LuckyRichesEX": {
+    "Name": "LuckyRichesEX",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "VikingGlory": {
+    "Name": "VikingGlory",
+    "Weight": 1,
+    "Dependency": [
+      "SlotDownBar",
+      "IG_Leaderboard_Ccv3"
+    ]
+  },
+  "Frankenstein": {
+    "Name": "Frankenstein",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "Backpack_NewModule",
+      "BackpackMultilang"
+    ]
+  },
+  "QinShiHuang": {
+    "Name": "QinShiHuang",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "LanternDreamland": {
+    "Name": "LanternDreamland",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang"
+    ]
+  },
+  "Pirate": {
+    "Name": "Pirate",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang"
+    ]
+  },
+  "FortuneFirecracker": {
+    "Name": "FortuneFirecracker",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "GenieTreasure": {
+    "Name": "GenieTreasure",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "RecommendGame_NewModule",
+      "Backpack_NewModule",
+      "BackpackMultilang"
+    ]
+  },
+  "Fourtune4everDragon": {
+    "Name": "Fourtune4everDragon",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "Backpack_NewModule",
+      "BackpackMultilang"
+    ]
+  },
+  "JungleAdventure": {
+    "Name": "JungleAdventure",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "RecommendGame_NewModule",
+      "Backpack_NewModule",
+      "BackpackMultilang"
+    ]
+  },
+  "FortuneRabbit": {
+    "Name": "FortuneRabbit",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "RecommendGame_NewModule",
+      "Backpack_NewModule",
+      "BackpackMultilang"
+    ]
+  },
+  "LittlePiggies": {
+    "Name": "LittlePiggies",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang",
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New"
+    ]
+  },
+  "SweetBonanza": {
+    "Name": "SweetBonanza",
+    "Weight": 1,
+    "Dependency": [
+      "SlotDownBar",
+      "IG_Leaderboard_Ccv3"
+    ]
+  },
+  "GoldenJoker": {
+    "Name": "GoldenJoker",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang"
+    ]
+  },
+  "FortuneGems": {
+    "Name": "FortuneGems",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang"
+    ]
+  },
+  "FreedomStars": {
+    "Name": "FreedomStars",
+    "Weight": 1,
+    "Dependency": [
+      "SlotCommonMultiLang"
+    ]
+  },
+  "DragonBaoBao2": {
+    "Name": "DragonBaoBao2",
+    "Weight": 1,
+    "Dependency": [
+      "SlotDownBar"
+    ]
+  },
+  "Rocket": {
+    "Name": "Rocket",
+    "Weight": 1,
+    "Dependency": [
+      "CrashCommonMultiLang",
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "RecommendGame_NewModule"
+    ]
+  },
+  "SoccerBingo": {
+    "Name": "SoccerBingo",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_NewModule",
+      "IG_LuckyMission_NewModule",
+      "IG_Jackpot_NewModule",
+      "RecommendGame_NewModule"
+    ]
+  },
+  "ZombieAwaken": {
+    "Name": "ZombieAwaken",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "LuckyBuddha": {
+    "Name": "LuckyBuddha",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "MrFortune": {
+    "Name": "MrFortune",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "MoneyTree": {
+    "Name": "MoneyTree",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "AladdinAdventure": {
+    "Name": "AladdinAdventure",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "Circus": {
+    "Name": "Circus",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "SuperStar": {
+    "Name": "SuperStar",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "OceanParadise": {
+    "Name": "OceanParadise",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "IceFire": {
+    "Name": "IceFire",
+    "Weight": 1,
+    "Dependency": [
+      "IG_Leaderboard_New",
+      "IG_LuckyMission_New",
+      "IG_Jackpot_New",
+      "RecommendGame_New",
+      "FishBuyBonus"
+    ]
+  },
+  "BuddhaSpin": {
+    "Name": "BuddhaSpin",
+    "Weight": 1,
+    "Dependency": [
+      "SlotDownBar",
+      "BuyBonusUI",
+      "IG_Leaderboard_Ccv3"
+    ]
+  },
+  "QinShiHuang2": {
+    "Name": "QinShiHuang2",
+    "Weight": 1,
+    "Dependency": [
+      "SlotDownBar",
+      "SlotDownBarMultiLang",
+      "BuyBonusUI"
+    ]
+  }
+}

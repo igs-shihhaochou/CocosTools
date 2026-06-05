@@ -1,0 +1,10 @@
+{
+  "Debug": {
+    "UserID": "M-255-612-704",
+    "UserPassword": "1234",
+    "LogoMode": 0,
+    "NowLOGO": "playgd"
+  },
+  "Version": "a6228",
+  "S3HOST": "ss-h5.s3.ap-southeast-1.amazonaws.com/DEV"
+}

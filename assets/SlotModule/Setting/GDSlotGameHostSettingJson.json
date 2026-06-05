@@ -1,0 +1,85 @@
+{
+	"ConnectSetting": {
+		"IsConnectServer": true,
+		"ServerAddress": "http://54.248.221.3:8080",
+		"FakeDataPath_StartGame": "G08_MonkeyKing\\LocalGameData\\G60_StartGame.txt",
+		"FakeDataPath_Spin": [
+			"G08_MonkeyKing\\LocalGameData\\G60_MysteryFG_KillBullWIn.txt",
+			"G08_MonkeyKing\\LocalGameData\\G60_MysteryFG_KillBullWIn.txt",
+			"G08_MonkeyKing\\LocalGameData\\G60_FreeGame.txt"
+		],
+		"RetryIntervalArray": [
+			2,
+			4,
+			8,
+			16
+		],
+		"Server": {
+			"IsGDSlotGame": true,
+			"IsGDSlotMachine": false,
+			"CommandName": {
+				"StartGame": "JOIN_GAME",
+				"Spin": "SPIN",
+				"SpecialGame": "NEXT_FEVER",
+				"GetBuyBonusInfo": "GET_BONUS_INFO",
+				"BuyBonusSpin": "BONUS_SPIN",
+				"Lines": "lines",
+				"LineBet": "line_bet"
+			}
+		}
+	},
+	"GameSetting": {
+		"ReadyToSpinDelay": {
+			"NoWin": 0.4,
+			"FastSpinNoWin": 0.4,
+			"HaveWin": 0.1,
+			"Multiplier": 1
+		},
+		"InGameJPIntervalTime": 10,
+		"IsUseShutter": false,
+		"QuickStopWhenFastSpin": true,
+		"BGM": {
+			"FadeInWhenSpin": false,
+			"FadeOutDelay": -1
+		}
+	},
+	"Bingo": {
+		"ShowMode": 2,
+		"UseBingoFrame": true,
+		"UseWheelMask": true,
+		"UseScatterWin": false,
+		"DontShowAllBingoAnimationInMG": false,
+		"ShowWinEffectAfterAllBingo": true,
+		"ShowDuation": 2,
+		"HideDuration": 0
+	},
+	"WinEffect": {
+		"SkipInSpecialGame": true,
+		"ShowTotalAfterSpecialGame": true,
+		"SmallWin": {
+			"ShowDelay": 0,
+			"Duration": 0.01,
+			"SkipDelay": 0
+		},
+		"BigWin": {
+			"ShowDelay": 0,
+			"Duration": 4,
+			"SkipDelay": 1
+		},
+		"MegaWin": {
+			"ShowDelay": 0,
+			"Duration": 8,
+			"SkipDelay": 1
+		},
+		"SuperWin": {
+			"ShowDelay": 0,
+			"Duration": 12,
+			"SkipDelay": 1
+		},
+		"SpecialWin": {
+			"ShowDelay": 0,
+			"Duration": 4,
+			"SkipDelay": 1
+		}
+	}
+}

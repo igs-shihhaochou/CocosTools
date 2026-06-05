@@ -1,0 +1,293 @@
+
+AltarRiches_Extrabet.png
+size: 495,1993
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: false
+  xy: 392, 1456
+  size: 99, 154
+  orig: 99, 154
+  offset: 0, 0
+  index: -1
+a1
+  rotate: true
+  xy: 120, 1909
+  size: 74, 116
+  orig: 74, 116
+  offset: 0, 0
+  index: -1
+baseplate_11
+  rotate: false
+  xy: 263, 500
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+baseplate_21
+  rotate: true
+  xy: 2, 2
+  size: 493, 491
+  orig: 493, 491
+  offset: 0, 0
+  index: -1
+baseplate_212
+  rotate: false
+  xy: 2, 500
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+black_refrence
+  rotate: false
+  xy: 441, 1264
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 157, 1436
+  size: 95, 146
+  orig: 95, 146
+  offset: 0, 0
+  index: -1
+c1
+  rotate: true
+  xy: 226, 1760
+  size: 71, 110
+  orig: 71, 110
+  offset: 0, 0
+  index: -1
+cg_00002
+  rotate: false
+  xy: 2, 1829
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+e
+  rotate: false
+  xy: 135, 1587
+  size: 91, 147
+  orig: 91, 147
+  offset: 0, 0
+  index: -1
+e1
+  rotate: true
+  xy: 361, 1832
+  size: 68, 110
+  orig: 68, 110
+  offset: 0, 0
+  index: -1
+fazhen
+  rotate: false
+  xy: 2, 761
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 259, 1418
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 257, 1551
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+g02_0001512
+  rotate: false
+  xy: 2, 1432
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+ggg
+  rotate: false
+  xy: 263, 723
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+glow_2_0013
+  rotate: false
+  xy: 263, 1113
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+glow_3_003
+  rotate: false
+  xy: 2, 1283
+  size: 184, 144
+  orig: 184, 144
+  offset: 0, 0
+  index: -1
+gt2
+  rotate: false
+  xy: 105, 1836
+  size: 130, 68
+  orig: 130, 68
+  offset: 0, 0
+  index: -1
+guang1
+  rotate: false
+  xy: 361, 1905
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+jiliguangxiao
+  rotate: false
+  xy: 263, 928
+  size: 186, 180
+  orig: 186, 180
+  offset: 0, 0
+  index: -1
+r
+  rotate: true
+  xy: 259, 1291
+  size: 122, 144
+  orig: 122, 144
+  offset: 0, 0
+  index: -1
+r1
+  rotate: true
+  xy: 113, 1739
+  size: 92, 108
+  orig: 92, 108
+  offset: 0, 0
+  index: -1
+rr2
+  rotate: false
+  xy: 2, 1022
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 390, 1615
+  size: 88, 154
+  orig: 88, 154
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 240, 1836
+  size: 66, 116
+  orig: 66, 116
+  offset: 0, 0
+  index: -1
+shadow2
+  rotate: true
+  xy: 191, 1283
+  size: 148, 63
+  orig: 148, 63
+  offset: 0, 0
+  index: -1
+shadow_a
+  rotate: false
+  xy: 454, 928
+  size: 36, 51
+  orig: 36, 51
+  offset: 0, 0
+  index: -1
+shadow_c
+  rotate: false
+  xy: 454, 984
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+shadow_e
+  rotate: false
+  xy: 454, 1094
+  size: 34, 49
+  orig: 34, 49
+  offset: 0, 0
+  index: -1
+shadow_r
+  rotate: true
+  xy: 441, 1148
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+shadow_s
+  rotate: false
+  xy: 454, 1038
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+shadow_t
+  rotate: true
+  xy: 441, 1230
+  size: 29, 50
+  orig: 29, 50
+  offset: 0, 0
+  index: -1
+shadow_t2
+  rotate: true
+  xy: 441, 1195
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 231, 1684
+  size: 71, 150
+  orig: 71, 150
+  offset: 0, 0
+  index: -1
+t2
+  rotate: false
+  xy: 408, 1301
+  size: 74, 150
+  orig: 74, 150
+  offset: 0, 0
+  index: -1
+t11
+  rotate: true
+  xy: 341, 1774
+  size: 53, 113
+  orig: 53, 113
+  offset: 0, 0
+  index: -1
+t21
+  rotate: true
+  xy: 2, 1931
+  size: 56, 113
+  orig: 56, 113
+  offset: 0, 0
+  index: -1
+w6
+  rotate: true
+  xy: 2, 1720
+  size: 104, 106
+  orig: 104, 106
+  offset: 0, 0
+  index: -1
+xg_01
+  rotate: false
+  xy: 241, 1907
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+xl_12
+  rotate: false
+  xy: 2, 1587
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

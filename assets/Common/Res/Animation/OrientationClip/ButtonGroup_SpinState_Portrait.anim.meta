@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.4",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "e01a12ca-bbfc-4124-a4ea-f07869f8fb94",
+  "files": [
+    ".bin"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "ButtonGroup_SpinState_Portrait"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "q1": "Dalam permainan utama, ketika melakukan 'Pendarab Kombinasi' berturut-turut, pengganda \"x1, x2, x3, x5\" diberikan berdasarkan jumlah penghapusan.",
+    "q2": "Apabila tiada sambungan kombinasi berlaku dalam pusingan yang sama, 'Pendarab Kombinasi' akan kembali ke tahap pertama x1 dan terus ke pusingan seterusnya.",
+    "q3": "Apabila kad poker emas dihapuskan, lokasi asal akan bertukar menjadi  @Wild  atau  @FWild .",
+    "q4": "  @Wild    @FWild  adalah WILD yang boleh menggantikan semua simbol kecuali   @SC .",
+    "q5": "Selepas kad @FWild muncul, lokasi kad poker emas yang asal menjadi @FWild dan menggandakan beberapa kad @FWild untuk menggantikan simbol lain secara rawak.",
+    "q6": "Tiga   @SC  akan mencetuskan 10 putaran permainan percuma.",
+    "q7": "Sepanjang tempoh permainan percuma, \"Pendarab Kombinasi\" adalah dua kali ganda daripada permainan biasa, meningkat kepada \"x2, x4, x6, x10\" ."
+}

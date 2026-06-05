@@ -1,0 +1,140 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "FortuneForeverDragon_CoinRotate",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 30,
+    "speed": 1,
+    "wrapMode": 2,
+    "_duration": 0.5,
+    "_hash": 0,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_events": [],
+    "_exoticAnimation": null
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      }
+    },
+    "_channel": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "coin_001"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 6
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.03333333333333333,
+      0.06666666666666667,
+      0.1,
+      0.13333333333333333,
+      0.16666666666666666,
+      0.2,
+      0.23333333333333334,
+      0.26666666666666666,
+      0.3,
+      0.3333333333333333,
+      0.36666666666666664,
+      0.4,
+      0.43333333333333335,
+      0.4666666666666667
+    ],
+    "_values": [
+      {
+        "__uuid__": "4362851a-f914-44a4-8843-963afe943219@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "d237fa4b-0eb1-4f5b-ab3c-ada9050eb8ee@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "ce69dec4-40c4-42f9-a7e2-a43d2622ed1b@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "f8965f33-e0a8-44ef-b228-7f2689a2eb73@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "8036602e-57e3-4c17-a9ff-9a7d47aac2c9@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "f9aac894-fd73-4450-a328-1dff5c7617df@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "55750d4f-ba22-4fb4-9cfd-ccb409cb414b@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "d46aefbe-5916-4a7e-a742-72d24baeccbf@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "5e39b1a2-5f82-4a9c-96d9-669e5d6c1360@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "29bb004a-cf2f-4631-9a4c-288f5c8f00b0@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "ae31e39a-54db-4c00-9b0e-33453f1f61a6@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "7c6808d0-8eae-4ca6-bce6-10cc9ea401fb@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "d754c024-baae-46f6-ab1d-03e24edba5b0@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "7ff7c84f-9efc-4206-b38e-9b0e5e514068@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "12a275ca-66ca-4d8e-b8e8-a1d305c57931@f9941",
+        "__expectedType__": "cc.Asset"
+      }
+    ]
+  }
+]

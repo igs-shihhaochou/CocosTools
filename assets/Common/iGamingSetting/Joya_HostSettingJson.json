@@ -1,0 +1,88 @@
+{
+	"ConnectSetting": {
+		"IsConnectServer": true,
+		"ServerAddress": "https://ake-game.acewin-test.cc",
+		"FakeDataPath_StartGame": "Game/LocalGameData/G62_StartGame",
+		"FakeDataPath_Spin": [
+			"Game/LocalGameData/G62_MainGame_Extra",
+			"Game/LocalGameData/G62_FreeGame_Extra"
+		],
+		"RetryIntervalArray": [
+			2,
+			4,
+			8,
+			16
+		]
+	},
+	"GameSetting": {
+		"ReadyToSpinDelay": {
+			"NoWin": 0.4,
+			"FastSpinNoWin": 0.4,
+			"HaveWin": 1,
+			"Multiplier": 1
+		},
+		"InGameJPIntervalTime": 10,
+		"IsUseShutter": false,
+		"QuickStopWhenFastSpin": true,
+		"BGM": {
+			"FadeInWhenSpin": false,
+			"FadeOutDelay": -1
+		}
+	},
+	"Bingo": {
+		"ShowMode": 2,
+		"UseBingoFrame": true,
+		"UseWheelMask": true,
+		"UseScatterWin": false,
+		"DontShowAllBingoAnimationInMG": true,
+		"ShowWinEffectAfterAllBingo": false,
+		"ShowDuation": 2,
+		"HideDuration": 0
+	},
+	"WinEffect": {
+		"SkipInSpecialGame": true,
+		"ShowTotalAfterSpecialGame": true,
+		"SmallWin": {
+			"ShowDelay": 0.15,
+			"Duration": 0.65,
+			"SkipDelay": 2
+		},
+		"BigWin": {
+			"ShowDelay": 1.5,
+			"Duration": 4,
+			"SkipDelay": 1
+		},
+		"MegaWin": {
+			"ShowDelay": 1.5,
+			"Duration": 8,
+			"SkipDelay": 1
+		},
+		"SuperWin": {
+			"ShowDelay": 1.5,
+			"Duration": 12,
+			"SkipDelay": 1
+		},
+		"SpecialWin": {
+			"ShowDelay": 0,
+			"Duration": 4,
+			"SkipDelay": 1
+		}
+	},
+	"WinLabel": {
+		"SmallWin": {
+			"Duration": 1
+		},
+		"BigWin": {
+			"Duration": 1
+		},
+		"MegaWin": {
+			"Duration": 1
+		},
+		"SuperWin": {
+			"Duration": 1
+		},
+		"SpecialWin": {
+			"Duration": 1
+		}
+	}
+}

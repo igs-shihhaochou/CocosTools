@@ -1,0 +1,202 @@
+
+AltarRiches_WinTail.png
+size: 508,789
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eff_glow_shanguang_022_y
+  rotate: false
+  xy: 138, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+FX_SoftGlowDots
+  rotate: false
+  xy: 457, 391
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 268, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow_1
+  rotate: false
+  xy: 398, 1
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+gx05
+  rotate: false
+  xy: 138, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+gx08
+  rotate: false
+  xy: 268, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+hkg
+  rotate: false
+  xy: 391, 273
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+P2yuansu_3
+  rotate: false
+  xy: 398, 112
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+path_00
+  rotate: false
+  xy: 261, 651
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+path_01
+  rotate: false
+  xy: 261, 717
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+xg_01
+  rotate: false
+  xy: 391, 391
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+xgfs00
+  rotate: false
+  xy: 391, 523
+  size: 55, 128
+  orig: 55, 128
+  offset: 0, 0
+  index: -1
+xgfs01
+  rotate: false
+  xy: 448, 523
+  size: 55, 128
+  orig: 55, 128
+  offset: 0, 0
+  index: -1
+xl_01
+  rotate: false
+  xy: 1, 140
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_02
+  rotate: false
+  xy: 131, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_03
+  rotate: false
+  xy: 1, 270
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_04
+  rotate: false
+  xy: 261, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_05
+  rotate: false
+  xy: 131, 391
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_06
+  rotate: false
+  xy: 1, 400
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_07
+  rotate: false
+  xy: 261, 391
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_08
+  rotate: false
+  xy: 131, 521
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_09
+  rotate: false
+  xy: 1, 530
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_10
+  rotate: false
+  xy: 261, 521
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_11
+  rotate: false
+  xy: 131, 651
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xl_12
+  rotate: false
+  xy: 1, 660
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+yh01
+  rotate: false
+  xy: 398, 194
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+yh04
+  rotate: false
+  xy: 391, 457
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+zc_glow7_00000
+  rotate: false
+  xy: 1, 1
+  size: 135, 137
+  orig: 135, 137
+  offset: 0, 0
+  index: -1

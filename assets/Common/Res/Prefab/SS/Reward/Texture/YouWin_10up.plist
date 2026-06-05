@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>BigWin.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>anchor</key>
+                <string>{0.5,0.5}</string>
+                <key>spriteOffset</key>
+                <string>{10,1}</string>
+                <key>spriteSize</key>
+                <string>{652,138}</string>
+                <key>spriteSourceSize</key>
+                <string>{1280,720}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{652,138}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>YouWin_10up.png</string>
+            <key>size</key>
+            <string>{652,138}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:631a9b1ca03f3e47d5a31809286da6d4:38bb6a42ce3710e44e31637d5a876521:dfced10731e42c5016df19898fafd04e$</string>
+            <key>textureFileName</key>
+            <string>YouWin_10up.png</string>
+        </dict>
+    </dict>
+</plist>

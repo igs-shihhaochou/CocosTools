@@ -1,0 +1,237 @@
+
+IncaTreasure_PrewinFrame.png
+size: 979,860
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Box_2_00000
+  rotate: false
+  xy: 356, 0
+  size: 89, 290
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00001
+  rotate: false
+  xy: 89, 256
+  size: 89, 292
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00002
+  rotate: false
+  xy: 0, 551
+  size: 89, 294
+  orig: 89, 300
+  offset: 0, 3
+  index: -1
+Box_2_00003
+  rotate: false
+  xy: 0, 256
+  size: 89, 295
+  orig: 89, 300
+  offset: 0, 2
+  index: -1
+Box_2_00004
+  rotate: false
+  xy: 356, 290
+  size: 89, 290
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00005
+  rotate: false
+  xy: 445, 0
+  size: 89, 290
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00006
+  rotate: false
+  xy: 534, 290
+  size: 89, 289
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00007
+  rotate: false
+  xy: 623, 0
+  size: 89, 289
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00008
+  rotate: false
+  xy: 712, 0
+  size: 89, 288
+  orig: 89, 300
+  offset: 0, 6
+  index: -1
+Box_2_00009
+  rotate: false
+  xy: 712, 288
+  size: 89, 288
+  orig: 89, 300
+  offset: 0, 6
+  index: -1
+Box_2_00010
+  rotate: false
+  xy: 801, 288
+  size: 89, 287
+  orig: 89, 300
+  offset: 0, 6
+  index: -1
+Box_2_00011
+  rotate: false
+  xy: 890, 291
+  size: 89, 285
+  orig: 89, 300
+  offset: 0, 7
+  index: -1
+Box_2_00012
+  rotate: false
+  xy: 712, 576
+  size: 89, 283
+  orig: 89, 300
+  offset: 0, 8
+  index: -1
+Box_2_00013
+  rotate: false
+  xy: 534, 579
+  size: 89, 281
+  orig: 89, 300
+  offset: 0, 9
+  index: -1
+Box_2_00014
+  rotate: false
+  xy: 267, 582
+  size: 89, 278
+  orig: 89, 300
+  offset: 0, 11
+  index: -1
+Box_2_00015
+  rotate: false
+  xy: 445, 580
+  size: 89, 274
+  orig: 89, 300
+  offset: 0, 13
+  index: -1
+Box_2_00016
+  rotate: false
+  xy: 356, 580
+  size: 89, 277
+  orig: 89, 300
+  offset: 0, 11
+  index: -1
+Box_2_00017
+  rotate: false
+  xy: 890, 576
+  size: 89, 281
+  orig: 89, 300
+  offset: 0, 9
+  index: -1
+Box_2_00018
+  rotate: false
+  xy: 178, 68
+  size: 89, 291
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00019
+  rotate: false
+  xy: 89, 548
+  size: 89, 292
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00020
+  rotate: false
+  xy: 890, 0
+  size: 88, 291
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00021
+  rotate: false
+  xy: 178, 359
+  size: 89, 291
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00022
+  rotate: false
+  xy: 267, 0
+  size: 89, 291
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00023
+  rotate: false
+  xy: 267, 291
+  size: 89, 291
+  orig: 89, 300
+  offset: 0, 4
+  index: -1
+Box_2_00024
+  rotate: false
+  xy: 445, 290
+  size: 89, 290
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00025
+  rotate: false
+  xy: 534, 0
+  size: 89, 290
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00026
+  rotate: false
+  xy: 623, 289
+  size: 89, 289
+  orig: 89, 300
+  offset: 0, 5
+  index: -1
+Box_2_00027
+  rotate: false
+  xy: 801, 0
+  size: 89, 288
+  orig: 89, 300
+  offset: 0, 6
+  index: -1
+Box_2_00028
+  rotate: false
+  xy: 801, 575
+  size: 89, 285
+  orig: 89, 300
+  offset: 0, 7
+  index: -1
+Box_2_00029
+  rotate: false
+  xy: 623, 578
+  size: 89, 282
+  orig: 89, 300
+  offset: 0, 9
+  index: -1
+Eff_Mask_12
+  rotate: false
+  xy: 128, 0
+  size: 77, 68
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+glow_1
+  rotate: false
+  xy: 128, 68
+  size: 28, 50
+  orig: 55, 81
+  offset: 14, 22
+  index: -1
+liudong_11_0
+  rotate: false
+  xy: 0, 0
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1

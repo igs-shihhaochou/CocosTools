@@ -1,0 +1,16 @@
+{
+  "__version__": "3.0.9",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "e4312b",
+        "services": []
+      }
+    }
+  },
+  "builder-options": {
+    "configID": "e4312b",
+    "services": [],
+    "__version__": "3.0.9"
+  }
+}

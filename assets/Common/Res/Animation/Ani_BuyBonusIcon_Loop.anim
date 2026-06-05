@@ -1,0 +1,113 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Ani_BuyBonusIcon_Loop",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 0.2,
+    "wrapMode": 2,
+    "_duration": 0.5166666666666667,
+    "_hash": 0,
+    "_tracks": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_events": [],
+    "_exoticAnimation": null
+  },
+  {
+    "__type__": "cc.animation.ObjectTrack",
+    "_binding": {
+      "__type__": "cc.animation.TrackBinding",
+      "path": {
+        "__id__": 2
+      }
+    },
+    "_channel": {
+      "__id__": 4
+    }
+  },
+  {
+    "__type__": "cc.animation.TrackPath",
+    "_paths": [
+      {
+        "__id__": 3
+      },
+      "spriteFrame"
+    ]
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.Channel",
+    "_curve": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.ObjectCurve",
+    "_times": [
+      0,
+      0.016666666666666666,
+      0.03333333333333333,
+      0.05,
+      0.06666666666666667,
+      0.08333333333333333,
+      0.1,
+      0.11666666666666667,
+      0.13333333333333333,
+      0.15,
+      0.5
+    ],
+    "_values": [
+      {
+        "__uuid__": "e34464f7-f0d0-4e0b-ade8-d10616930961@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "b09bd2b4-033d-403f-a723-3f433e50dfe9@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "e9aab9fb-c0df-44fe-aebd-4cc9227463e2@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "f2f38742-87a7-4bfb-ab2e-a4f352912c99@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "a37d964d-d1b1-404b-acf6-0a41a36cb9ff@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "ae3a84fb-18de-45a0-b0bb-df0a37a93fd2@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "e42c5be7-7c16-43ee-97b7-6af801329c48@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "bca540eb-67e8-4c23-bd1a-b8d1985f8279@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "dd71eb00-7f39-4b2b-9f22-998760acd642@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "cdd5f8bf-d462-4e39-92c3-83966201bfdd@f9941",
+        "__expectedType__": "cc.Asset"
+      },
+      {
+        "__uuid__": "e34464f7-f0d0-4e0b-ade8-d10616930961@f9941",
+        "__expectedType__": "cc.Asset"
+      }
+    ]
+  }
+]

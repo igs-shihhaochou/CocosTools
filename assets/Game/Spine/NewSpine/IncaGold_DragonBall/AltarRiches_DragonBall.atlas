@@ -1,0 +1,286 @@
+
+IncaGold_DragonBall.png
+size: 1734,1249
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow01
+  rotate: false
+  xy: 1248, 1136
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+glow2_00000
+  rotate: true
+  xy: 1519, 839
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+longzhu_6_2
+  rotate: true
+  xy: 1, 779
+  size: 469, 836
+  orig: 469, 836
+  offset: 0, 0
+  index: -1
+longzhu_6_3
+  rotate: false
+  xy: 1, 1
+  size: 1104, 387
+  orig: 1104, 387
+  offset: 0, 0
+  index: -1
+longzhu_6_4
+  rotate: false
+  xy: 1107, 1
+  size: 469, 836
+  orig: 469, 836
+  offset: 0, 0
+  index: -1
+longzhu_6_5
+  rotate: false
+  xy: 1, 390
+  size: 1104, 387
+  orig: 1104, 387
+  offset: 0, 0
+  index: -1
+longzhu_shitiao_02
+  rotate: false
+  xy: 839, 779
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+longzhu_shitiao_02_1
+  rotate: false
+  xy: 839, 950
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+longzhu_shitiao_03
+  rotate: false
+  xy: 1051, 779
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+longzhu_shitiao_03_1
+  rotate: false
+  xy: 839, 1213
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+longzhu_shitiao_di
+  rotate: true
+  xy: 1578, 1
+  size: 622, 155
+  orig: 622, 155
+  offset: 0, 0
+  index: -1
+longzhu_shitiao_di_1
+  rotate: true
+  xy: 1578, 625
+  size: 622, 155
+  orig: 622, 155
+  offset: 0, 0
+  index: -1
+ring_29
+  rotate: false
+  xy: 1475, 1089
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+ring_34
+  rotate: false
+  xy: 1475, 995
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+smoke01
+  rotate: false
+  xy: 1519, 897
+  size: 38, 77
+  orig: 38, 77
+  offset: 0, 0
+  index: -1
+smoke02
+  rotate: false
+  xy: 1021, 1151
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+smoke_000
+  rotate: false
+  xy: 1314, 1136
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_001
+  rotate: true
+  xy: 1248, 1202
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_002
+  rotate: true
+  xy: 1051, 815
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_003
+  rotate: true
+  xy: 883, 1213
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_004
+  rotate: true
+  xy: 923, 1213
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_005
+  rotate: true
+  xy: 963, 1213
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_006
+  rotate: false
+  xy: 1554, 1089
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_007
+  rotate: false
+  xy: 1554, 1129
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_025
+  rotate: false
+  xy: 1335, 1136
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_026
+  rotate: true
+  xy: 1314, 1176
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_027
+  rotate: false
+  xy: 1356, 1124
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_028
+  rotate: false
+  xy: 1377, 1124
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_029
+  rotate: false
+  xy: 1398, 1124
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_030
+  rotate: false
+  xy: 1419, 1124
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+smoke_031
+  rotate: false
+  xy: 1440, 1124
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+w3
+  rotate: false
+  xy: 839, 1121
+  size: 180, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+w4
+  rotate: false
+  xy: 1051, 839
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+w5
+  rotate: false
+  xy: 1100, 1151
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+w6
+  rotate: false
+  xy: 1348, 995
+  size: 125, 127
+  orig: 125, 127
+  offset: 0, 0
+  index: -1
+w9
+  rotate: false
+  xy: 1207, 995
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+xw2_00000
+  rotate: true
+  xy: 1179, 1151
+  size: 70, 67
+  orig: 70, 67
+  offset: 0, 0
+  index: -1
+yuan04_0
+  rotate: false
+  xy: 1207, 839
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+yuan_00
+  rotate: false
+  xy: 1363, 839
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+yuan_01
+  rotate: false
+  xy: 1051, 995
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1

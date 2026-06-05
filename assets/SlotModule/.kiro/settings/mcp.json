@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agend-老虎機模組-t44": {
+      "command": "/Users/shihhaochou/.agend/instances/老虎機模組-t44/mcp-wrapper-agend.sh",
+      "args": []
+    }
+  }
+}

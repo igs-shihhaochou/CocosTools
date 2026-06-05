@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ccabda6e-275f-433c-acb5-f61882c4062b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ccabda6e-275f-433c-acb5-f61882c4062b@6c48a",
+      "displayName": "AltarRiches_Gold_Font",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "ccabda6e-275f-433c-acb5-f61882c4062b",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "ccabda6e-275f-433c-acb5-f61882c4062b@f9941",
+      "displayName": "AltarRiches_Gold_Font",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 452,
+        "height": 452,
+        "rawWidth": 454,
+        "rawHeight": 454,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -226,
+            -226,
+            0,
+            226,
+            -226,
+            0,
+            -226,
+            226,
+            0,
+            226,
+            226,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            1,
+            453,
+            453,
+            453,
+            1,
+            1,
+            453,
+            1
+          ],
+          "nuv": [
+            0.0022026431718061676,
+            0.0022026431718061676,
+            0.9977973568281938,
+            0.0022026431718061676,
+            0.0022026431718061676,
+            0.9977973568281938,
+            0.9977973568281938,
+            0.9977973568281938
+          ],
+          "minPos": [
+            -226,
+            -226,
+            0
+          ],
+          "maxPos": [
+            226,
+            226,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ccabda6e-275f-433c-acb5-f61882c4062b@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "ccabda6e-275f-433c-acb5-f61882c4062b@6c48a"
+  }
+}
