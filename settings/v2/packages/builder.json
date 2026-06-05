@@ -1,0 +1,23 @@
+{
+  "__version__": "1.3.9",
+  "textureCompressConfig": {
+    "userPreset": {
+      "7ep72KE/xC5rpQ2jRNAYAE": {
+        "name": "New Compress Config",
+        "options": {
+          "web": {
+            "png": {
+              "quality": 80
+            },
+            "astc_6x6": {
+              "quality": "medium"
+            },
+            "webp": {
+              "quality": 80
+            }
+          }
+        }
+      }
+    }
+  }
+}

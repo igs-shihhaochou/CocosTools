@@ -1,0 +1,73 @@
+{
+  "name": "image-compression-checker",
+  "version": "1.0.0",
+  "description": "掃描專案中所有圖片資源，檢查壓縮狀態與圖集歸屬，協助優化 H5 包體大小",
+  "main": "./dist/main.js",
+  "author": "PluginLib",
+  "editor": ">=3.8.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "panels": {
+    "default": {
+      "title": "圖片壓縮檢查",
+      "type": "dockable",
+      "main": "./dist/panels/default.js",
+      "size": {
+        "min-width": 600,
+        "min-height": 400,
+        "width": 800,
+        "height": 600
+      }
+    }
+  },
+  "contributions": {
+    "menu": [
+      {
+        "path": "擴展/圖片壓縮檢查",
+        "label": "開啟面板（掃描全專案）",
+        "message": "open-panel"
+      },
+      {
+        "path": "擴展/圖片壓縮檢查",
+        "label": "快速掃描（Console 輸出）",
+        "message": "scan-quick"
+      }
+    ],
+    "assets": {
+      "menu": {
+        "methods": "./assets-menu.js",
+        "assetMenu": "onAssetMenu",
+        "dbMenu": "onDBMenu"
+      }
+    },
+    "messages": {
+      "open-panel": {
+        "methods": ["openPanel"]
+      },
+      "scan-quick": {
+        "methods": ["scanQuick"]
+      },
+      "scan-folder": {
+        "methods": ["scanFolder"]
+      },
+      "scan-folder-by-url": {
+        "methods": ["scanFolderByUrl"]
+      },
+      "scanForPanel": {
+        "methods": ["scanForPanel"]
+      },
+      "getPendingScanFolder": {
+        "methods": ["getPendingScanFolder"]
+      },
+      "batchCompress": {
+        "methods": ["batchCompress"]
+      }
+    }
+  }
+}
