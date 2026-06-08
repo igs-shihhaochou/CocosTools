@@ -218,3 +218,84 @@ H5 老虎機對包體大小有嚴格限制，專案中可能存在大量未壓�
 | Task 5 | P1 | 1 天 |
 | Task 6 | P1 | 1 天 |
 | Task 7 | P1 | 0.5 天 |
+
+
+---
+
+## 工具三：Missing 引用檢查工具（Missing Reference Checker）
+
+### 痛點描述
+場景或預製體中的腳本/元件引用遺失（missing）時，Cocos 只在 Console 報錯但不易定位。需要逐一點開節點才能找到問題，非常耗時。
+
+### 工具目標
+提供一個 Cocos Creator 編輯器擴展，可掃描當前場景或指定預製體中所有節點，找出引用遺失的元件（missing script / missing asset），在面板中列出完整路徑，點擊可直接在層級管理器中定位該節點。
+
+---
+
+### Task 1：專案結構建立
+- [x] 建立編輯器擴展結構：
+  ```
+  extensions/
+  └── missing-reference-checker/
+      ├── package.json
+      ├── tsconfig.json
+      ├── assets-menu.js         # 右鍵選單（可選：右鍵 prefab 掃描）
+      ├── src/
+      │   ├── main.ts           # 主進程
+      │   ├── checker.ts        # 核心檢查邏輯
+      │   ├── scene-script.ts   # 場景腳本（在場景環境中執行）
+      │   ├── types.ts          # 型別定義
+      │   ├── editor.d.ts       # Editor 型別宣告
+      │   └── panels/
+      │       └── default.ts    # 面板 UI
+      ├── i18n/
+      │   ├── en.js
+      │   └── zh.js
+      └── README.md
+  ```
+- [x] 在 `package.json` 中註冊所有 messages
+- [x] 註冊選單列入口：擴展 → Missing 引用檢查 → 掃描當前場景
+
+### Task 2：場景掃描邏輯
+- [x] 透過 scene script 在場景環境中遍歷所有節點
+- [x] 檢查每個節點的所有元件：
+  - `cc.MissingScript` — 腳本遺失
+  - 元件屬性引用的資源 UUID 是否有效（`__uuid__` 指向不存在的資源）
+- [x] 收集 missing 資訊：
+  - 節點路徑（從根到該節點的完整路徑，如 `Canvas/Root/Scripts/Player`）
+  - 節點 UUID（用於定位）
+  - Missing 類型（腳本遺失 / 資源引用遺失）
+  - 遺失的 UUID 或類名
+
+### Task 3：預製體掃描邏輯
+- [x] 支援直接解析 `.prefab` 檔案（JSON 格式）找出 missing
+- [x] 在 prefab JSON 中搜尋：
+  - `"__type__"` 值無法對應到任何已知腳本
+  - `"__uuid__"` 引用的資源不存在
+- [x] 支援右鍵預製體 → 「檢查 Missing 引用」
+
+### Task 4：面板 UI
+- [x] 面板顯示：
+  - 「掃描當前場景」按鈕
+  - 掃描結果列表：
+    - 節點路徑（可點擊 → 在層級管理器中選中/定位該節點）
+    - Missing 類型（🔴 腳本遺失 / 🟡 資源引用遺失）
+    - 遺失的 UUID 或腳本名稱
+  - 統計摘要：missing 總數
+- [x] 點擊節點路徑時呼叫 `Editor.Message.send('hierarchy', 'focus', nodeUuid)` 定位
+
+### Task 5：跨專案可攜性
+- [ ] 確保插件獨立，無外部依賴
+- [ ] 支援 Cocos Creator 3.8.x
+- [ ] 撰寫 README.md
+
+---
+
+## 優先級
+| Task | 優先級 | 預估工作量 |
+|------|--------|-----------|
+| Task 1 | P0 | 0.5 天 |
+| Task 2 | P0 | 1.5 天 |
+| Task 3 | P1 | 1 天 |
+| Task 4 | P0 | 1 天 |
+| Task 5 | P1 | 0.5 天 |

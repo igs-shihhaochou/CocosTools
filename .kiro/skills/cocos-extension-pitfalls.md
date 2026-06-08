@@ -282,3 +282,30 @@ methods: {
     }
 }
 ```
+
+
+---
+
+## 9. Cocos Creator 3.x 選中場景節點的正確 API
+
+### 問題
+面板中點擊要導航到場景物件，嘗試了多種 API 都無效。
+
+### 正確做法
+```typescript
+await Editor.Message.request('selection', 'select', 'node', [nodeUuid]);
+```
+
+- 第三個參數是 `'node'`（字串）
+- 第四個參數是 **UUID 陣列** `[uuid]`（不是單一字串）
+- `nodeUuid` 來自場景 JSON 中 `cc.Node` 的 `_id` 欄位
+- 呼叫後層級管理器會自動選中並展開到該節點
+
+### 無效的方式
+```typescript
+// ❌ 這些都不行
+Editor.Message.send('scene', 'focus-node', uuid);
+Editor.Message.send('selection', 'select', 'node', uuid); // 不是陣列
+Editor.Message.request('selection', 'select', { type: 'node', id: uuid });
+Editor.Message.send('hierarchy', 'focus', uuid);
+```

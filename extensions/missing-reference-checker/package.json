@@ -1,0 +1,64 @@
+{
+  "name": "missing-reference-checker",
+  "version": "1.0.0",
+  "description": "掃描場景或預製體中的 Missing 引用（腳本遺失、資源遺失），快速定位問題節點",
+  "main": "./dist/main.js",
+  "author": "PluginLib",
+  "editor": ">=3.8.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "panels": {
+    "default": {
+      "title": "Missing 引用檢查",
+      "type": "dockable",
+      "main": "./dist/panels/default.js",
+      "size": {
+        "min-width": 500,
+        "min-height": 300,
+        "width": 720,
+        "height": 500
+      }
+    }
+  },
+  "contributions": {
+    "menu": [
+      {
+        "path": "擴展/Missing 引用檢查",
+        "label": "掃描當前場景",
+        "message": "scanCurrentScene"
+      }
+    ],
+    "assets": {
+      "menu": {
+        "methods": "./assets-menu.js",
+        "assetMenu": "onAssetMenu"
+      }
+    },
+    "scene": {
+      "script": "./dist/scene-script.js"
+    },
+    "messages": {
+      "open-panel": {
+        "methods": ["openPanel"]
+      },
+      "scanCurrentScene": {
+        "methods": ["scanCurrentScene"]
+      },
+      "scanPrefab": {
+        "methods": ["scanPrefab"]
+      },
+      "getPendingScan": {
+        "methods": ["getPendingScan"]
+      },
+      "getLastResult": {
+        "methods": ["getLastResult"]
+      }
+    }
+  }
+}
