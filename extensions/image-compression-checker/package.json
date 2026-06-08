@@ -62,6 +62,9 @@
       "scanForPanel": {
         "methods": ["scanForPanel"]
       },
+      "getAvailablePresets": {
+        "methods": ["getAvailablePresets"]
+      },
       "getPendingScanFolder": {
         "methods": ["getPendingScanFolder"]
       },

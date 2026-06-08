@@ -165,11 +165,44 @@ export const methods = {
     },
 
     /**
+     * 取得專案可用的壓縮 Preset 列表（供面板下拉選單使用）
+     */
+    getAvailablePresets() {
+        const projectPath = Editor.Project.path;
+        const builderJsonPath = path.join(projectPath, 'settings', 'v2', 'packages', 'builder.json');
+
+        // 內建 preset
+        const presets: Array<{ id: string; name: string }> = [
+            { id: 'default', name: 'Default Opaque（內建）' },
+            { id: 'transparent', name: 'Default Transparent（內建）' },
+        ];
+
+        // 讀取使用者自定義 preset
+        try {
+            const fs = require('fs');
+            if (fs.existsSync(builderJsonPath)) {
+                const content = JSON.parse(fs.readFileSync(builderJsonPath, 'utf-8'));
+                const userPreset = content?.textureCompressConfig?.userPreset;
+                if (userPreset && typeof userPreset === 'object') {
+                    for (const [id, config] of Object.entries(userPreset)) {
+                        const cfg = config as any;
+                        presets.push({ id, name: cfg.name || id });
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn('[ImageCompressionChecker] 無法讀取 builder.json:', e);
+        }
+
+        return presets;
+    },
+
+    /**
      * 批次套用壓縮設定
      */
     async batchCompress(request: BatchCompressRequest) {
         try {
-            console.log(`[ImageCompressionChecker] 批次壓縮: ${request.imagePaths.length} 張, 格式: ${request.format}`);
+            console.log(`[ImageCompressionChecker] 批次壓縮: ${request.imagePaths.length} 張, Preset: ${request.presetId}`);
             const result = ImageCompressor.batchSetCompression(request);
             console.log(`[ImageCompressionChecker] 批次壓縮完成: 成功 ${result.success}, 失敗 ${result.failed}`);
 

@@ -316,19 +316,9 @@ const panelTemplate = `
 <div class="batch-bar" id="batchBar" style="display:none;">
     <span>已選擇 <span class="count" id="selectedCount">0</span> 張圖片</span>
     <div class="separator"></div>
-    <label>壓縮格式:</label>
-    <select id="compressFormat">
-        <option value="webp">WebP（H5 推薦）</option>
-        <option value="etc2">ETC2（Android/WebGL2）</option>
-        <option value="astc">ASTC（高品質）</option>
-        <option value="pvrtc">PVRTC（舊 iOS）</option>
-        <option value="png">PNG（無損壓縮）</option>
-    </select>
-    <label>品質:</label>
-    <select id="compressQuality">
-        <option value="fast">快速</option>
-        <option value="normal" selected>一般</option>
-        <option value="best">最佳</option>
+    <label>壓縮 Preset:</label>
+    <select id="compressPreset">
+        <option value="">載入中...</option>
     </select>
     <button id="applyCompressBtn">✅ 套用壓縮設定</button>
 </div>
@@ -354,8 +344,7 @@ module.exports = Editor.Panel.define({
         selectAll: '#selectAll',
         batchBar: '#batchBar',
         selectedCount: '#selectedCount',
-        compressFormat: '#compressFormat',
-        compressQuality: '#compressQuality',
+        compressPreset: '#compressPreset',
         applyCompressBtn: '#applyCompressBtn',
     },
 
@@ -375,6 +364,9 @@ module.exports = Editor.Panel.define({
 
         // 啟動輪詢，每 500ms 檢查是否有新的掃描指令
         this._startPolling();
+
+        // 載入可用的壓縮 Preset 列表
+        this._loadPresets();
     },
 
     close() {
@@ -452,6 +444,27 @@ module.exports = Editor.Panel.define({
             this.$.filterSize.addEventListener('change', () => this._applyFilters());
             this.$.selectAll.addEventListener('change', () => this._toggleSelectAll());
             this.$.applyCompressBtn.addEventListener('click', () => this._applyCompression());
+        },
+
+        async _loadPresets() {
+            try {
+                const presets = await Editor.Message.request(
+                    'image-compression-checker',
+                    'getAvailablePresets'
+                );
+                if (presets && Array.isArray(presets)) {
+                    const select = this.$.compressPreset;
+                    select.innerHTML = '';
+                    for (const preset of presets) {
+                        const option = document.createElement('option');
+                        option.value = preset.id;
+                        option.textContent = preset.name;
+                        select.appendChild(option);
+                    }
+                }
+            } catch (e) {
+                console.warn('[ImageCompressionChecker Panel] 無法載入 Preset 列表:', e);
+            }
         },
 
         async _doScan() {
@@ -619,13 +632,18 @@ module.exports = Editor.Panel.define({
         async _applyCompression() {
             if (this._selectedPaths.size === 0) return;
 
-            const format = this.$.compressFormat.value;
-            const quality = this.$.compressQuality.value;
+            const presetId = this.$.compressPreset.value;
+            const presetName = this.$.compressPreset.options[this.$.compressPreset.selectedIndex]?.textContent || presetId;
             const count = this._selectedPaths.size;
+
+            if (!presetId) {
+                console.warn('[ImageCompressionChecker] 未選擇 Preset');
+                return;
+            }
 
             const confirmed = confirm(
                 `確定要為 ${count} 張圖片套用壓縮設定嗎？\n\n` +
-                `格式: ${format.toUpperCase()}\n品質: ${quality}\n\n` +
+                `Preset: ${presetName}\n\n` +
                 `此操作會修改這些圖片的 .meta 檔案。`
             );
 
@@ -641,8 +659,7 @@ module.exports = Editor.Panel.define({
                     'batchCompress',
                     {
                         imagePaths: Array.from(this._selectedPaths),
-                        format,
-                        quality,
+                        presetId,
                     }
                 );
 
