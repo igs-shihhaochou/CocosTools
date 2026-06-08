@@ -1,0 +1,61 @@
+{
+  "name": "uuid-resetter",
+  "version": "1.0.0",
+  "description": "重置指定資料夾內所有資源的 UUID，並自動更新內部引用關聯",
+  "main": "./dist/main.js",
+  "author": "PluginLib",
+  "editor": ">=3.8.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "panels": {
+    "default": {
+      "title": "UUID 重置工具",
+      "type": "dockable",
+      "main": "./dist/panels/default.js",
+      "size": {
+        "min-width": 500,
+        "min-height": 300,
+        "width": 600,
+        "height": 400
+      }
+    }
+  },
+  "contributions": {
+    "menu": [
+      {
+        "path": "擴展/UUID 重置工具",
+        "label": "開啟面板",
+        "message": "open-panel"
+      }
+    ],
+    "assets": {
+      "menu": {
+        "methods": "./assets-menu.js",
+        "assetMenu": "onAssetMenu"
+      }
+    },
+    "messages": {
+      "open-panel": {
+        "methods": ["openPanel"]
+      },
+      "resetFolderByUrl": {
+        "methods": ["resetFolderByUrl"]
+      },
+      "getPendingResetFolder": {
+        "methods": ["getPendingResetFolder"]
+      },
+      "executeReset": {
+        "methods": ["executeReset"]
+      },
+      "getResetPreview": {
+        "methods": ["getResetPreview"]
+      }
+    }
+  }
+}

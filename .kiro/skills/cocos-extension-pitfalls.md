@@ -175,7 +175,7 @@ declare namespace Editor {
 
 ---
 
-## 6. 開發流程 Checklist
+## 開發流程 Checklist
 
 每次開發 Cocos Creator 擴展時，確認以下事項：
 
@@ -186,6 +186,7 @@ declare namespace Editor {
 - [ ] `tsconfig.json` 的 `lib` 包含 `DOM`
 - [ ] 修改後執行 `npm run build` 重新編譯
 - [ ] 在 Cocos Creator 的擴展管理器中「重新載入」插件
+- [ ] **完成 Task 後更新 `TASKS.md`，將完成項目打勾**
 
 
 ---
