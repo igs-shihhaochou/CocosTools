@@ -1,0 +1,61 @@
+{
+  "name": "unused-resource-checker",
+  "version": "1.0.0",
+  "description": "掃描指定資料夾下未被專案引用的資源，支援批次刪除",
+  "main": "./dist/main.js",
+  "author": "PluginLib",
+  "editor": ">=3.8.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "panels": {
+    "default": {
+      "title": "未使用資源檢查",
+      "type": "dockable",
+      "main": "./dist/panels/default.js",
+      "size": {
+        "min-width": 600,
+        "min-height": 400,
+        "width": 800,
+        "height": 600
+      }
+    }
+  },
+  "contributions": {
+    "menu": [
+      {
+        "path": "擴展/未使用資源檢查",
+        "label": "開啟面板",
+        "message": "open-panel"
+      }
+    ],
+    "assets": {
+      "menu": {
+        "methods": "./assets-menu.js",
+        "assetMenu": "onAssetMenu"
+      }
+    },
+    "messages": {
+      "open-panel": {
+        "methods": ["openPanel"]
+      },
+      "scan-folder-by-url": {
+        "methods": ["scanFolderByUrl"]
+      },
+      "getPendingScanFolder": {
+        "methods": ["getPendingScanFolder"]
+      },
+      "scanForPanel": {
+        "methods": ["scanForPanel"]
+      },
+      "deleteAssets": {
+        "methods": ["deleteAssets"]
+      }
+    }
+  }
+}
