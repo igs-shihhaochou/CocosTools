@@ -285,9 +285,9 @@ H5 老虎機對包體大小有嚴格限制，專案中可能存在大量未壓�
 - [x] 點擊節點路徑時呼叫 `Editor.Message.send('hierarchy', 'focus', nodeUuid)` 定位
 
 ### Task 5：跨專案可攜性
-- [ ] 確保插件獨立，無外部依賴
-- [ ] 支援 Cocos Creator 3.8.x
-- [ ] 撰寫 README.md
+- [x] 確保插件獨立，無外部依賴
+- [x] 支援 Cocos Creator 3.8.x
+- [x] 撰寫 README.md
 
 ---
 
